@@ -1,0 +1,27 @@
+#myTabContent{
+    padding: .5rem 1rem;
+}
+
+.item-group .merchant{
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.item-group .name{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #333;
+}
+.item-group .name:hover{
+    text-decoration: none;
+}
+.item-group .info{
+    font-size: 12px;
+}
+.item-group .icon-clock{
+    color: #f63;
+}
+.item-group .icon-check{
+    color: green;
+}
