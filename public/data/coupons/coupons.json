@@ -1,0 +1,364 @@
+{
+    "data": [
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.vntrip.vn%2F",
+            "banners": [],
+            "categories": [],
+            "content": "5 bước đơn giản nhận ưu đãi trong 5 phút!\r\nChọn điểm đến, thời gian và phòng khách sạn ưng ý trên Vntrip.vn, sau đó bấm Đặt phòng.\r\nĐiền Thông tin đặt phòng của bạn và bấm Tiếp theo.\r\nLựa chọn thanh toán bằng Thẻ thanh toán quốc tế, sau đó chọn Cổng thanh toán 123Pay. Bấm Tiếp theo.\r\nTại bước Xác nhận thông tin đặt phòng, nhập mã JCB30GO tại ô “Mã giảm giá”. Tiếp tục để hoàn tất đơn phòng của bạn.\r\nTại Cổng thanh toán 123Pay, điền thông tin Thẻ thanh toán quốc tế JCB của bạn và hoàn tất đặt phòng.",
+            "coupons": [
+                {
+                    "coupon_code": "JCB30GO ",
+                    "coupon_desc": "Giảm thêm 30%",
+                    "coupon_save": "30%"
+                }
+            ],
+            "domain": "vntrip.vn",
+            "end_time": "2019-01-31",
+            "id": "4934458420094185740",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/vntrip/vntrip_22.08_3.png",
+            "link": "https://www.vntrip.vn/",
+            "merchant": "vntrip",
+            "name": "Thứ Năm vui vẻ, đặt phòng với thẻ JCB giảm 30% đến 2.000.000đ",
+            "start_time": "2018-08-22"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.hostinger.com%2Fweb-hosting",
+            "banners": [
+                {
+                    "height": 400,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/hostinger/560x400/Hostinger_26.09_2.png",
+                    "width": 560
+                }
+            ],
+            "categories": [],
+            "content": "Nhập mã SPECIAL15 giảm 15% gói Hosting.\r\nÁp dụng cho mọi gói hosting tại Hostinger ",
+            "coupons": [
+                {
+                    "coupon_code": "SPECIAL15 ",
+                    "coupon_desc": "Giảm thêm 15%",
+                    "coupon_save": "15%"
+                }
+            ],
+            "domain": "hostinger.com",
+            "end_time": "2019-12-30",
+            "id": "4959570389595452471",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/hostinger/Hostinger_26.09.png",
+            "link": "https://www.hostinger.com/web-hosting",
+            "merchant": "hostinger",
+            "name": "Hostinger - Mã giảm giá lên tới 15%",
+            "start_time": "2018-09-26"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.vntrip.vn%2F",
+            "banners": [],
+            "categories": [
+                {
+                    "category_name": "du-lich-the-thao-da-ngoai",
+                    "category_name_show": "Đồ dùng du lịch, thể thao, dã ngoại",
+                    "category_no": 121
+                }
+            ],
+            "content": "GIẢM NGAY 18% (tối đa 300k) khi nhập mã DITHOI trên Website Vntrip.vn\r\nGIẢM THÊM 10% (tối đa 200k) khi thanh toán qua AirPay\r\nTiết kiệm tới 500k cho chuyến đi\r\nChỉ dành cho 180 khách hàng đầu tiên mỗi ngày!",
+            "coupons": [
+                {
+                    "coupon_code": "DITHOI",
+                    "coupon_desc": "Giảm thêm 18%",
+                    "coupon_save": "18%"
+                }
+            ],
+            "domain": "vntrip.vn",
+            "end_time": "2018-12-31",
+            "id": "4963259942351111936",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/vntrip/vntrip_01.10.png",
+            "link": "https://www.vntrip.vn/",
+            "merchant": "vntrip",
+            "name": "ƯU ĐÃI NHÂN ĐÔI, ĐẶT PHÒNG ĐI THÔI!",
+            "start_time": "2018-11-30"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.vntrip.vn%2Fcam-nang%2Fsieu-giam-gia-15-cho-top-khach-san-uu-dai-dac-biet-tai-vntrip-vn-62279",
+            "banners": [],
+            "categories": [
+                {
+                    "category_name": "voucher-dich-vu",
+                    "category_name_show": "Voucher & Dịch vụ",
+                    "category_no": 118
+                }
+            ],
+            "content": "Nhập mã DACBIET20 giảm ngay 20% không giới hạn giá trị giảm (Lưu ý: Chỉ áp dụng với khách sạn có hiển thị mã DACBIET20).",
+            "coupons": [
+                {
+                    "coupon_code": "DACBIET20 ",
+                    "coupon_desc": "Giảm thêm 20%",
+                    "coupon_save": "20%"
+                }
+            ],
+            "domain": "vntrip.vn",
+            "end_time": "2018-12-31",
+            "id": "4963260928034750801",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/vntrip/vntrip_01.10_2.png",
+            "link": "https://www.vntrip.vn/cam-nang/sieu-giam-gia-15-cho-top-khach-san-uu-dai-dac-biet-tai-vntrip-vn-62279",
+            "merchant": "vntrip",
+            "name": "Siêu giảm giá 20% KHÔNG GIỚI HẠN cho TOP khách sạn ưu đãi đặc biệt tại VNTRIP.VN",
+            "start_time": "2018-11-30"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.klook.com%2Fvi%2Fpromo%2Fvn-du-lich-cuoi-nam",
+            "banners": [
+                {
+                    "height": 90,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/klookvn/728x90/CUOINAM18_300x600.jpg",
+                    "width": 728
+                },
+                {
+                    "height": 600,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/klookvn/160x600/CUOINAM18_300x600.jpg",
+                    "width": 160
+                },
+                {
+                    "height": 250,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/klookvn/300x250/CUOINAM18_300x600.jpg",
+                    "width": 300
+                },
+                {
+                    "height": 600,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/klookvn/300x600/CUOINAM18_300x600.jpg",
+                    "width": 300
+                }
+            ],
+            "categories": [],
+            "content": "+ Mã ưu đãi \"CUOINAM18\" có giá trị giảm 150.000VNĐ cho đơn hàng có giá trị từ 2.000.000VNĐ và áp dụng đối với các đơn hàng đặt qua trang web và ứng dụng di động của Klook.\r\n+ Mã ưu đãi \"CUOINAM18APP\" có giá trị giảm 200.000VNĐ cho đơn hàng có giá trị từ 2.000.000VNĐ và chỉ áp dụng đối với các đơn hàng đặt qua ứng dụng di động của Klook.",
+            "coupons": [
+                {
+                    "coupon_code": "CUOINAM18",
+                    "coupon_desc": "Giảm thêm 150K",
+                    "coupon_save": "150K "
+                },
+                {
+                    "coupon_code": "CUOINAM18APP",
+                    "coupon_desc": "Giảm thêm 200K",
+                    "coupon_save": "200K"
+                }
+            ],
+            "domain": "klook.com",
+            "end_time": "2018-12-31",
+            "id": "4990270952757610305",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/klookvn/CUOINAM18_300x250.jpg",
+            "link": "https://www.klook.com/vi/promo/vn-du-lich-cuoi-nam",
+            "merchant": "klookvn",
+            "name": "Đẩy Số KLOOK - Cuối Năm Sung Túc",
+            "start_time": "2018-11-07"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.lotte.vn%2Fcampaign%2Fsunhouse-t12",
+            "banners": [],
+            "categories": [
+                {
+                    "category_name": "nha-cua-doi-song",
+                    "category_name_show": "Nhà cửa đời sống",
+                    "category_no": 122
+                }
+            ],
+            "content": "Tặng CHẢO TRƠN CT18C từ 500.000đ - 1.000.000đ (Dành cho 50 đơn hàng đầu tiên)\r\nTặng MÁY SẤY TÓC SHD2301 XANH/HỒNG trên 1.000.000đ (Dành cho 15 đơn hàng đầu tiên)\r\nNhập Mã: HALSH12 Giảm Thêm 10%\r\nGiảm tối đa 400.000đ",
+            "coupons": [
+                {
+                    "coupon_code": "HALSH12",
+                    "coupon_desc": "Giảm thêm 10%",
+                    "coupon_save": "10%"
+                }
+            ],
+            "domain": "lotte.vn",
+            "end_time": "2018-12-31",
+            "id": "5006865538687229412",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/lottevn/lotte_30.11.png",
+            "link": "https://www.lotte.vn/campaign/sunhouse-t12",
+            "merchant": "lottevn",
+            "name": "Sunhouse: Giácực tốt - quà cực ngon",
+            "start_time": "2018-11-30"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.nguyenkim.com%2Ftivi-lg-oled-uu-dai-khung.html",
+            "banners": [],
+            "categories": [],
+            "content": "Phiếu mua hàng đến 15 Triệu + Bếp nướng + Nhập mã ONL2M giảm ngay 2 Triệu",
+            "coupons": [
+                {
+                    "coupon_code": "ONL2M ",
+                    "coupon_desc": "Giảm thêm 2 Triệu",
+                    "coupon_save": "2Tr"
+                }
+            ],
+            "domain": "nguyenkim.com",
+            "end_time": "2018-12-31",
+            "id": "5008872365689196709",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/nguyenkimvn/nguyenkim_03.12_6.jpg",
+            "link": "https://www.nguyenkim.com/tivi-lg-oled-uu-dai-khung.html",
+            "merchant": "nguyenkimvn",
+            "name": "Sắm LG OLED - Nhận quà cực chất",
+            "start_time": "2018-12-03"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ftiki.vn%2Fchuong-trinh%2Fgian-hang-han-quoc%3Fsrc%3Dhome_v4_main_banner",
+            "banners": [],
+            "categories": [],
+            "content": "Lễ hội hàng tiêu dùng Hàn Quốc - Giảm đến 40%.\r\nNhập mã KOTRAFEST giảm 100K cho đơn hàng từ 300K ( tất cả các sản phẩm của Kotra shop)",
+            "coupons": [
+                {
+                    "coupon_code": "KOTRAFEST ",
+                    "coupon_desc": "Giảm thêm 100K",
+                    "coupon_save": "100K"
+                }
+            ],
+            "domain": "tiki.vn",
+            "end_time": "2018-12-16",
+            "id": "5009066524226067752",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/tikivn/tiki_03.12_2.jpg",
+            "link": "https://tiki.vn/chuong-trinh/gian-hang-han-quoc?src=home_v4_main_banner",
+            "merchant": "tikivn",
+            "name": "Lễ hội hàng tiêu dùng Hàn Quốc - Giảm đến 40%",
+            "start_time": "2018-12-03"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fshop.vnexpress.net%2Fevent%2Fviet-nam-vo-dich.html",
+            "banners": [],
+            "categories": [],
+            "content": "Nhập VNVODICH giảm 12% cho đơn 880.000Đ. Giảm tối đa 120.000Đ kèm các deal độc quyền giảm 50% từ các thương hiệu hàng đầu",
+            "coupons": [
+                {
+                    "coupon_code": "VNVODICH ",
+                    "coupon_desc": "Giảm thêm 12%",
+                    "coupon_save": "12%"
+                }
+            ],
+            "domain": "shop.vnexpress.net",
+            "end_time": "2018-12-16",
+            "id": "5014818179333404596",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/shopvnexpress/900x900_vne_11.12.jpg",
+            "link": "https://shop.vnexpress.net/event/viet-nam-vo-dich.html",
+            "merchant": "shopvnexpress",
+            "name": "Vẻ vang nước nhà - xông pha nhập mã",
+            "start_time": "2018-12-11"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.lotte.vn%2Fcampaign%2Fflash-sale-gia-dung+%3Ffrom%3D1252x500-10122018-12122018_HAHL_Z1_2_LivingAppliances_FlashSaleGiaDungT12",
+            "banners": [],
+            "categories": [],
+            "content": "Nhập mã HALFS12 giảm thêm 10%\r\n*Áp dụng cho tất cả sản phẩm trong trang \r\nSử dụng 1 lần/tài khoản - Tối đa:400.000 ₫ - HSD: 31/12/2018",
+            "coupons": [
+                {
+                    "coupon_code": "HALFS12 ",
+                    "coupon_desc": "Giảm thêm 10%",
+                    "coupon_save": "10%"
+                }
+            ],
+            "domain": "lotte.vn",
+            "end_time": "2018-12-31",
+            "id": "5014886786239952067",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/lottevn/zone1_flashsale.jpg",
+            "link": "https://www.lotte.vn/campaign/flash-sale-gia-dung%20?from=1252x500-10122018-12122018_HAHL_Z1_2_LivingAppliances_FlashSaleGiaDungT12",
+            "merchant": "lottevn",
+            "name": "FLASH SALE GIA DỤNG - GIẢM ĐẾN 50%",
+            "start_time": "2018-12-11"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.lotte.vn%2Fcampaign%2Fbig-sale-gia-dung+%3Ffrom%3D1252x500-10122018-12122018_HAHL_Z1_3_LivingAppliances_BigSaleGiaDung",
+            "banners": [],
+            "categories": [],
+            "content": "Nhập mã HALGD12 giảm thêm 10%\r\n*Áp dụng cho các sản phẩm Khuyến Mãi Hot bên dưới \r\nSử dụng 1 lần/tài khoản - Tối đa:400.000 ₫ - HSD: 31.12.2018",
+            "coupons": [
+                {
+                    "coupon_code": "HALGD12 ",
+                    "coupon_desc": "Giảm thêm 10%",
+                    "coupon_save": "10%"
+                }
+            ],
+            "domain": "lotte.vn",
+            "end_time": "2018-12-31",
+            "id": "5014887980937410770",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/lottevn/lotte_11.12_4.jpg",
+            "link": "https://www.lotte.vn/campaign/big-sale-gia-dung%20?from=1252x500-10122018-12122018_HAHL_Z1_3_LivingAppliances_BigSaleGiaDung",
+            "merchant": "lottevn",
+            "name": "Big sale gia dụng - Giảm đến 3 Triệu",
+            "start_time": "2018-12-11"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.lotte.vn%2Fcampaign%2Ftham-cho-be%3Ffrom%3D1252x500-10122018-12122018_MB_Z1_1_BabyKidsToys_ThamChoiChoBe",
+            "banners": [],
+            "categories": [],
+            "content": "Nhập mã MBATHAM12 giảm thêm 10%\r\n*Áp dụng cho 4 sản phẩm bên dưới - Sử dụng 1 lần/tài khoản \r\nTối đa: 399.000 ₫ - HSD: 31.12.2018",
+            "coupons": [
+                {
+                    "coupon_code": "MBATHAM12 ",
+                    "coupon_desc": "Giảm thêm 10%",
+                    "coupon_save": "10%"
+                }
+            ],
+            "domain": "lotte.vn",
+            "end_time": "2018-12-31",
+            "id": "5014890556552144331",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/lottevn/lotte_11.12_6.jpg",
+            "link": "https://www.lotte.vn/campaign/tham-cho-be?from=1252x500-10122018-12122018_MB_Z1_1_BabyKidsToys_ThamChoiChoBe",
+            "merchant": "lottevn",
+            "name": "Thảm cho bé ưu đãi đến 39%",
+            "start_time": "2018-12-11"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.lotte.vn%2Fcampaign%2Fcubic-fun%3Ffrom%3D-10122018-12122018_MB_Z1_2_BabyKidsToys_LapGhepGiayBiaCungCubicFun",
+            "banners": [],
+            "categories": [],
+            "content": "Nhập mã MBACUBIC12 giảm thêm 10%\r\n*Áp dụng cho 4 sản phẩm bên dưới - Sử dụng 1 lần/tài khoản \r\nTối đa: 399.000 ₫ - HSD: 31.12.2018",
+            "coupons": [
+                {
+                    "coupon_code": "MBACUBIC12 ",
+                    "coupon_desc": "Giảm thêm 10%",
+                    "coupon_save": "10%"
+                }
+            ],
+            "domain": "lotte.vn",
+            "end_time": "2018-12-31",
+            "id": "5014891156503290687",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/lottevn/lotte_11.12_8.jpg",
+            "link": "https://www.lotte.vn/campaign/cubic-fun?from=-10122018-12122018_MB_Z1_2_BabyKidsToys_LapGhepGiayBiaCungCubicFun",
+            "merchant": "lottevn",
+            "name": "Mô hình lắp ráp sáng tạo chỉ từ 45K",
+            "start_time": "2018-12-11"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffado.vn%2Fnoel",
+            "banners": [
+                {
+                    "height": 400,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/fadovn/600x400/fado_14.12.png",
+                    "width": 600
+                },
+                {
+                    "height": 900,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/fadovn/900x900/fado_14.12.png",
+                    "width": 900
+                },
+                {
+                    "height": 90,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/fadovn/728x90/fado_14.12.png",
+                    "width": 728
+                }
+            ],
+            "categories": [],
+            "content": "Coupon: NOELFADO2018\r\nGiảm: 100k\r\nÁp dụng cho đơn hàng trên 2 triệu từ 18/12 - 25/12\r\n",
+            "coupons": [
+                {
+                    "coupon_code": "NOELFADO2018",
+                    "coupon_desc": "Giảm thêm 100K",
+                    "coupon_save": "100K"
+                }
+            ],
+            "domain": "fado.vn",
+            "end_time": "2018-12-25",
+            "id": "5017022032063565070",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fadovn/fado_14.12.png",
+            "link": "https://fado.vn/noel",
+            "merchant": "fadovn",
+            "name": "Noel rộn ràng - Deal hot ngập tràn",
+            "start_time": "2018-12-14"
+        }
+    ]
+}

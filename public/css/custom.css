@@ -1,13 +1,48 @@
-#myTabContent{
-    padding: .5rem 1rem;
+body{
+    overflow-x: hidden;
+    color: #333;
+    background-color: #eff3f6;
+    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,sans-serif', sans-serif;
 }
-
+.nav-tabs {
+    border-bottom: 1px solid #1cbec5;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #1cbec5;
+    border-color: #1cbec5 #1cbec5 #1cbec5;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #1cbec5 #1cbec5 #1cbec5;
+}
+.nav-tabs .nav-link{
+    color: #333;
+    font-weight: 500;
+}
+.item-group{
+    margin: 10px 0 0 0;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid #1cbec550;
+    background-color: #fff;
+}
+.item-group:hover{
+    /* background-color: #f1f1f1; */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.item-group h5{
+    line-height: 1;
+    margin-bottom: 0;
+}
 .item-group .merchant{
     font-size: 13px;
     text-transform: uppercase;
-    margin-right: 10px;
+    color: #1790d4;
+    font-weight: 500;
 }
-
+.item-group .merchant:hover{
+    color: #23527c;
+}
 .item-group .name{
     font-size: 13px;
     text-transform: uppercase;
@@ -16,8 +51,14 @@
 .item-group .name:hover{
     text-decoration: none;
 }
+.item-group .des{
+    font-size: 13px;
+    margin-bottom: 0.5rem;
+    text-align: justify;
+}
 .item-group .info{
     font-size: 12px;
+    margin-bottom: 0;
 }
 .item-group .icon-clock{
     color: #f63;
