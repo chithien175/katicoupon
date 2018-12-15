@@ -4,6 +4,13 @@ body{
     background-color: #eff3f6;
     font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,sans-serif', sans-serif;
 }
+
+/* NAVBAR */
+.navbar{
+    padding: 0.5rem 5rem;
+}
+
+/* HOMEPAGE */
 .nav-tabs {
     border-bottom: 1px solid #1cbec5;
 }
@@ -27,7 +34,6 @@ body{
     background-color: #fff;
 }
 .item-group:hover{
-    /* background-color: #f1f1f1; */
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 .item-group h5{
@@ -61,8 +67,21 @@ body{
     margin-bottom: 0;
 }
 .item-group .icon-clock{
-    color: #f63;
+    color: #fc205c;
 }
 .item-group .icon-check{
-    color: green;
+    color: #05bd05;
+}
+
+/* SIDEBAR */
+#advanced-filter{
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+}
+#advanced-filter label{
+    font-size: 13px;
+    font-weight: 500;
+}
+#advanced-filter input{
+    font-size: 13px;
 }
