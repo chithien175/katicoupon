@@ -74,14 +74,39 @@ body{
 }
 
 /* SIDEBAR */
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+    
+} */
 #advanced-filter{
-    padding: 0.5rem 1rem;
+    position: fixed;
+    bottom: 0px;
     background-color: #fff;
+    width: 100%;
+    display: block;
+    box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.1);
 }
-#advanced-filter label{
-    font-size: 13px;
-    font-weight: 500;
+#advanced-filter .content-filter{
+    width: 25%;
+    margin: 0 auto;
+    padding: 10px 0;
 }
-#advanced-filter input{
-    font-size: 13px;
+#advanced-filter form{
+    display: inline-flex;
+    width: 100%;
 }
+#advanced-filter .select2-selection{
+    font-size: 11px;
+    height: 30px;
+}
+.select2-dropdown{
+    font-size: 11px;
+}
+#advanced-filter button{
+    font-size: 11px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+/* FOOTER */
