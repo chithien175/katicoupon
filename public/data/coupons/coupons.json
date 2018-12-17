@@ -126,7 +126,13 @@
                     "width": 300
                 }
             ],
-            "categories": [],
+            "categories": [
+                {
+                    "category_name": "voucher-dich-vu",
+                    "category_name_show": "Voucher & Dịch vụ",
+                    "category_no": 118
+                }
+            ],
             "content": "+ Mã ưu đãi \"CUOINAM18\" có giá trị giảm 150.000VNĐ cho đơn hàng có giá trị từ 2.000.000VNĐ và áp dụng đối với các đơn hàng đặt qua trang web và ứng dụng di động của Klook.\r\n+ Mã ưu đãi \"CUOINAM18APP\" có giá trị giảm 200.000VNĐ cho đơn hàng có giá trị từ 2.000.000VNĐ và chỉ áp dụng đối với các đơn hàng đặt qua ứng dụng di động của Klook.",
             "coupons": [
                 {
@@ -179,7 +185,13 @@
         {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.nguyenkim.com%2Ftivi-lg-oled-uu-dai-khung.html",
             "banners": [],
-            "categories": [],
+            "categories": [
+                {
+                    "category_name": "tivi-am-thanh",
+                    "category_name_show": "Tivi - Âm thanh",
+                    "category_no": 103
+                }
+            ],
             "content": "Phiếu mua hàng đến 15 Triệu + Bếp nướng + Nhập mã ONL2M giảm ngay 2 Triệu",
             "coupons": [
                 {
@@ -198,51 +210,15 @@
             "start_time": "2018-12-03"
         },
         {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ftiki.vn%2Fchuong-trinh%2Fgian-hang-han-quoc%3Fsrc%3Dhome_v4_main_banner",
-            "banners": [],
-            "categories": [],
-            "content": "Lễ hội hàng tiêu dùng Hàn Quốc - Giảm đến 40%.\r\nNhập mã KOTRAFEST giảm 100K cho đơn hàng từ 300K ( tất cả các sản phẩm của Kotra shop)",
-            "coupons": [
-                {
-                    "coupon_code": "KOTRAFEST ",
-                    "coupon_desc": "Giảm thêm 100K",
-                    "coupon_save": "100K"
-                }
-            ],
-            "domain": "tiki.vn",
-            "end_time": "2018-12-16",
-            "id": "5009066524226067752",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/tikivn/tiki_03.12_2.jpg",
-            "link": "https://tiki.vn/chuong-trinh/gian-hang-han-quoc?src=home_v4_main_banner",
-            "merchant": "tikivn",
-            "name": "Lễ hội hàng tiêu dùng Hàn Quốc - Giảm đến 40%",
-            "start_time": "2018-12-03"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fshop.vnexpress.net%2Fevent%2Fviet-nam-vo-dich.html",
-            "banners": [],
-            "categories": [],
-            "content": "Nhập VNVODICH giảm 12% cho đơn 880.000Đ. Giảm tối đa 120.000Đ kèm các deal độc quyền giảm 50% từ các thương hiệu hàng đầu",
-            "coupons": [
-                {
-                    "coupon_code": "VNVODICH ",
-                    "coupon_desc": "Giảm thêm 12%",
-                    "coupon_save": "12%"
-                }
-            ],
-            "domain": "shop.vnexpress.net",
-            "end_time": "2018-12-16",
-            "id": "5014818179333404596",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/shopvnexpress/900x900_vne_11.12.jpg",
-            "link": "https://shop.vnexpress.net/event/viet-nam-vo-dich.html",
-            "merchant": "shopvnexpress",
-            "name": "Vẻ vang nước nhà - xông pha nhập mã",
-            "start_time": "2018-12-11"
-        },
-        {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.lotte.vn%2Fcampaign%2Fflash-sale-gia-dung+%3Ffrom%3D1252x500-10122018-12122018_HAHL_Z1_2_LivingAppliances_FlashSaleGiaDungT12",
             "banners": [],
-            "categories": [],
+            "categories": [
+                {
+                    "category_name": "nha-cua-doi-song",
+                    "category_name_show": "Nhà cửa đời sống",
+                    "category_no": 122
+                }
+            ],
             "content": "Nhập mã HALFS12 giảm thêm 10%\r\n*Áp dụng cho tất cả sản phẩm trong trang \r\nSử dụng 1 lần/tài khoản - Tối đa:400.000 ₫ - HSD: 31/12/2018",
             "coupons": [
                 {
@@ -263,7 +239,13 @@
         {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.lotte.vn%2Fcampaign%2Fbig-sale-gia-dung+%3Ffrom%3D1252x500-10122018-12122018_HAHL_Z1_3_LivingAppliances_BigSaleGiaDung",
             "banners": [],
-            "categories": [],
+            "categories": [
+                {
+                    "category_name": "dien-lanh",
+                    "category_name_show": "Điện lạnh",
+                    "category_no": 105
+                }
+            ],
             "content": "Nhập mã HALGD12 giảm thêm 10%\r\n*Áp dụng cho các sản phẩm Khuyến Mãi Hot bên dưới \r\nSử dụng 1 lần/tài khoản - Tối đa:400.000 ₫ - HSD: 31.12.2018",
             "coupons": [
                 {
@@ -284,7 +266,13 @@
         {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.lotte.vn%2Fcampaign%2Ftham-cho-be%3Ffrom%3D1252x500-10122018-12122018_MB_Z1_1_BabyKidsToys_ThamChoiChoBe",
             "banners": [],
-            "categories": [],
+            "categories": [
+                {
+                    "category_name": "me-va-be",
+                    "category_name_show": "Mẹ và bé",
+                    "category_no": 108
+                }
+            ],
             "content": "Nhập mã MBATHAM12 giảm thêm 10%\r\n*Áp dụng cho 4 sản phẩm bên dưới - Sử dụng 1 lần/tài khoản \r\nTối đa: 399.000 ₫ - HSD: 31.12.2018",
             "coupons": [
                 {
@@ -305,7 +293,13 @@
         {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.lotte.vn%2Fcampaign%2Fcubic-fun%3Ffrom%3D-10122018-12122018_MB_Z1_2_BabyKidsToys_LapGhepGiayBiaCungCubicFun",
             "banners": [],
-            "categories": [],
+            "categories": [
+                {
+                    "category_name": "me-va-be",
+                    "category_name_show": "Mẹ và bé",
+                    "category_no": 108
+                }
+            ],
             "content": "Nhập mã MBACUBIC12 giảm thêm 10%\r\n*Áp dụng cho 4 sản phẩm bên dưới - Sử dụng 1 lần/tài khoản \r\nTối đa: 399.000 ₫ - HSD: 31.12.2018",
             "coupons": [
                 {

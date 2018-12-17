@@ -6,8 +6,12 @@ use Illuminate\Http\Request;
 
 class FrontendController extends Controller
 {
-    public function homepage(){
+    public function home(){
         return view('pages.home');
+    }
+
+    public function postMerchant(Request $request){
+        dd($request->all());
     }
 
     // protected function PHPcURL($module = ''){

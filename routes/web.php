@@ -15,5 +15,6 @@
 //     return view('welcome');
 // });
 
-Route::get('/', 'FrontendController@homepage');
-// Route::get('/{merchant}.html', 'FrontendController@homepage');
+Route::get('/', 'FrontendController@home');
+Route::post('/post/merchant', 'FrontendController@postMerchant')->name('post-merchant');
+// Route::get('/ma-giam-gia-{merchant}.html', 'FrontendController@merchant')->name('get-merchant');

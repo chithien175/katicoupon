@@ -87,7 +87,7 @@ body{
     box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.1);
 }
 #advanced-filter .content-filter{
-    width: 25%;
+    width: 350px;
     margin: 0 auto;
     padding: 10px 0;
 }

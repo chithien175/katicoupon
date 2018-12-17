@@ -217,37 +217,6 @@
             "start_time": "2018-10-30"
         },
         {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fshopee.vn%2Fm%2Fshopee-cam-on-1312",
-            "banners": [
-                {
-                    "height": 250,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopee/300x250/300x250_13.12.png",
-                    "width": 300
-                },
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopee/160x600/300x250_13.12.png",
-                    "width": 160
-                },
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopee/300x600/300x250_13.12.png",
-                    "width": 300
-                }
-            ],
-            "categories": [],
-            "content": "12.12 Thank You Sale - Khuyến mại cực sốc",
-            "coupons": [],
-            "domain": "shopee.vn",
-            "end_time": "2018-12-15",
-            "id": "5001859637150403014",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/shopee/300x250_13.12.png",
-            "link": "https://shopee.vn/m/shopee-cam-on-1312",
-            "merchant": "shopee",
-            "name": "12.12 Thank You Sale - Khuyến mại cực sốc",
-            "start_time": "2018-11-23"
-        },
-        {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fshop.vnexpress.net%2Fgia-dung%2Fthiet-bi-nha-bep%3F%26orderby%3Dprice_sell_desc",
             "banners": [
                 {
@@ -282,42 +251,6 @@
             "merchant": "shopvnexpress",
             "name": "Săn deal gia dụng - Sale lớn cuối năm",
             "start_time": "2018-11-28"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fshop.vnexpress.net%2Fretail%2Fbeurer%2Fcategory_0%3Fpin%3D63%26orderby%3Dprice_sell_desc",
-            "banners": [
-                {
-                    "height": 90,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopvnexpress/728x90/beurer_300x600.jpg",
-                    "width": 728
-                },
-                {
-                    "height": 250,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopvnexpress/300x250/beurer_300x600.jpg",
-                    "width": 300
-                },
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopvnexpress/160x600/beurer_300x600.jpg",
-                    "width": 160
-                },
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopvnexpress/300x600/beurer_300x600.jpg",
-                    "width": 300
-                }
-            ],
-            "categories": [],
-            "content": "Deal ưu đãi từ thương hiệu Beurer hàng đầu châu Âu với mức giảm lên đến 31%",
-            "coupons": [],
-            "domain": "shop.vnexpress.net",
-            "end_time": "2018-12-15",
-            "id": "5005408461628402530",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/shopvnexpress/beurer_300x250.jpg",
-            "link": "https://shop.vnexpress.net/retail/beurer/category_0?pin=63&orderby=price_sell_desc",
-            "merchant": "shopvnexpress",
-            "name": "Thương hiệu Beurer chăm sóc sức khỏe giảm đến 31%",
-            "start_time": "2018-11-21"
         },
         {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fshop.vnexpress.net%2Fevent%2Fbo-trang-diem-24-7-ho-ngoc-ha.html",
@@ -363,36 +296,6 @@
             "merchant": "yes24vn",
             "name": "Gia Dụng Hàn Quốc - Giảm 50%",
             "start_time": "2018-11-30"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.yes24.vn%2Fthoi-trang-nam-nu-han-quoc-khuyen-mai-lon-km481550.html",
-            "banners": [],
-            "categories": [],
-            "content": "Sale cuối mùa hàng nhập Hàn Quốc - Giảm 50%",
-            "coupons": [],
-            "domain": "yes24.vn",
-            "end_time": "2018-12-15",
-            "id": "5006700556183674793",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/yes24vn/yes24.30.11_4.jpg",
-            "link": "https://www.yes24.vn/thoi-trang-nam-nu-han-quoc-khuyen-mai-lon-km481550.html",
-            "merchant": "yes24vn",
-            "name": "Sale cuối mùa hàng nhập Hàn Quốc - Giảm 50%",
-            "start_time": "2018-11-15"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.yes24.vn%2Fthe-thao-sportslink-km685100.html",
-            "banners": [],
-            "categories": [],
-            "content": "Dụng Cụ Thể Thao Sportlink - Giảm 50%",
-            "coupons": [],
-            "domain": "yes24.vn",
-            "end_time": "2018-12-15",
-            "id": "5006703485258606167",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/yes24vn/yes24.30.11_7.jpg",
-            "link": "https://www.yes24.vn/the-thao-sportslink-km685100.html",
-            "merchant": "yes24vn",
-            "name": "Dụng Cụ Thể Thao Sportlink - Giảm 50%",
-            "start_time": "2018-11-28"
         },
         {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fvuabia.com%2Fbudweiser-lon-500ml-thung-12-lon-250.html",
@@ -500,21 +403,6 @@
             "start_time": "2018-11-30"
         },
         {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.nguyenkim.com%2Fbig-bang.html",
-            "banners": [],
-            "categories": [],
-            "content": "Bigbang:  Bùng nổ giảm giá - Mua ngay đừng chờ",
-            "coupons": [],
-            "domain": "nguyenkim.com",
-            "end_time": "2018-12-15",
-            "id": "5006877244938171201",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/nguyenkimvn/nguyenkim_30.11.jpg",
-            "link": "https://www.nguyenkim.com/big-bang.html",
-            "merchant": "nguyenkimvn",
-            "name": "Bigbang:  Bùng nổ giảm giá - Mua ngay đừng chờ",
-            "start_time": "2018-11-30"
-        },
-        {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Faeoneshop.com%2Fcollections%2Fmerry-christmas-2018%3Fview%3Dhn",
             "banners": [],
             "categories": [],
@@ -528,21 +416,6 @@
             "merchant": "aeon.myharavan.com",
             "name": "Giáng sinh an lành - Dành tặng yêu thương",
             "start_time": "2018-12-03"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.nguyenkim.com%2Fmua-online-gia-re-hon-den-2-trieu.html",
-            "banners": [],
-            "categories": [],
-            "content": "- Thời gian áp dụng: 01/12 - 15/12/2018; \r\n- Áp dụng đối với đơn hàng mua online tại Nguyenkim.com, giảm giá đến 2 Triệu\r\n- Chương trình giá rẻ này được áp dụng cho khuyến mãi ưu đãi tài chính khác và cà thẻ. Không áp dụng giảm cho thẻ thành viên.",
-            "coupons": [],
-            "domain": "nguyenkim.com",
-            "end_time": "2018-12-15",
-            "id": "5008854775541590512",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/nguyenkimvn/nguyenkim_03.12.png",
-            "link": "https://www.nguyenkim.com/mua-online-gia-re-hon-den-2-trieu.html",
-            "merchant": "nguyenkimvn",
-            "name": "Cơn lốc ưu đãi - Mua online giá rẻ hơn",
-            "start_time": "2018-12-01"
         },
         {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.nguyenkim.com%2Fdien-thoai-samsung-gia-soc-bigbang.html",
@@ -587,21 +460,6 @@
             "link": "https://www.nguyenkim.com/iphone-xs-xsmax-uu-dai-den-5-trieu-6.html",
             "merchant": "nguyenkimvn",
             "name": "Khuyến mãi lớn khi mua iPhone XS/ XS Max/ XR",
-            "start_time": "2018-12-03"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ftiki.vn%2Fmua-sale-huyen-thoai%3Fsrc%3Dhome_v4_main_banner",
-            "banners": [],
-            "categories": [],
-            "content": "Sự kiện cực sốc 12/12: Giảm đến 91%.\r\nThời gian từ 10.12 - 12.12",
-            "coupons": [],
-            "domain": "tiki.vn",
-            "end_time": "2018-12-15",
-            "id": "5009062880166470141",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/tikivn/tiki_03.12.jpg",
-            "link": "https://tiki.vn/mua-sale-huyen-thoai?src=home_v4_main_banner",
-            "merchant": "tikivn",
-            "name": "Sự kiện cực sốc 12/12: Giảm đến 91%",
             "start_time": "2018-12-03"
         },
         {
@@ -695,21 +553,6 @@
             "start_time": "2018-12-04"
         },
         {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.sendo.vn%2Fsu-kien%2Ftra-gop-0-phan-tram%2F",
-            "banners": [],
-            "categories": [],
-            "content": "Đại tiệc trả góp - Giảm thêm 1.5 Triệu",
-            "coupons": [],
-            "domain": "sendo.vn",
-            "end_time": "2018-12-15",
-            "id": "5009603492528123895",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/sendovn/gghh.png",
-            "link": "https://www.sendo.vn/su-kien/tra-gop-0-phan-tram/",
-            "merchant": "sendovn",
-            "name": "Đại tiệc trả góp - Giảm thêm 1.5 Triệu",
-            "start_time": "2018-12-04"
-        },
-        {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fshop.vnexpress.net%2Fretail%2Fphan-le%2Fcategory_0%3Fpin%3D155%26orderby%3Dprice_sell_desc",
             "banners": [],
             "categories": [],
@@ -737,21 +580,6 @@
             "link": "https://shop.vnexpress.net/retail/kymdan/category_0?&orderby=price_asc",
             "merchant": "shopvnexpress",
             "name": "Combo Kymdan - Mua nhiều tặng nhiều",
-            "start_time": "2018-12-04"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fshop.vnexpress.net%2Fretail%2Fdien-quang%2Fcategory_0%3Fpin%3D337%26orderby%3Dprice_sell_desc",
-            "banners": [],
-            "categories": [],
-            "content": "Thiết bị điện gia đình Điện Quang chính hãng giảm toàn bộ 30%.",
-            "coupons": [],
-            "domain": "shop.vnexpress.net",
-            "end_time": "2018-12-16",
-            "id": "5009732518425698086",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/shopvnexpress/dienquang_880x380 _04.12.png",
-            "link": "https://shop.vnexpress.net/retail/dien-quang/category_0?pin=337&orderby=price_sell_desc",
-            "merchant": "shopvnexpress",
-            "name": "Điện Quang giảm toàn bộ 30%",
             "start_time": "2018-12-04"
         },
         {
@@ -983,99 +811,6 @@
             "start_time": "2018-12-07"
         },
         {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fcellphones.com.vn%2Fsamsung-galaxy-a7-2018-chinh-hang.html",
-            "banners": [
-                {
-                    "height": 280,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/336x280/728X90_cp_07.12_7.jpg",
-                    "width": 336
-                },
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/160x600/728X90_cp_07.12_7.jpg",
-                    "width": 160
-                },
-                {
-                    "height": 90,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/728x90/728X90_cp_07.12_7.jpg",
-                    "width": 728
-                }
-            ],
-            "categories": [],
-            "content": "Giảm 500k qua Galaxy Gift (được lấy code trên máy mới) Nhận thêm khuyến mãi sau:\r\nHà Nội:  Tặng phiếu mua hàng 750.000 ₫ ",
-            "coupons": [],
-            "domain": "cellphones.com.vn",
-            "end_time": "2018-12-15",
-            "id": "5011931173751177938",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/cellphones/336X280_cp_07.12_6.jpg",
-            "link": "https://cellphones.com.vn/samsung-galaxy-a7-2018-chinh-hang.html",
-            "merchant": "cellphones",
-            "name": "CHƯƠNG TRÌNH ƯU ĐÃI TẶNG NGAY 500K KHI MUA GALAXY A7 ",
-            "start_time": "2018-12-07"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fcellphones.com.vn%2Fsamsung-galaxy-a7-2018-chinh-hang.html",
-            "banners": [
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/160x600/336X280_CP_07.12_10.jpg",
-                    "width": 160
-                },
-                {
-                    "height": 90,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/728x90/336X280_CP_07.12_10.jpg",
-                    "width": 728
-                },
-                {
-                    "height": 280,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/336x280/336X280_CP_07.12_10.jpg",
-                    "width": 336
-                }
-            ],
-            "categories": [],
-            "content": "Giảm 500k qua Galaxy Gift (được lấy code trên máy mới) Nhận thêm khuyến mãi sau:\r\nHCM:  Tặng phiếu mua hàng 750.000 ₫ ",
-            "coupons": [],
-            "domain": "cellphones.com.vn",
-            "end_time": "2018-12-15",
-            "id": "5011932363296744554",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/cellphones/336X280_CP_07.12_10.jpg",
-            "link": "https://cellphones.com.vn/samsung-galaxy-a7-2018-chinh-hang.html",
-            "merchant": "cellphones",
-            "name": "CHƯƠNG TRÌNH ƯU ĐÃI  TẶNG NGAY 500K KHI MUA GALAXY A7  + PMH 700K",
-            "start_time": "2018-12-07"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fcellphones.com.vn%2Fsamsung-galaxy-j6-plus-chinh-hang.html",
-            "banners": [
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/160x600/coc-coc-300x250_CP.jpg",
-                    "width": 160
-                },
-                {
-                    "height": 90,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/728x90/coc-coc-300x250_CP.jpg",
-                    "width": 728
-                },
-                {
-                    "height": 250,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/300x250/coc-coc-300x250_CP.jpg",
-                    "width": 300
-                }
-            ],
-            "categories": [],
-            "content": "Giảm 300k qua Galaxy Gift (được lấy code trên máy mới)",
-            "coupons": [],
-            "domain": "cellphones.com.vn",
-            "end_time": "2018-12-15",
-            "id": "5011933678049295842",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/cellphones/coc-coc-300x250_CP.jpg",
-            "link": "https://cellphones.com.vn/samsung-galaxy-j6-plus-chinh-hang.html",
-            "merchant": "cellphones",
-            "name": "CHƯƠNG TRÌNH ƯU ĐÃI  TẶNG NGAY 300K KHI MUA GALAXY J6 plus",
-            "start_time": "2018-12-07"
-        },
-        {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fcellphones.com.vn%2Fthiet-bi-am-thanh%2Fsoul.html",
             "banners": [],
             "categories": [],
@@ -1145,52 +880,6 @@
             "link": "https://cellphones.com.vn/asus-zenfone-5z-zs620kl-chinh-hang.html",
             "merchant": "cellphones",
             "name": "ĐỘC QUYỀN GIÁ Asus Zenfone 5z ZS620KL giảm ngay 500K",
-            "start_time": "2018-12-07"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ftiki.vn%2Fmua-sale-huyen-thoai",
-            "banners": [],
-            "categories": [],
-            "content": "Chương trình khuyến mãi cực sốc chỉ từ 10.12 đến 15.12.\r\nGiảm giá lên đến 91%",
-            "coupons": [],
-            "domain": "tiki.vn",
-            "end_time": "2018-12-15",
-            "id": "5011994441619735858",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/tikivn/Option_Final.jpg",
-            "link": "https://tiki.vn/mua-sale-huyen-thoai",
-            "merchant": "tikivn",
-            "name": "Mùa Sale Huyền Thoại 12.12",
-            "start_time": "2018-12-07"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ftiki.vn%2Fchuong-trinh%2Flocknlock",
-            "banners": [
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/tikivn/160x600/LDN-300x250.jpg",
-                    "width": 160
-                },
-                {
-                    "height": 250,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/tikivn/300x250/LDN-300x250.jpg",
-                    "width": 300
-                },
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/tikivn/300x600/LDN-300x250.jpg",
-                    "width": 300
-                }
-            ],
-            "categories": [],
-            "content": "LOCK&LOCK HUYỀN THOẠI SALE SỐC - CHỈ CÓ TẠI TIKI Giảm đến 50%++",
-            "coupons": [],
-            "domain": "tiki.vn",
-            "end_time": "2018-12-15",
-            "id": "5011996022481708446",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/tikivn/LDN-300x250.jpg",
-            "link": "https://tiki.vn/chuong-trinh/locknlock",
-            "merchant": "tikivn",
-            "name": "LOCK&LOCK HUYỀN THOẠI SALE SỐC - CHỈ CÓ TẠI TIKI Giảm đến 50%++",
             "start_time": "2018-12-07"
         },
         {
@@ -1284,51 +973,6 @@
             "start_time": "2018-12-07"
         },
         {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffptshop.com.vn%2Fdien-thoai%2Fsamsung-j4-2018-32gb",
-            "banners": [],
-            "categories": [],
-            "content": "Samsung galaxy J4 - 32G Lavender : Giảm ngay 1,000,000đ",
-            "coupons": [],
-            "domain": "fptshop.com.vn",
-            "end_time": "2018-12-16",
-            "id": "5013981895487410553",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fptshop/fptshop_10.12.jpg",
-            "link": "https://fptshop.com.vn/dien-thoai/samsung-j4-2018-32gb",
-            "merchant": "fptshop",
-            "name": "Samsung galaxy J4 - 32G Lavender : Giảm ngay 1,000,000đ",
-            "start_time": "2018-12-10"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffptshop.com.vn%2Fdien-thoai%2Fsamsung-galaxy-j8",
-            "banners": [],
-            "categories": [],
-            "content": "SAMSUNG GALAXY J8 : Giảm ngay 1,500,000đ",
-            "coupons": [],
-            "domain": "fptshop.com.vn",
-            "end_time": "2018-12-16",
-            "id": "5013982856734752262",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fptshop/fptshop_10.12_2.jpg",
-            "link": "https://fptshop.com.vn/dien-thoai/samsung-galaxy-j8",
-            "merchant": "fptshop",
-            "name": "SAMSUNG GALAXY J8 : Giảm ngay 1,500,000đ",
-            "start_time": "2018-12-10"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ftiki.vn%2Fchuong-trinh%2Fhang-doc-gia-tot%3Fsrc%3Dhome_v4_main_banner",
-            "banners": [],
-            "categories": [],
-            "content": "Flashsale - Ưu đãi cực đã hàng ngoại nhập",
-            "coupons": [],
-            "domain": "tiki.vn",
-            "end_time": "2018-12-15",
-            "id": "5013988723140276286",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/tikivn/tiki_10.12_3.jpg",
-            "link": "https://tiki.vn/chuong-trinh/hang-doc-gia-tot?src=home_v4_main_banner",
-            "merchant": "tikivn",
-            "name": "Flash sale - Ưu đãi cực đã hàng ngoại nhập",
-            "start_time": "2018-12-10"
-        },
-        {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=http%3A%2F%2Fshinhanbank.vnfiba.com",
             "banners": [],
             "categories": [],
@@ -1342,21 +986,6 @@
             "merchant": "shinhanbank",
             "name": "Khuyến mại Shinhanbank - Ưu đãi hấp dẫn",
             "start_time": "2018-12-10"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.fahasa.com%2Fdeal-do-choi-bat-gia-goc",
-            "banners": [],
-            "categories": [],
-            "content": "Giảm sốc tới 50%",
-            "coupons": [],
-            "domain": "fahasa.com",
-            "end_time": "2018-12-16",
-            "id": "5014712286568454751",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fahasa/fahasa_11.12.jpg",
-            "link": "https://www.fahasa.com/deal-do-choi-bat-gia-goc",
-            "merchant": "fahasa",
-            "name": "Deal đồ chơi - Bật giá gốc",
-            "start_time": "2018-12-11"
         },
         {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.fahasa.com%2Fthu-3-mua-sach-tet-ga",
@@ -1416,21 +1045,6 @@
             "link": "https://shop.vnexpress.net/retail/duralex-viet-nam/category_0/page/2.html?orderby=price_asc",
             "merchant": "shopvnexpress",
             "name": "Bộ bàn ăn thủy tinh Duralex giảm 50%",
-            "start_time": "2018-12-11"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.lotte.vn%2Fcategory%2F16771%2Fsan-giay-sale%3Ffrom%3D1252x500-10122018-11122018_Home_Z1_2_ShoesBagAccessories_SanGiaySale",
-            "banners": [],
-            "categories": [],
-            "content": "Săn giày Sale  - Chỉ từ 199K",
-            "coupons": [],
-            "domain": "lotte.vn",
-            "end_time": "2018-12-16",
-            "id": "5014878097476531261",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/lottevn/lotte_11.12_2.jpg",
-            "link": "https://www.lotte.vn/category/16771/san-giay-sale?from=1252x500-10122018-11122018_Home_Z1_2_ShoesBagAccessories_SanGiaySale",
-            "merchant": "lottevn",
-            "name": "Săn giày Sale  - Chỉ từ 199K",
             "start_time": "2018-12-11"
         },
         {
@@ -1551,51 +1165,6 @@
             "link": "https://aeoneshop.com/collections/dien-tu-chau-au-mua-ngay-khoi-au-sau?view=hn",
             "merchant": "aeon.myharavan.com",
             "name": "Điện tử Châu Âu - Mua ngay khỏi âu sầu",
-            "start_time": "2018-12-13"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ftiki.vn%2Fchuong-trinh%2Fbitis-hunter%3Fsrc%3Dhome3_menu_thethao",
-            "banners": [],
-            "categories": [],
-            "content": "Biti's Hunter X - The Red pride: Đặt trước phiên bản Fan editon",
-            "coupons": [],
-            "domain": "tiki.vn",
-            "end_time": "2018-12-15",
-            "id": "5016117226458172709",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/tikivn/TIKI_13.12.jpg",
-            "link": "https://tiki.vn/chuong-trinh/bitis-hunter?src=home3_menu_thethao",
-            "merchant": "tikivn",
-            "name": "Biti's Hunter X - The Red pride: Đặt trước phiên bản Fan editon",
-            "start_time": "2018-12-10"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ftiki.vn%2Fchuong-trinh%2Fahc-cham-soc-da-chuyen-nghiep-chinh-hang-han-quoc%3Fsrc%3Dhome3_menu_lamdepsuckhoe",
-            "banners": [],
-            "categories": [],
-            "content": "AHC - Nhãn hiệu chăm sóc da hàng đầu Hàn QUốc ưu đãi đến 40%",
-            "coupons": [],
-            "domain": "tiki.vn",
-            "end_time": "2018-12-15",
-            "id": "5016118010991753344",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/tikivn/TIKI_13.12_2.jpg",
-            "link": "https://tiki.vn/chuong-trinh/ahc-cham-soc-da-chuyen-nghiep-chinh-hang-han-quoc?src=home3_menu_lamdepsuckhoe",
-            "merchant": "tikivn",
-            "name": "AHC - Nhãn hiệu chăm sóc da hàng đầu Hàn QUốc ưu đãi đến 40%",
-            "start_time": "2018-12-13"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ftiki.vn%2Fchuong-trinh%2Flocknlock%3F%26src%3Dhome3_menu_nhacuadoisong",
-            "banners": [],
-            "categories": [],
-            "content": "LOCK&LOCK HUYỀN THOẠI SALE SỐC - CHỈ CÓ TẠI TIKI Giảm đến 50%++",
-            "coupons": [],
-            "domain": "tiki.vn",
-            "end_time": "2018-12-16",
-            "id": "5016118613904303505",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/tikivn/TIKI_13.12_3.jpg",
-            "link": "https://tiki.vn/chuong-trinh/locknlock?&src=home3_menu_nhacuadoisong",
-            "merchant": "tikivn",
-            "name": "LOCK&LOCK HUYỀN THOẠI SALE SỐC - CHỈ CÓ TẠI TIKI Giảm đến 50%++",
             "start_time": "2018-12-13"
         },
         {
@@ -1764,21 +1333,6 @@
             "start_time": "2018-12-13"
         },
         {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.fahasa.com%2Fviet-nam-vo-dich%3Fattempt%3D1",
-            "banners": [],
-            "categories": [],
-            "content": " Cùng FAHASA Đồng Hành AFF Cup 2018 - Dự Đoán Tỷ Số Nhận Ngay Thẻ Nạp F-Point 500.000 F-Point.\r\nDự đoán tỉ số trên Fanpage FAHASA tại https://www.facebook.com/fahasa/photos/a.536328656386097/2259129534105992/?type=3&theater",
-            "coupons": [],
-            "domain": "fahasa.com",
-            "end_time": "2018-12-15",
-            "id": "5016360983548261503",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fahasa/fahasa_13.12.webp",
-            "link": "https://www.fahasa.com/viet-nam-vo-dich?attempt=1",
-            "merchant": "fahasa",
-            "name": " Cùng FAHASA Đồng Hành AFF Cup 2018 - Dự Đoán Tỷ Số Nhận Ngay Thẻ Nạp F-Point 500.000 F-Point",
-            "start_time": "2018-12-11"
-        },
-        {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.fahasa.com%2Fyolo-don-fahasa-day",
             "banners": [],
             "categories": [],
@@ -1899,124 +1453,154 @@
             "start_time": "2018-12-13"
         },
         {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffptshop.com.vn%2Fdien-thoai%2Fhonor-play",
-            "banners": [],
-            "categories": [],
-            "content": "HONOR PLAY: Giảm ngay 500,000đ + TG 0%",
-            "coupons": [],
-            "domain": "fptshop.com.vn",
-            "end_time": "2018-12-16",
-            "id": "5016988213620838921",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fptshop/fptshop_14.12.png",
-            "link": "https://fptshop.com.vn/dien-thoai/honor-play",
-            "merchant": "fptshop",
-            "name": "HONOR PLAY: Giảm ngay 500,000đ + TG 0%",
-            "start_time": "2018-12-14"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffptshop.com.vn%2Fdien-thoai%2Fhonor-10",
-            "banners": [],
-            "categories": [],
-            "content": "HONOR  10: Giảm ngay 1,000,000đ + TG 0%",
-            "coupons": [],
-            "domain": "fptshop.com.vn",
-            "end_time": "2018-12-16",
-            "id": "5016988720335750108",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fptshop/fptshop_14.12_2.png",
-            "link": "https://fptshop.com.vn/dien-thoai/honor-10",
-            "merchant": "fptshop",
-            "name": "HONOR  10: Giảm ngay 1,000,000đ + TG 0%",
-            "start_time": "2018-12-14"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffptshop.com.vn%2Fdien-thoai%2Fxiaomi-redmi-note-6-pro-64gb",
-            "banners": [],
-            "categories": [],
-            "content": "XIAOMI NOTE 6 PRO: Giảm ngay 600,000đ + Gói bảo hành mở rộng 15 tháng + Đổi trả 45 ngày nếu lỗi NSX",
-            "coupons": [],
-            "domain": "fptshop.com.vn",
-            "end_time": "2018-12-16",
-            "id": "5016989390900422942",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fptshop/fptshop_14.12_3.png",
-            "link": "https://fptshop.com.vn/dien-thoai/xiaomi-redmi-note-6-pro-64gb",
-            "merchant": "fptshop",
-            "name": "XIAOMI NOTE 6 PRO: Giảm ngay 600,000đ",
-            "start_time": "2018-12-14"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffptshop.com.vn%2Fdien-thoai%2Fhuawei-mate-20",
-            "banners": [],
-            "categories": [],
-            "content": "HUAWEI MATE 20: Giảm ngay 2,000,000đ",
-            "coupons": [],
-            "domain": "fptshop.com.vn",
-            "end_time": "2018-12-16",
-            "id": "5016990035134454112",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fptshop/fptshop_14.12_4.png",
-            "link": "https://fptshop.com.vn/dien-thoai/huawei-mate-20",
-            "merchant": "fptshop",
-            "name": "HUAWEI MATE 20: Giảm ngay 2,000,000đ",
-            "start_time": "2018-12-14"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffptshop.com.vn%2Fdien-thoai%2Fhuawei-mate-20-pro",
-            "banners": [],
-            "categories": [],
-            "content": "HUAWEI MATE 20 PRO: Giảm ngay 2,000,000đ",
-            "coupons": [],
-            "domain": "fptshop.com.vn",
-            "end_time": "2018-12-16",
-            "id": "5016990690671738243",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fptshop/fptshop_14.12_4.png",
-            "link": "https://fptshop.com.vn/dien-thoai/huawei-mate-20-pro",
-            "merchant": "fptshop",
-            "name": "HUAWEI MATE 20 PRO: Giảm ngay 2,000,000đ",
-            "start_time": "2018-12-14"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffptshop.com.vn%2Fdien-thoai%2Fhuawei-nova-3i",
-            "banners": [],
-            "categories": [],
-            "content": "HUAWEI NOVA 3I: Sạc Dự Phòng Pisen 10.000 mAh + Trả góp 0%",
-            "coupons": [],
-            "domain": "fptshop.com.vn",
-            "end_time": "2018-12-16",
-            "id": "5016991248481041193",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fptshop/fptshop_14.12_5.png",
-            "link": "https://fptshop.com.vn/dien-thoai/huawei-nova-3i",
-            "merchant": "fptshop",
-            "name": "HUAWEI NOVA 3I: Sạc Dự Phòng Pisen 10.000 mAh + Trả góp 0%",
-            "start_time": "2018-12-14"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffptshop.com.vn%2Fdien-thoai%2Fsamsung-galaxy-j4-2018",
-            "banners": [],
-            "categories": [],
-            "content": "SAMSUNG J4 2018: Giảm ngay 500,000đ + Trả góp 0%",
-            "coupons": [],
-            "domain": "fptshop.com.vn",
-            "end_time": "2018-12-16",
-            "id": "5016992061287779670",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fptshop/fptshop_14.12_6.png",
-            "link": "https://fptshop.com.vn/dien-thoai/samsung-galaxy-j4-2018",
-            "merchant": "fptshop",
-            "name": "SAMSUNG J4 2018: Giảm ngay 500,000đ + Trả góp 0%",
-            "start_time": "2018-12-14"
-        },
-        {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffptshop.com.vn%2Fdien-thoai%2Fiphone-7-plus-32gb",
             "banners": [],
             "categories": [],
             "content": "iPhone 7 Plus 32GB : Giảm 4 triệu chỉ còn 13.990.000đ",
             "coupons": [],
             "domain": "fptshop.com.vn",
-            "end_time": "2018-12-16",
+            "end_time": "2018-12-31",
             "id": "5016992741993086752",
             "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fptshop/fptshop_14.12_7.png",
             "link": "https://fptshop.com.vn/dien-thoai/iphone-7-plus-32gb",
             "merchant": "fptshop",
             "name": "iPhone 7 Plus 32GB : Giảm 4 triệu chỉ còn 13.990.000đ",
             "start_time": "2018-12-14"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffptshop.com.vn%2Fdien-thoai%2Fvsmart-active-1",
+            "banners": [],
+            "categories": [],
+            "content": "ĐẶT TRƯỚC VSMART ACTIVE 1- Giảm ngay 700,000đ\r\n- Đổi trả 101 ngày nếu lỗi NSX\r\n- Áp dụng màu Đen.\r\n- Khuyến mại có thể kết thúc sớm khi hết suất.\r\n",
+            "coupons": [],
+            "domain": "fptshop.com.vn",
+            "end_time": "2018-12-31",
+            "id": "5019009776102361586",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fptshop/fptshop_17.12.png",
+            "link": "https://fptshop.com.vn/dien-thoai/vsmart-active-1",
+            "merchant": "fptshop",
+            "name": "ĐẶT TRƯỚC VSMART ACTIVE 1- GIẢM NGAY 700K",
+            "start_time": "2018-12-15"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffptshop.com.vn%2Fctkm%2Foppo",
+            "banners": [],
+            "categories": [],
+            "content": "OPPO F9: Giảm ngay 500,000đ + Trả góp 0%/1%",
+            "coupons": [],
+            "domain": "fptshop.com.vn",
+            "end_time": "2018-12-20",
+            "id": "5019010897102760504",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fptshop/fptshop_17.12_2png.png",
+            "link": "https://fptshop.com.vn/ctkm/oppo",
+            "merchant": "fptshop",
+            "name": "OPPO F9: Giảm ngay 500,000đ + Trả góp 0%/1%",
+            "start_time": "2018-12-14"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffptshop.com.vn%2Fdien-thoai%2Fsamsung-galaxy-note-9",
+            "banners": [],
+            "categories": [],
+            "content": "SAMSUNG NOTE 9 128GB: Giảm ngay 6,000,000đ ( 2,5 triệu qua Quà tặng Galaxy + 3,5 triệu từ FPTShop) + Trả góp 0%",
+            "coupons": [],
+            "domain": "fptshop.com.vn",
+            "end_time": "2018-12-23",
+            "id": "5019011950581111098",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fptshop/fptshop_17.12_3.png",
+            "link": "https://fptshop.com.vn/dien-thoai/samsung-galaxy-note-9",
+            "merchant": "fptshop",
+            "name": "SAMSUNG NOTE 9 128GB: Giảm ngay 6,000,000đ",
+            "start_time": "2018-12-17"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fshopee.vn%2Fm%2Furbancity1212",
+            "banners": [],
+            "categories": [],
+            "content": " - Giảm giá lên đến 69% các sản phẩm điện tử đến từ thương hiệu Urban City.\r\n - Voucher cho khách hàng: mã UBC150 - Giảm 10% tối đa 150K cho đơn từ 1tr chỉ áp dụng sản phẩm của UBC\r\n",
+            "coupons": [],
+            "domain": "shopee.vn",
+            "end_time": "2018-12-31",
+            "id": "5019035768729312653",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/shopee/1. Headline banner_1200xabc.jpg",
+            "link": "https://shopee.vn/m/urbancity1212",
+            "merchant": "shopee",
+            "name": " Giảm giá lên đến 69% các sản phẩm điện tử đến từ thương hiệu Urban City",
+            "start_time": "2018-12-15"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ftiki.vn%2Fchuong-trinh%2Fhang-cong-nghe-giam-soc%3Fsrc%3Dhome_v4_main_banner",
+            "banners": [],
+            "categories": [],
+            "content": "Đồ dùng gia đình - giảm đến 40%",
+            "coupons": [],
+            "domain": "tiki.vn",
+            "end_time": "2018-12-24",
+            "id": "5019138663766428059",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/tikivn/tiki_17.12.jpg",
+            "link": "https://tiki.vn/chuong-trinh/hang-cong-nghe-giam-soc?src=home_v4_main_banner",
+            "merchant": "tikivn",
+            "name": "Đồ dùng gia đình - giảm đến 40%",
+            "start_time": "2018-12-17"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ftiki.vn%2Fchuong-trinh%2Ftrao-qua-tang-gui-yeu-thuong%3Fsrc%3Dhome_v4_main_banner",
+            "banners": [],
+            "categories": [],
+            "content": "Noel nhiều quà hay - Gói quà và nhận hàng trong 2H",
+            "coupons": [],
+            "domain": "tiki.vn",
+            "end_time": "2018-12-24",
+            "id": "5019139904225379602",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/tikivn/tiki_17.12_2.jpg",
+            "link": "https://tiki.vn/chuong-trinh/trao-qua-tang-gui-yeu-thuong?src=home_v4_main_banner",
+            "merchant": "tikivn",
+            "name": "Noel nhiều quà hay - Gói quà và nhận hàng trong 2H",
+            "start_time": "2018-12-17"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ftiki.vn%2Fchuong-trinh%2Fhang-ngoai-nhap%3Fsrc%3Dhome_v4_main_banner",
+            "banners": [],
+            "categories": [],
+            "content": "Hàng ngoại nhập: Hàng chất, giá hời",
+            "coupons": [],
+            "domain": "tiki.vn",
+            "end_time": "2018-12-24",
+            "id": "5019140718411009451",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/tikivn/tiki_17.12_3.jpg",
+            "link": "https://tiki.vn/chuong-trinh/hang-ngoai-nhap?src=home_v4_main_banner",
+            "merchant": "tikivn",
+            "name": "Hàng ngoại nhập: Hàng chất, giá hời",
+            "start_time": "2018-12-17"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ftiki.vn%2Fchuong-trinh%2Fcon-loc-do-choi-giam-gia%3Fsrc%3Dhome_sticky_banner",
+            "banners": [],
+            "categories": [],
+            "content": "100 Món đồ chơi hot nhất mùa Giáng sinh",
+            "coupons": [],
+            "domain": "tiki.vn",
+            "end_time": "2018-12-24",
+            "id": "5019153747946960112",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/tikivn/tiki_17.12_4.jpg",
+            "link": "https://tiki.vn/chuong-trinh/con-loc-do-choi-giam-gia?src=home_sticky_banner",
+            "merchant": "tikivn",
+            "name": "VUI GIÁNG SINH - BÉ RINH QUÀ KHỦNG",
+            "start_time": "2018-12-17"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fjuno.vn%2Fcollections%2Fcampaign-noel",
+            "banners": [],
+            "categories": [],
+            "content": "Đồng giá giày - túi 250K và Freeship toàn quốc.\r\nThời gian: 18-20/12/2018.",
+            "coupons": [],
+            "domain": "juno.vn",
+            "end_time": "2018-12-20",
+            "id": "5019157650000717099",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/juno-1.myharavan.com/juno_17.12.jpg",
+            "link": "https://juno.vn/collections/campaign-noel",
+            "merchant": "juno-1.myharavan.com",
+            "name": "Flash Sale X-mas",
+            "start_time": "2018-12-17"
         }
     ]
 }
