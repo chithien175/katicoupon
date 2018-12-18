@@ -23,8 +23,27 @@ body{
 
 /* NAVBAR */
 .navbar{
-    padding: 0.5rem 5rem;
+    background-color: #1cbec5ed !important;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
 }
+.navbar .navbar-brand{
+    color: #fff;
+}
+.navbar .navbar-brand:hover{
+    color: #fff;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .navbar .navbar-brand{
+        margin: 0 auto;
+    }
+}
+
+/* CONTENT CONTAINER */
+#content-container{
+    margin-top: 80px;
+}
+
 
 /* HOMEPAGE */
 .nav-tabs {
@@ -45,15 +64,15 @@ body{
 }
 .item-group{
     margin: 10px 0 0 0;
-    padding: 0.5rem 0.5rem;
-    border: 1px solid #1cbec550;
+    padding: 0.5rem 1rem;
+    border: 1px solid #1cbec5e0;
     background-color: #fff;
 }
 .item-group:hover{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 .item-group h5{
-    line-height: 1;
+    line-height: 1.2;
     margin-bottom: 0;
 }
 .item-group .merchant{
@@ -97,10 +116,10 @@ body{
 #advanced-filter{
     position: fixed;
     bottom: 0px;
-    background-color: #fff;
+    background-color: #1cbec5ed;
     width: 100%;
     display: block;
-    box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.25);
 }
 #advanced-filter .content-filter{
     width: 350px;
@@ -115,8 +134,12 @@ body{
     font-size: 11px;
     height: 30px;
 }
+.select2-container--default .select2-selection--single {
+    border: 1px solid #aaa;
+}
 .select2-dropdown{
     font-size: 11px;
+    font-weight: 600;
 }
 #advanced-filter button{
     font-size: 11px;
@@ -124,5 +147,16 @@ body{
     padding: 5px;
     margin-left: 10px;
 }
+#toast-container{
+    font-size: 11px;
+}
+#toast-container>div {
+    padding: 15px 15px 15px 50px;
+    width: 250px;
+}
 
 /* FOOTER */
+footer{
+    font-size: 11px;
+    font-weight: 500;
+}

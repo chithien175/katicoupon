@@ -353,6 +353,111 @@
             "merchant": "fadovn",
             "name": "Noel rộn ràng - Deal hot ngập tràn",
             "start_time": "2018-12-14"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.adayroi.com%2Fhuggies-lp1790%3Fitm_source%3DMega_HV_P4_STOLHTD%26itm_medium%3DPC%26itm_campaign%3D20181217_Huggies",
+            "banners": [],
+            "categories": [
+                {
+                    "category_name": "me-va-be",
+                    "category_name_show": "Mẹ và bé",
+                    "category_no": 108
+                }
+            ],
+            "content": "Nhập mã 10HG12 tặng 10% cho đơn hàng từ 500K( giảm tối đa 200K)",
+            "coupons": [
+                {
+                    "coupon_code": "10HG12 ",
+                    "coupon_desc": "Giảm thêm 10%",
+                    "coupon_save": "10%"
+                }
+            ],
+            "domain": "adayroi.com",
+            "end_time": "2018-12-23",
+            "id": "5019231560175145224",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/adayroi/adayroi_17.12.jpg",
+            "link": "https://www.adayroi.com/huggies-lp1790?itm_source=Mega_HV_P4_STOLHTD&itm_medium=PC&itm_campaign=20181217_Huggies",
+            "merchant": "adayroi",
+            "name": "Huggies: Sản bỉm sốc - Nhận hàng siêu tốc",
+            "start_time": "2018-12-13"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.adayroi.com%2Fmktc-sale-season-lp734",
+            "banners": [
+                {
+                    "height": 90,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/adayroi/728x90/728x90_adayroi_18.12.jpg",
+                    "width": 728
+                },
+                {
+                    "height": 250,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/adayroi/300x250/728x90_adayroi_18.12.jpg",
+                    "width": 300
+                },
+                {
+                    "height": 600,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/adayroi/300x600/728x90_adayroi_18.12.jpg",
+                    "width": 300
+                },
+                {
+                    "height": 600,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/adayroi/160x600/728x90_adayroi_18.12.jpg",
+                    "width": 160
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "dien-thoai-may-tinh-bang",
+                    "category_name_show": "Điện thoại - Máy tính bảng",
+                    "category_no": 102
+                },
+                {
+                    "category_name": "tivi-am-thanh",
+                    "category_name_show": "Tivi - Âm thanh",
+                    "category_no": 103
+                },
+                {
+                    "category_name": "thiet-bi-gia-dung",
+                    "category_name_show": "Thiết bị gia dụng",
+                    "category_no": 104
+                },
+                {
+                    "category_name": "dien-lanh",
+                    "category_name_show": "Điện lạnh",
+                    "category_no": 105
+                },
+                {
+                    "category_name": "may-anh-may-quay-phim",
+                    "category_name_show": "Máy ảnh - Máy quay phim",
+                    "category_no": 106
+                },
+                {
+                    "category_name": "may-tinh-lap-top-phu-kien",
+                    "category_name_show": "Máy tính - Laptop - Phụ kiện",
+                    "category_no": 107
+                }
+            ],
+            "content": "Nhập mã HIHI1815 tặng 150K cho đơn hàng từ 3.5 Triệu\r\nNhập mã HIHI1830 tặng 300K cho đơn hàng từ 8 Triệu\r\nLoại trừ: Thẻ Vinid, voucher Vinpearl, Thai sản Times city tuần 36, Vinfast, thẻ cào, sim, số, gói data và một số sản phẩm khác.",
+            "coupons": [
+                {
+                    "coupon_code": "HIHI1815 ",
+                    "coupon_desc": "Giảm thêm 150K",
+                    "coupon_save": "150K"
+                },
+                {
+                    "coupon_code": "HIHI1830 ",
+                    "coupon_desc": "Giảm thêm 150K",
+                    "coupon_save": "300K"
+                }
+            ],
+            "domain": "adayroi.com",
+            "end_time": "2018-12-19",
+            "id": "5019797741718621642",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/adayroi/300x250_adayroi_18.12.jpg",
+            "link": "https://www.adayroi.com/mktc-sale-season-lp734",
+            "merchant": "adayroi",
+            "name": "Dáng xinh đón Giáng sinh - Khuyến mãi hấp dẫn",
+            "start_time": "2018-12-18"
         }
     ]
 }

@@ -14,7 +14,7 @@
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::post('/post/merchant', 'FrontendController@postMerchant')->name('post-merchant');
-Route::get('/', 'FrontendController@home');
 
-// Route::get('/ma-giam-gia-{merchant}.html', 'FrontendController@merchant')->name('get-merchant');
+Route::get('/', 'FrontendController@home')->name('home');
+// Route::post('/merchant/filter', 'FrontendController@postMerchantFilter')->name('post-merchant-filter');
+Route::get('/ma-giam-gia-phieu-khuyen-mai-coupon-voucher-{merchant}.html', 'FrontendController@merchantFilter')->name('merchant-filter');
