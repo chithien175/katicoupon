@@ -14,7 +14,7 @@
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-
-Route::get('/', 'FrontendController@home');
 Route::post('/post/merchant', 'FrontendController@postMerchant')->name('post-merchant');
+Route::get('/', 'FrontendController@home');
+
 // Route::get('/ma-giam-gia-{merchant}.html', 'FrontendController@merchant')->name('get-merchant');

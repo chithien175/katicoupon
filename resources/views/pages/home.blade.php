@@ -28,7 +28,7 @@
                                         $current = Carbon\Carbon::now();
                                         $future = $promotion['end_time'];
                                     @endphp
-                                    <div class="recommended"><i class="icon-check far fa-check-square"></i> Đã xác nhận</div>
+                                    <!-- <div class="recommended"><i class="icon-check far fa-check-square"></i> Đã xác nhận</div> -->
                                     <div class="end_time"><i class="icon-clock far fa-clock"></i> Còn {{ $current->diffInDays($future) + 1 }} ngày</div>
                                 </div>
                                 <div class="title">
