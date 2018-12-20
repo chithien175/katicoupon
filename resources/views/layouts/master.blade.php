@@ -4,8 +4,11 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Ứng dụng tổng hợp MÃ GIẢM GIÁ | PHIẾU KHUYẾN MÃI | COUPONS | VOUCHERS lớn nhất Việt Nam</title>
+        <!-- Token -->
+        <meta name="_token" content="{{csrf_token()}}" />
 
+        <title>Ứng dụng tổng hợp MÃ GIẢM GIÁ | PHIẾU KHUYẾN MÃI | COUPONS | VOUCHERS lớn nhất Việt Nam</title>
+        
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ asset('/plugins/bootstrap/css/bootstrap.min.css') }}">
         <!-- Fontawesome CSS -->
@@ -16,8 +19,8 @@
         <link rel="stylesheet" href="{{ asset('/plugins/pace/pace.css') }}">
         <!-- Toastr CSS -->
         <link rel="stylesheet" href="{{ asset('/plugins/toastr/toastr.min.css') }}">
-        <!-- IcoFont CSS -->
-        <!-- <link rel="stylesheet" href="{{ asset('/plugins/icofont/icofont.css') }}"> -->
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="{{ asset('/plugins/animate/animate.css') }}">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{ asset('/css/custom.css') }}">
         @yield('css')
@@ -39,8 +42,10 @@
         @include('partials.footer')
 
         <!-- Advanced Filter -->
-        <!-- @include('partials.advanced-filter') -->
         @yield('advanced-filter')
+
+        <!-- Coupon Modal -->
+        @yield('coupon-modal')
 
         <!-- Optional JavaScript -->
         <!-- jQuery JS -->

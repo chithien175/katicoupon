@@ -4,17 +4,17 @@
             <h5>
                 <a href="{{ route('merchant-filter', $promotion['merchant']) }}" class="merchant"><i class="fas fa-store"></i> [{{ $promotion['merchant'] }}]</a>
             </h5>
-            <h5>
-                <a href="javascript:void(0)" class="name click-aff-link" data-aff-link="{{ $promotion['aff_link'] }}">{{ $promotion['name'] }}</a>
+            <h5 class="click-aff-link">
+                <a href="javascript:void(0)" class="name" data-aff-link="{{ $promotion['aff_link'] }}">{{ $promotion['name'] }}</a>
             </h5>
         </div>
         @if(empty($promotion['coupons']))
-        <div class="aff-link-button">
-            <a class="click-aff-link" href="javascript:void(0)" data-aff-link="{{ $promotion['aff_link'] }}"><i class="fas fa-tag"></i> CHI TIẾT</a>
+        <div class="aff-link-button click-aff-link" data-toggle="tooltip" data-placement="top" title="Click nhận ưu đãi">
+            <a href="javascript:void(0)" data-aff-link="{{ $promotion['aff_link'] }}"><i class="fas fa-tag"></i> CHI TIẾT</a>
         </div>
         @else
-        <div class="get-coupon-button">
-            <a class="click-get-coupon" href="javascript:void(0)"><i class="fas fa-cut"></i> LẤY MÃ</a>
+        <div class="get-coupon-button click-get-coupon" data-toggle="tooltip" data-placement="top" title="Click nhận mã coupon">
+            <a href="javascript:void(0)" data-aff-link="{{ $promotion['aff_link'] }}" data-redirect-link="{{ route('merchant-filter', $promotion['merchant']) }}?promotion={{ $promotion['id'] }}"><i class="fas fa-cut"></i> LẤY MÃ</a>
         </div>
         @endif
         @php

@@ -1,4 +1,4 @@
-<div id="advanced-filter">
+<div id="advanced-filter" class="animated fadeInUp">
     <div class="content-filter">
         <form id="advanced-filter-form">
             @csrf()

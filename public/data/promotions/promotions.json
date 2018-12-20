@@ -732,21 +732,6 @@
             "start_time": "2018-11-28"
         },
         {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fmytour.vn%2F",
-            "banners": [],
-            "categories": [],
-            "content": "Giảm 5% - 30% tất cả khách sạn mỗi thứ 2 - 3 - 4 hàng tuần.\r\nThời gian đặt phòng: Thứ 2,3,4 hàng tuần từ 3/12 - 19/12",
-            "coupons": [],
-            "domain": "mytour.vn",
-            "end_time": "2018-12-19",
-            "id": "5009590809011694219",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/mytourvn/mytour_04.12.webp",
-            "link": "https://mytour.vn/",
-            "merchant": "mytourvn",
-            "name": "Sale Party - Cuồng Nhiệt Cùng Siêu Giảm Giá Từ Mytour.Vn",
-            "start_time": "2018-12-04"
-        },
-        {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.sendo.vn%2Fsu-kien%2Fdeal-soc-dien-may%2F",
             "banners": [],
             "categories": [],
@@ -2231,84 +2216,6 @@
             "start_time": "2018-12-18"
         },
         {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.adayroi.com%2Fmktc-sale-season-lp734",
-            "banners": [
-                {
-                    "height": 90,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/adayroi/728x90/728x90_adayroi_18.12.jpg",
-                    "width": 728
-                },
-                {
-                    "height": 250,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/adayroi/300x250/728x90_adayroi_18.12.jpg",
-                    "width": 300
-                },
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/adayroi/300x600/728x90_adayroi_18.12.jpg",
-                    "width": 300
-                },
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/adayroi/160x600/728x90_adayroi_18.12.jpg",
-                    "width": 160
-                }
-            ],
-            "categories": [
-                {
-                    "category_name": "dien-thoai-may-tinh-bang",
-                    "category_name_show": "Điện thoại - Máy tính bảng",
-                    "category_no": 102
-                },
-                {
-                    "category_name": "tivi-am-thanh",
-                    "category_name_show": "Tivi - Âm thanh",
-                    "category_no": 103
-                },
-                {
-                    "category_name": "thiet-bi-gia-dung",
-                    "category_name_show": "Thiết bị gia dụng",
-                    "category_no": 104
-                },
-                {
-                    "category_name": "dien-lanh",
-                    "category_name_show": "Điện lạnh",
-                    "category_no": 105
-                },
-                {
-                    "category_name": "may-anh-may-quay-phim",
-                    "category_name_show": "Máy ảnh - Máy quay phim",
-                    "category_no": 106
-                },
-                {
-                    "category_name": "may-tinh-lap-top-phu-kien",
-                    "category_name_show": "Máy tính - Laptop - Phụ kiện",
-                    "category_no": 107
-                }
-            ],
-            "content": "Nhập mã HIHI1815 tặng 150K cho đơn hàng từ 3.5 Triệu\r\nNhập mã HIHI1830 tặng 300K cho đơn hàng từ 8 Triệu\r\nLoại trừ: Thẻ Vinid, voucher Vinpearl, Thai sản Times city tuần 36, Vinfast, thẻ cào, sim, số, gói data và một số sản phẩm khác.",
-            "coupons": [
-                {
-                    "coupon_code": "HIHI1815 ",
-                    "coupon_desc": "Giảm thêm 150K",
-                    "coupon_save": "150K"
-                },
-                {
-                    "coupon_code": "HIHI1830 ",
-                    "coupon_desc": "Giảm thêm 150K",
-                    "coupon_save": "300K"
-                }
-            ],
-            "domain": "adayroi.com",
-            "end_time": "2018-12-19",
-            "id": "5019797741718621642",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/adayroi/300x250_adayroi_18.12.jpg",
-            "link": "https://www.adayroi.com/mktc-sale-season-lp734",
-            "merchant": "adayroi",
-            "name": "Dáng xinh đón Giáng sinh - Khuyến mãi hấp dẫn",
-            "start_time": "2018-12-18"
-        },
-        {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fcellphones.com.vn%2Fmobile%2Fsamsung%2Fgalaxy-s%2Fgalaxy-s9-s9plus.html",
             "banners": [
                 {
@@ -2836,6 +2743,196 @@
             "merchant": "fahasa",
             "name": "Càn Quét Fahasa Day - Khuyến mãi cực sốc",
             "start_time": "2018-12-18"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fcellphones.com.vn%2Fapple-iphone-x-64-gb-chinh-hang-vn.html",
+            "banners": [
+                {
+                    "height": 90,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/728x90/IPHONE-X-64GB_160x600_19.12.jpg",
+                    "width": 728
+                },
+                {
+                    "height": 280,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/336x280/IPHONE-X-64GB_160x600_19.12.jpg",
+                    "width": 336
+                },
+                {
+                    "height": 600,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/160x600/IPHONE-X-64GB_160x600_19.12.jpg",
+                    "width": 160
+                }
+            ],
+            "categories": [],
+            "content": "Iphone X 64GB chính hãng VNA - Vô địch giá - chỉ 22.2 triệu.\r\nBảo hành 1 đổi 1 1 năm - Full VAT + Trả góp 0% trúng vinfast",
+            "coupons": [],
+            "domain": "cellphones.com.vn",
+            "end_time": "2018-12-31",
+            "id": "5020516184992952343",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/cellphones/IPHONE-X-64GB_336X280_19.12.jpg",
+            "link": "https://cellphones.com.vn/apple-iphone-x-64-gb-chinh-hang-vn.html",
+            "merchant": "cellphones",
+            "name": "Iphone X 64GB chính hãng VNA - Vô địch giá - chỉ 22.2 triệu",
+            "start_time": "2018-12-19"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fcellphones.com.vn%2Fmien-phi-nang-cap-note-9-512gb",
+            "banners": [],
+            "categories": [],
+            "content": "Miễn phí nâng cấp từ Note 9 128GB lên Note 9 512GB.\r\nThời gian cọc: 18-20/12.\r\nThời gian trả hàng: 21-23/12.\r\nChương trình có thể kết thúc trước hạn, KD sẽ thông báo.\r\nƯu đãi: mua Note 9 512GB với giá 19990k HN và 20090k HCM.\r\nMỗi khách hàng chỉ được tối đa 2 suất.\r\nChương trình không áp dụng chung với thu cũ đổi mới và giảm 2.5 triệu qua galaxy gift.",
+            "coupons": [],
+            "domain": "cellphones.com.vn",
+            "end_time": "2018-12-23",
+            "id": "5020517416545062033",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/cellphones/cellphones_19.12_2.png",
+            "link": "https://cellphones.com.vn/mien-phi-nang-cap-note-9-512gb",
+            "merchant": "cellphones",
+            "name": "SAMSUNG GALAXY NOTE 9 512GB - MIỄN PHÍ NÂNG CẤP",
+            "start_time": "2018-12-19"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fshopee.vn%2Fm%2Fchinh-hang-johnson-johnson",
+            "banners": [
+                {
+                    "height": 90,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopee/728x90/300x600_sp_19.12.gif",
+                    "width": 728
+                },
+                {
+                    "height": 600,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopee/300x600/300x600_sp_19.12.gif",
+                    "width": 300
+                },
+                {
+                    "height": 600,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopee/160x600/300x600_sp_19.12.gif",
+                    "width": 160
+                },
+                {
+                    "height": 250,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopee/300x250/300x600_sp_19.12.gif",
+                    "width": 300
+                }
+            ],
+            "categories": [],
+            "content": " Chăm da xinh - Rinh quà xịn: giảm giá các sản phẩm đến từ thương hiệu Johnson&Johnson",
+            "coupons": [],
+            "domain": "shopee.vn",
+            "end_time": "2018-12-20",
+            "id": "5020626319321504786",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/shopee/300x250_sp_19.12.gif",
+            "link": "https://shopee.vn/m/chinh-hang-johnson-johnson",
+            "merchant": "shopee",
+            "name": "Chăm da xinh - Săn quà xịn",
+            "start_time": "2018-12-19"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ftiki.vn%2Fchuong-trinh%2Ftrao-qua-tang-gui-yeu-thuong",
+            "banners": [],
+            "categories": [
+                {
+                    "category_name": "dien-thoai-may-tinh-bang",
+                    "category_name_show": "Điện thoại - Máy tính bảng",
+                    "category_no": 102
+                },
+                {
+                    "category_name": "thiet-bi-gia-dung",
+                    "category_name_show": "Thiết bị gia dụng",
+                    "category_no": 104
+                },
+                {
+                    "category_name": "sach-vpp-qua-tang",
+                    "category_name_show": "Sách - VPP - Quà tặng",
+                    "category_no": 111
+                },
+                {
+                    "category_name": "cong-nghe",
+                    "category_name_show": "Công nghệ",
+                    "category_no": 119
+                }
+            ],
+            "content": "Promote Tikinow - Gói quà, tặng thiệp.\r\nNhập CONGNGHE05 Giảm 500K Cho Đơn Hàng Điện Tử, Công Nghệ Từ 12 Triệu Chỉ Áp Dụng Cho Tiki Trading. \r\nNhập CONGNGHE300 Giảm 250K Cho Đơn Hàng Điện Tử, Công Nghệ Từ 6 Triệu. Chỉ Áp Dụng Cho Tiki Trading. \r\nNhập mã TIKINOEL10 giảm thêm 10% cho tất cả ĐH từ 300k. \r\nNhập mã TIKINOEL40 Giảm thêm 40K cho ĐH từ 300k",
+            "coupons": [
+                {
+                    "coupon_code": "CONGNGHE05 ",
+                    "coupon_desc": "Giảm thêm 500K",
+                    "coupon_save": "500K"
+                },
+                {
+                    "coupon_code": "CONGNGHE300 ",
+                    "coupon_desc": "Giảm thêm 300K",
+                    "coupon_save": "300K"
+                },
+                {
+                    "coupon_code": "TIKINOEL10 ",
+                    "coupon_desc": "Giảm thêm 10%",
+                    "coupon_save": "10%"
+                },
+                {
+                    "coupon_code": "TIKINOEL40 ",
+                    "coupon_desc": "Giảm thêm 40K",
+                    "coupon_save": "40K"
+                }
+            ],
+            "domain": "tiki.vn",
+            "end_time": "2018-12-24",
+            "id": "5020648118293597957",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/tikivn/tiki_19.12.jpg",
+            "link": "https://tiki.vn/chuong-trinh/trao-qua-tang-gui-yeu-thuong",
+            "merchant": "tikivn",
+            "name": "TRAO QUÀ TẶNG - GỬI YÊU THƯƠNG",
+            "start_time": "2018-12-19"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ftiki.vn%2Fchuong-trinh%2Fsamsung",
+            "banners": [
+                {
+                    "height": 250,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/tikivn/300x250/tiki_19.12_3.png",
+                    "width": 300
+                },
+                {
+                    "height": 600,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/tikivn/160x600/tiki_19.12_3.png",
+                    "width": 160
+                },
+                {
+                    "height": 600,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/tikivn/300x600/tiki_19.12_3.png",
+                    "width": 300
+                },
+                {
+                    "height": 600,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/tikivn/600x600/tiki_19.12_3.png",
+                    "width": 600
+                }
+            ],
+            "categories": [],
+            "content": "CONGNGHE10 giảm thêm 10% cho đơn hàng điện tử công nghệ\r\nCONGNGHE300 giảm them 250K cho đơn hàng điện tử công nghệ từ 6M\r\nCONGNGHE05  giảm them 500K cho đơn hàng điện tử công nghệ từ 12M  \r\nCONGNGHE08  giảm them 800K cho đơn hàng điện tử công nghệ từ 22M  \r\n",
+            "coupons": [],
+            "domain": "tiki.vn",
+            "end_time": "2018-12-21",
+            "id": "5020651556602373516",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/tikivn/tiki_19.12_3.png",
+            "link": "https://tiki.vn/chuong-trinh/samsung",
+            "merchant": "tikivn",
+            "name": "Ngày vàng Samsung - Khuyến mại siêu sốc",
+            "start_time": "2018-12-19"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=http%3A%2F%2Fwww.laneige.com%2Fvn%2Fvi%2Fmain.html",
+            "banners": [],
+            "categories": [],
+            "content": "1. Tặng vỉ son 4 màu (270288055) cho đơn hàng từ 700k -> áp dụng từ 3.12. \r\n2. Quà tặng cho mọi đơn hàng (áp dụng từ 3.12-31.12).\r\n3. Merry Christmas (19.12-26.12): Giảm 20% tất cả sản phẩm trang điểm.\r\n4. Quà tặng cho BB Cushion (không áp dụng cho BB Cushion giảm 30% theo chương trình hot deal):\r\n-> tặng 3 x Nước tẩy trang Brightening Cleansing Water 25ml + 3 x Nước tẩy trang mắt môi 25ml.\r\n5. Quà tặng cho tất cả dòng son ở mục trang điểm (lưu ý Lip Glowy Balm không được tính là sản phẩm son).\r\n-> Tặng 1 x Nước tẩy trang Brightening Cleansing Water 25ml + 1 x Nước tẩy trang mắt môi 25ml.",
+            "coupons": [],
+            "domain": "laneige.com",
+            "end_time": "2018-12-31",
+            "id": "5021240706661971520",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/laneige/laneige_20.12.jpg",
+            "link": "http://www.laneige.com/vn/vi/main.html",
+            "merchant": "laneige",
+            "name": "Laneige - Khuyến mãi cực sốc Tháng 12",
+            "start_time": "2018-12-03"
         }
     ]
 }

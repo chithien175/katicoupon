@@ -45,6 +45,9 @@ body{
 }
 
 /* HOMEPAGE */
+#promotion-tab i{
+    font-size: 25px;
+}
 .nav-tabs {
     border-bottom: 1px solid #17a2b8;
     text-transform: uppercase;
@@ -171,11 +174,65 @@ body{
     color: #17a2b8;
 }
 
+/* COUPON MODAL */
+#couponModal .modal-title{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#couponModal .coupon-title{
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
+#couponModal .coupon-code{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#couponModal .coupon-code .code-text{
+    text-align: center;
+    background: #fff1db;
+    padding: 8px 10px 10px;
+    font-size: 30px;
+    font-weight: 700;
+    border: 2px dashed #ffc107;
+    color: #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 80%;
+    letter-spacing: 2px;
+    margin: 0 auto 10px auto;
+    display: block;
+}
+#couponModal .coupon-code .code-text:hover{
+    cursor: pointer;
+}
+#couponModal .coupon-code button{
+    background-color: #ffc107;
+    color: #fff;
+    font-size: 13px;
+}
+#couponModal .coupon-code button:hover{
+    cursor: pointer;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+#couponModal .coupon-des{
+    text-align: justify;
+    font-size: 12px;
+}
+
 /* SIDEBAR */
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
     
 } */
+#top-merchant-tab i{
+    font-size: 25px;
+}
+
+/* ADVANCED FILTER */
 #advanced-filter{
     position: fixed;
     bottom: 0px;
@@ -226,8 +283,11 @@ body{
 }
 #footer .copyright{
     background: #17a2b8;
-    padding: 20px 0;
+    padding-top: 20px;
     color: #fff;
+}
+#footer #site-bottom{
+    background: #ffc107;
 }
 #footer .copyright .menu {
     background: #0a9cb3;
@@ -250,6 +310,7 @@ body{
     font-size: 14px;
     display: block;
     margin-bottom: 10px;
+    line-height: 25px;
 }
 #footer .social{
     list-style: none;
@@ -270,4 +331,135 @@ body{
 #footer .social a:hover{
     color: #0084FF;
     border: 2px solid #0084FF;
+}
+#footer .email-support{
+    margin-bottom: 1rem;
+}
+#footer .version{
+    font-size: 11px;
+    font-style: italic;
+    margin: 0;
+}
+#footer .make-with{
+    font-size: 11px;
+    font-style: italic;
+    margin: 0;
+    text-align: right;
+}
+/* Small devices (mobile, 992px and up) */
+@media only screen and (max-width: 768px) {
+    #footer{
+        text-align: center;
+        font-size: 11px;
+    }
+    #footer .make-with{
+        text-align: center;
+    }
+    #footer .copyright .h1 {
+        font-size: 11px;
+    }
+}
+
+/* CUSTOM ANIMATED */
+.bell{
+    -webkit-animation: ring 4s .7s ease-in-out infinite;
+    -webkit-transform-origin: 50% 4px;
+    -moz-animation: ring 4s .7s ease-in-out infinite;
+    -moz-transform-origin: 50% 4px;
+    animation: ring 4s .7s ease-in-out infinite;
+    transform-origin: 50% 4px;
+}
+  
+@-webkit-keyframes ring {
+    0% { -webkit-transform: rotateZ(0); }
+    1% { -webkit-transform: rotateZ(30deg); }
+    3% { -webkit-transform: rotateZ(-28deg); }
+    5% { -webkit-transform: rotateZ(34deg); }
+    7% { -webkit-transform: rotateZ(-32deg); }
+    9% { -webkit-transform: rotateZ(30deg); }
+    11% { -webkit-transform: rotateZ(-28deg); }
+    13% { -webkit-transform: rotateZ(26deg); }
+    15% { -webkit-transform: rotateZ(-24deg); }
+    17% { -webkit-transform: rotateZ(22deg); }
+    19% { -webkit-transform: rotateZ(-20deg); }
+    21% { -webkit-transform: rotateZ(18deg); }
+    23% { -webkit-transform: rotateZ(-16deg); }
+    25% { -webkit-transform: rotateZ(14deg); }
+    27% { -webkit-transform: rotateZ(-12deg); }
+    29% { -webkit-transform: rotateZ(10deg); }
+    31% { -webkit-transform: rotateZ(-8deg); }
+    33% { -webkit-transform: rotateZ(6deg); }
+    35% { -webkit-transform: rotateZ(-4deg); }
+    37% { -webkit-transform: rotateZ(2deg); }
+    39% { -webkit-transform: rotateZ(-1deg); }
+    41% { -webkit-transform: rotateZ(1deg); }
+
+    43% { -webkit-transform: rotateZ(0); }
+    100% { -webkit-transform: rotateZ(0); }
+}
+  
+@-moz-keyframes ring {
+    0% { -moz-transform: rotate(0); }
+    1% { -moz-transform: rotate(30deg); }
+    3% { -moz-transform: rotate(-28deg); }
+    5% { -moz-transform: rotate(34deg); }
+    7% { -moz-transform: rotate(-32deg); }
+    9% { -moz-transform: rotate(30deg); }
+    11% { -moz-transform: rotate(-28deg); }
+    13% { -moz-transform: rotate(26deg); }
+    15% { -moz-transform: rotate(-24deg); }
+    17% { -moz-transform: rotate(22deg); }
+    19% { -moz-transform: rotate(-20deg); }
+    21% { -moz-transform: rotate(18deg); }
+    23% { -moz-transform: rotate(-16deg); }
+    25% { -moz-transform: rotate(14deg); }
+    27% { -moz-transform: rotate(-12deg); }
+    29% { -moz-transform: rotate(10deg); }
+    31% { -moz-transform: rotate(-8deg); }
+    33% { -moz-transform: rotate(6deg); }
+    35% { -moz-transform: rotate(-4deg); }
+    37% { -moz-transform: rotate(2deg); }
+    39% { -moz-transform: rotate(-1deg); }
+    41% { -moz-transform: rotate(1deg); }
+
+    43% { -moz-transform: rotate(0); }
+    100% { -moz-transform: rotate(0); }
+}
+  
+@keyframes ring {
+    0% { transform: rotate(0); }
+    1% { transform: rotate(30deg); }
+    3% { transform: rotate(-28deg); }
+    5% { transform: rotate(34deg); }
+    7% { transform: rotate(-32deg); }
+    9% { transform: rotate(30deg); }
+    11% { transform: rotate(-28deg); }
+    13% { transform: rotate(26deg); }
+    15% { transform: rotate(-24deg); }
+    17% { transform: rotate(22deg); }
+    19% { transform: rotate(-20deg); }
+    21% { transform: rotate(18deg); }
+    23% { transform: rotate(-16deg); }
+    25% { transform: rotate(14deg); }
+    27% { transform: rotate(-12deg); }
+    29% { transform: rotate(10deg); }
+    31% { transform: rotate(-8deg); }
+    33% { transform: rotate(6deg); }
+    35% { transform: rotate(-4deg); }
+    37% { transform: rotate(2deg); }
+    39% { transform: rotate(-1deg); }
+    41% { transform: rotate(1deg); }
+
+    43% { transform: rotate(0); }
+    100% { transform: rotate(0); }
+}
+
+.heart {
+	animation: beat .25s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.4); }
 }
