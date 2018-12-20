@@ -45,8 +45,8 @@ $(document).ready(function() {
         event.preventDefault();
         var affLink = $(this).find("a").data("aff-link");
         var redirectLink = $(this).find("a").data("redirect-link");
-        window.location.replace(affLink);
         window.open(redirectLink, '_blank');
+        window.location.replace(affLink);
         // $("#couponModal").modal();
     });
 
