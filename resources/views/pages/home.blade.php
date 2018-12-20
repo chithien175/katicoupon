@@ -1,5 +1,15 @@
 @extends('layouts.master')
 
+@section('title', 'MÃ GIẢM GIÁ | PHIẾU KHUYẾN MÃI | COUPONS | VOUCHERS miễn phí tại khocoupon.net')
+@section('description', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers.')
+@section('keywords', '')
+
+@section('fb_url', '')
+@section('fb_type', '')
+@section('fb_title', '')
+@section('fb_des', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers.')
+@section('fb_img', '')
+
 @section('css')
 
 @endsection
@@ -14,7 +24,7 @@
     <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="promotion" role="tabpanel" aria-labelledby="promotion-tab">
             @php
-                $promotions = getAllPromotions(NULL);
+                $promotions = getAllPromotions(NULL, 15);
             @endphp
 
             @include('partials.promotion-list')

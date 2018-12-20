@@ -24,3 +24,6 @@
         <div class="end_time"><i class="icon-green far fa-clock"></i> Còn {{ $current->diffInDays($future) + 1 }} ngày</div>
     </div>
 @endforeach
+
+<!-- Pagination -->
+{{ $promotions->links() }}

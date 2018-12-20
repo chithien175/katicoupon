@@ -45,6 +45,7 @@ body{
 }
 
 /* HOMEPAGE */
+
 #promotion-tab i{
     font-size: 25px;
 }
@@ -462,4 +463,20 @@ body{
 /* Heart beat animation */
 @keyframes beat{
 	to { transform: scale(1.4); }
+}
+
+/* PAGINATION */
+.pagination{
+    margin: 10px 0 10px;
+    font-size: 11px;
+}
+.pagination .page-item.active .page-link {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.pagination .page-link {
+    color: #17a2b8;
+}
+.pagination .page-link:hover {
+    color: #17a2b8;
 }
