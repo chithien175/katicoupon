@@ -10,14 +10,6 @@ class FrontendController extends Controller
         return view('pages.home');
     }
 
-    // public function postMerchantFilter(Request $request){
-    //     $merchant = $request['merchant-select'];
-    //     if($merchant != 'false'){
-    //         return redirect()->route('get-merchant-filter', $merchant);
-    //     }
-    //     return redirect()->back();
-    // }
-
     public function merchantFilter($merchant){
         return view('pages.merchant-filter')->withMerchant($merchant);
     }

@@ -5,32 +5,26 @@
 @endsection
 
 @section('content')
-<div id="homepage" class="col-lg-9">
+<div id="homepage" class="col-lg-9 mb-4">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item">
-            <a class="nav-link active" id="promotion-tab" data-toggle="tab" href="#promotion" role="tab" aria-controls="promotion" aria-selected="true"><i class="fab fa-hotjar"></i> SIÊU KHUYẾN MÃI</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="coupon-tab" data-toggle="tab" href="#coupon" role="tab" aria-controls="coupon" aria-selected="false"><i class="fas fa-tag"></i> GIẢM GIÁ KHỦNG</a>
+            <a class="nav-link active" id="promotion-tab" data-toggle="tab" href="#promotion" role="tab" aria-controls="promotion" aria-selected="true"><i class="fab fa-hotjar"></i> <span class="color-warning">KHUYẾN MÃI</span> ĐANG DIỄN RA</a>
         </li>
     </ul>
     <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="promotion" role="tabpanel" aria-labelledby="promotion-tab">
             @php
-                $promotions = getAllPromotions(NULL, 0);
+                $promotions = getAllPromotions(NULL);
             @endphp
 
             @include('partials.promotion-list')
         </div>
-        <div class="tab-pane fade" id="coupon" role="tabpanel" aria-labelledby="coupon-tab">
-            @php
-                $coupons = getAllPromotions(NULL, 1);
-            @endphp
-
-            @include('partials.coupon-list')
-        </div>
     </div>
 </div>
+@endsection
+
+@section('advanced-filter')
+    @include('partials.advanced-filter')
 @endsection
 
 @section('js')

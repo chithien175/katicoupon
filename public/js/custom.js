@@ -1,7 +1,6 @@
 $(document).ready(function() {
     // Advanced Filter - Init Select2
-    $("#merchant-select").select2({
-    });
+    $("#merchant-select").select2({});
 
     // On Click Submit Filter
     $("#advanced-filter-submit").on("click", function(event){
@@ -32,5 +31,17 @@ $(document).ready(function() {
             }
             toastr["error"]("Vui lòng chọn nhà cung cấp", "Lỗi");
         }
+    });
+
+    // On Click Aff Link
+    $(".click-aff-link").on("click", function(event){
+        event.preventDefault();
+        var affLink = $(this).data("aff-link");
+        window.open(affLink, '_blank');
+    });
+
+    // On Click Get Coupon
+    $(".click-get-coupon").on("click", function(event){
+        event.preventDefault();
     });
 });

@@ -16,6 +16,8 @@
         <link rel="stylesheet" href="{{ asset('/plugins/pace/pace.css') }}">
         <!-- Toastr CSS -->
         <link rel="stylesheet" href="{{ asset('/plugins/toastr/toastr.min.css') }}">
+        <!-- IcoFont CSS -->
+        <!-- <link rel="stylesheet" href="{{ asset('/plugins/icofont/icofont.css') }}"> -->
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{ asset('/css/custom.css') }}">
         @yield('css')
@@ -37,7 +39,8 @@
         @include('partials.footer')
 
         <!-- Advanced Filter -->
-        @include('partials.advanced-filter')
+        <!-- @include('partials.advanced-filter') -->
+        @yield('advanced-filter')
 
         <!-- Optional JavaScript -->
         <!-- jQuery JS -->

@@ -16,5 +16,4 @@
 // });
 
 Route::get('/', 'FrontendController@home')->name('home');
-// Route::post('/merchant/filter', 'FrontendController@postMerchantFilter')->name('post-merchant-filter');
-Route::get('/ma-giam-gia-phieu-khuyen-mai-coupon-voucher-{merchant}.html', 'FrontendController@merchantFilter')->name('merchant-filter');
+Route::get('/ma-giam-gia-phieu-khuyen-mai-coupon-voucher-{merchant}.html', 'FrontendController@merchantFilter')->name('merchant-filter')->where(['merchant' => '[a-zA-Z-0-9]+']);
