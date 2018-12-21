@@ -1,14 +1,14 @@
 @extends('layouts.master')
 
-@section('title', 'Tổng hợp khuyến mãi '.$merchant.' tháng'. date('m') . ' tại khocoupon.net')
+@section('title', 'Tổng Hợp Khuyến Mãi '.$merchant.' Tháng'. date('m') . ' Tại khocoupon.net')
 @section('description', 'Cập nhật mã giảm giá '.$merchant.', phiếu khuyến mãi '.$merchant.', coupons '.$merchant.', vouchers '.$merchant.'.')
 @section('keywords', '')
 
-@section('fb_url', '')
+@section('fb_url', route('merchant-filter', $merchant))
 @section('fb_type', '')
-@section('fb_title', '')
+@section('fb_title', 'Tổng Hợp Khuyến Mãi '.$merchant.' Tháng'. date('m') . ' Tại khocoupon.net')
 @section('fb_des', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers.')
-@section('fb_img', '')
+@section('fb_img', asset('icons/launcher-icon-4x.png'))
 
 @section('css')
 
@@ -18,7 +18,7 @@
 <div id="merchant" class="col-lg-9 mb-4 animated fadeInLeft">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item">
-            <a class="nav-link active" id="promotion-tab" data-toggle="tab" href="#promotion" role="tab" aria-controls="promotion" aria-selected="true"><i class="fas fa-gift mr-2 bell"></i> TỔNG HỢP KHUYẾN MÃI <span class="color-warning">{{ $merchant }}</span> THÁNG {{date('m')}}</a>
+            <a class="nav-link active" id="promotion-tab" data-toggle="tab" href="#promotion" role="tab" aria-controls="promotion" aria-selected="true"><i class="fas fa-gift mr-2 bell"></i> TỔNG HỢP KHUYẾN MÃI <span class="color-warning">{{ $merchant }}</span> MỚI NHẤT THÁNG {{date('m')}}</a>
         </li>
     </ul>
     <div class="tab-content" id="myTabContent">

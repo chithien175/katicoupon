@@ -9,7 +9,15 @@
 
         <!-- Google SEO -->
         <title>@yield('title')</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Set for iOS -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"/>
+        <meta name="apple-mobile-web-app-title" content="KhoCoupon.net">
+        <link rel="apple-touch-icon" href="{{ asset('icons/ios/touch-icon-iphone.png') }}">
+        <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('icons/ios/touch-icon-ipad.png') }}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('icons/ios/touch-icon-iphone-retina.png') }}">
+        <link rel="apple-touch-icon" sizes="167x167" href="{{ asset('icons/ios/touch-icon-ipad-retina.png') }}">
+
         <meta name="description" content="@yield('description')">
         <meta name="robots" content="index, follow" />
         <meta name="keywords" content="mã giảm giá, phiếu khuyến mãi, coupons, vouchers, @yield('keywords')">
@@ -24,6 +32,8 @@
         <meta property="og:title"         content="@yield('fb_title')" />
         <meta property="og:description"   content="@yield('fb_des')" />
         <meta property="og:image"         content="@yield('fb_img')" />
+
+        <link rel="manifest" href="{{ asset('/manifest.json') }}">
         
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ asset('/plugins/bootstrap/css/bootstrap.min.css') }}">
@@ -42,8 +52,16 @@
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="{{ asset('/css/responsive.css') }}">
         @yield('css')
+
+        <!-- Analytics -->
+        @include('socials.analytics')
+
+        <!-- Google Adsense -->
+        @include('socials.adsense')
     </head>
     <body>
+        
+
         <!-- Header -->
         @include('partials.header')
         <div id="content-container" class="container">
@@ -65,6 +83,15 @@
         <!-- Coupon Modal -->
         @yield('coupon-modal')
 
+        <!-- Service Worker JS -->
+        <script>
+            if ("serviceWorker" in navigator) {
+                window.addEventListener("load", function () {
+                    navigator.serviceWorker.register("/service-worker.js");
+                });
+            }
+        </script>
+
         <!-- Optional JavaScript -->
         <!-- jQuery JS -->
         <script src="{{ asset('/plugins/jquery/jquery-3.3.1.min.js') }}"></script>
@@ -80,6 +107,7 @@
         <script src="{{ asset('/plugins/toastr/toastr.min.js') }}"></script>
         <!-- Custom JS -->
         <script src="{{ asset('/js/custom.js') }}"></script>
+
         @yield('js')
     </body>
 </html>

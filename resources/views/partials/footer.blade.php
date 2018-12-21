@@ -15,7 +15,7 @@
 				<div class="col-md-4">
 					<div class="menu">
 						<ul>
-							<li><a rel="nofollow" href="#">Thoả thuận sử dụng</a></li>
+							<li><a rel="nofollow" href="{{ route('term') }}">Điều khoản sử dụng</a></li>
 							<li><a rel="nofollow" href="#">Quy định bảo mật</a></li>
 							<li><a rel="nofollow" href="#">Liên hệ</a></li>
 						</ul>

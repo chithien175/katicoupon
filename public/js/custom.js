@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     // SET: Advanced Filter - Init Select2
     $("#merchant-select").select2({});
 
