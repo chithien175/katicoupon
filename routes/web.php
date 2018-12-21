@@ -20,3 +20,8 @@ Route::get('/ma-giam-gia-phieu-khuyen-mai-coupon-voucher-{merchant}.html', 'Fron
 
 // Ajax get coupon by promotionID
 Route::post('/getCouponByPromotionId', 'AjaxController@getCouponByPromotionId')->name('getCouponByPromotionId');
+
+
+// Route::get('/get-random.html', function (){
+//     return view('customs.get-random');
+// });

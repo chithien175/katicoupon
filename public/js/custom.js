@@ -47,7 +47,6 @@ $(document).ready(function() {
         var redirectLink = $(this).find("a").data("redirect-link");
         window.open(redirectLink, '_blank');
         window.location.replace(affLink);
-        // $("#couponModal").modal();
     });
 
     // CHECK: On Click Copy Coupon
@@ -74,11 +73,5 @@ $(document).ready(function() {
             "hideMethod": "fadeOut"
         }
         toastr["success"]("Mã đã được sao chép vào khay nhớ tạm", "Thành công");
-
     });
-
-    // SET: Tooltip bootstrap
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    })
 });

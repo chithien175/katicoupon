@@ -1,4 +1,4 @@
-<div class="modal fade animated zoomIn" id="couponModal" tabindex="-1" role="dialog" aria-labelledby="couponModalLabel" aria-hidden="true">
+<div class="modal fade" id="couponModal" tabindex="-1" role="dialog" aria-labelledby="couponModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -11,8 +11,8 @@
                 <div class="coupon-content">
                     <p class="coupon-title">COPY MÃ VÀ SỬ DỤNG Ở BƯỚC THANH TOÁN</p>
                     <div class="coupon-code">
-                        <input type="text" class="code-text" autocomplete="off" readonly="" value="">
-                        <button class="btn btn_primary btn-copy-coupon" data-toggle="tooltip" data-placement="bottom" title="Sao chép mã coupon"> <i class="far fa-copy"></i> <span>Copy</span> </button>
+                        <input type="text" class="code-text" disabled value="">
+                        <button class="btn btn_primary btn-copy-coupon"> <i class="far fa-copy"></i> <span>Sao chép mã</span> </button>
                     </div>
                     <div class="coupon-des"></div>
                 </div>

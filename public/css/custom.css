@@ -23,6 +23,7 @@ body{
 
 /* NAVBAR */
 .navbar{
+    padding: 0 10px;
     background-color: #17a2b8f2 !important;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
 }
@@ -31,12 +32,6 @@ body{
 }
 .navbar .navbar-brand:hover{
     color: #fff;
-}
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .navbar .navbar-brand{
-        margin: 0 auto;
-    }
 }
 
 /* CONTENT CONTAINER */
@@ -96,6 +91,7 @@ body{
     width: 80px;
     text-align: center;
     font-weight: 600;
+    border: 2px dashed #ffffff;
 }
 .item-group .aff-link-button:hover{
     cursor: pointer;
@@ -119,6 +115,7 @@ body{
     width: 80px;
     text-align: center;
     font-weight: 600;
+    border: 2px dashed #ffffff;
 }
 .item-group .get-coupon-button:hover{
     cursor: pointer;
@@ -165,7 +162,7 @@ body{
     font-size: 11px;
     position: absolute;
     right: 10px;
-    top: 40px;
+    top: 45px;
     color: green;
 }
 .color-red{
@@ -201,7 +198,7 @@ body{
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    width: 80%;
+    width: 100%;
     letter-spacing: 2px;
     margin: 0 auto 10px auto;
     display: block;
@@ -225,10 +222,7 @@ body{
 }
 
 /* SIDEBAR */
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {
-    
-} */
+
 #top-merchant-tab i{
     font-size: 25px;
 }
@@ -347,19 +341,7 @@ body{
     margin: 0;
     text-align: right;
 }
-/* Small devices (mobile, 992px and up) */
-@media only screen and (max-width: 768px) {
-    #footer{
-        text-align: center;
-        font-size: 11px;
-    }
-    #footer .make-with{
-        text-align: center;
-    }
-    #footer .copyright .h1 {
-        font-size: 11px;
-    }
-}
+
 
 /* CUSTOM ANIMATED */
 .bell{

@@ -9,11 +9,11 @@
             </h5>
         </div>
         @if(empty($promotion['coupons']))
-        <div class="aff-link-button click-aff-link" data-toggle="tooltip" data-placement="top" title="Click nhận ưu đãi">
+        <div class="aff-link-button click-aff-link">
             <a href="javascript:void(0)" data-aff-link="{{ $promotion['aff_link'] }}"><i class="fas fa-tag"></i> CHI TIẾT</a>
         </div>
         @else
-        <div class="get-coupon-button click-get-coupon" data-toggle="tooltip" data-placement="top" title="Click nhận mã coupon">
+        <div class="get-coupon-button click-get-coupon">
             <a href="javascript:void(0)" data-aff-link="{{ $promotion['aff_link'] }}" data-redirect-link="{{ route('merchant-filter', $promotion['merchant']) }}?promotion={{ $promotion['id'] }}"><i class="fas fa-cut"></i> LẤY MÃ</a>
         </div>
         @endif

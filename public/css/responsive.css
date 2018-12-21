@@ -1,0 +1,25 @@
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+    
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .navbar .navbar-brand{
+        margin: 0 auto;
+    }
+}
+
+/* Small devices (mobile, 992px and up) */
+@media only screen and (max-width: 768px) {
+    #footer{
+        text-align: center;
+        font-size: 11px;
+    }
+    #footer .make-with{
+        text-align: center;
+    }
+    #footer .copyright .h1 {
+        font-size: 11px;
+    }
+}

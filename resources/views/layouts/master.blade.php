@@ -15,7 +15,7 @@
         <meta name="keywords" content="mã giảm giá, phiếu khuyến mãi, coupons, vouchers, @yield('keywords')">
         <meta name="author" content="Kho Coupon" />
         <link rel="canonical" href="https://khocoupon.net/" />
-        <link rel="shortcut icon" type="image/png" href="">
+        <link rel="shortcut icon" type="image/png" href="{{ asset('favicon.png') }}">
 
         <!-- FB Open Graph Tags -->
         <meta property="fb:app_id"        content="xxxxxxxxxxxxxx" />
@@ -24,9 +24,6 @@
         <meta property="og:title"         content="@yield('fb_title')" />
         <meta property="og:description"   content="@yield('fb_des')" />
         <meta property="og:image"         content="@yield('fb_img')" />
-   
-
-        
         
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ asset('/plugins/bootstrap/css/bootstrap.min.css') }}">
@@ -42,6 +39,8 @@
         <link rel="stylesheet" href="{{ asset('/plugins/animate/animate.css') }}">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{ asset('/css/custom.css') }}">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="{{ asset('/css/responsive.css') }}">
         @yield('css')
     </head>
     <body>
