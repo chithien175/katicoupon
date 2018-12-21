@@ -464,7 +464,7 @@ body{
 }
 
 /* PAGE, POST, ARTICLE */
-#termpage{
+#termpage, #versionpage{
     background-color: #fff;
 }
 .page-content{

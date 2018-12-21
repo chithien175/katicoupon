@@ -20,10 +20,15 @@ Route::get('/', 'FrontendController@home')->name('home');
 // Trang chi tiết nhà cung cấp
 Route::get('/ma-giam-gia-phieu-khuyen-mai-coupon-voucher-{merchant}.html', 'FrontendController@merchantFilter')->name('merchant-filter')->where(['merchant' => '[a-zA-Z-0-9].+']);
 
-// Trang thỏa thuận sử dụng
+// Trang điều khoản sử dụng
 Route::get('/dieu-khoan-su-dung.html', function(){
     return view('pages.term');
 })->name('term');
+
+// Trang phiên bản & tính năng
+Route::get('/tinh-nang-va-phien-ban.html', function(){
+    return view('pages.version');
+})->name('version');
 
 // Ajax get coupon by promotionID
 Route::post('/getCouponByPromotionId', 'AjaxController@getCouponByPromotionId')->name('getCouponByPromotionId');

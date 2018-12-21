@@ -29,7 +29,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
-					<p class="version">© 2018 <strong>Kho Coupon</strong> | v1.0.a(alpha) - Phiên bản thử nghiệm</p>
+					<p class="version">© 2018 <strong>Kho Coupon</strong> | <a href="{{ route('version') }}">v1.0.alpha - Phiên bản thử nghiệm</a> </p>
 				</div>
 				<div class="col-md-4">
 					<p class="make-with">Made with <i class="fa fa-heart heart" style="color:red"></i> in Nha Trang</p>
