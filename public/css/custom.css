@@ -237,7 +237,7 @@ body{
     box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.25);
 }
 #advanced-filter .content-filter{
-    width: 350px;
+    width: 300px;
     margin: 0 auto;
     padding: 10px 0;
 }
@@ -463,27 +463,3 @@ body{
     color: #17a2b8;
 }
 
-/* PAGE, POST, ARTICLE */
-#termpage, #versionpage{
-    background-color: #fff;
-}
-.page-content{
-    padding: 15px;
-}
-.page-content .title h1{
-    font-size: 28px;
-    color: #17a2b8;
-    font-weight: 600;
-    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,sans-serif', sans-serif;
-}
-.page-content .article h2{
-    font-size: 24px;
-    margin: 20px 0 15px 0;
-    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,sans-serif', sans-serif;
-}
-.page-content .article p{
-    font-size: 100%;
-    text-align: justify;
-    margin-bottom: .5rem;
-    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,sans-serif', sans-serif;
-}

@@ -18,7 +18,7 @@
 <div id="merchant" class="col-lg-9 mb-4 animated fadeInLeft">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item">
-            <a class="nav-link active" id="promotion-tab" data-toggle="tab" href="#promotion" role="tab" aria-controls="promotion" aria-selected="true"><i class="fas fa-gift mr-2 bell"></i> TỔNG HỢP KHUYẾN MÃI <span class="color-warning">{{ $merchant }}</span> MỚI NHẤT THÁNG {{date('m')}}</a>
+            <a class="nav-link active" id="promotion-tab" data-toggle="tab" href="#promotion" role="tab" aria-controls="promotion" aria-selected="true"><i class="fas fa-gift mr-2 bell"></i> KHUYẾN MÃI <span class="color-warning">{{ $merchant }}</span> MỚI NHẤT THÁNG {{date('m')}}</a>
         </li>
     </ul>
     <div class="tab-content" id="myTabContent">

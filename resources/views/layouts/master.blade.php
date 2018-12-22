@@ -36,21 +36,25 @@
         <link rel="manifest" href="{{ asset('/manifest.json') }}">
         
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="{{ asset('/plugins/bootstrap/css/bootstrap.min.css') }}">
+        <link async rel="stylesheet" href="{{ asset('/plugins/bootstrap/css/bootstrap.min.css') }}" >
         <!-- Fontawesome CSS -->
-        <link rel="stylesheet" href="{{ asset('/plugins/fontawesome/css/all.min.css') }}">
+        <link async rel="stylesheet" href="{{ asset('/plugins/fontawesome/css/all.min.css') }}" >
         <!-- Select2 CSS -->
-        <link rel="stylesheet" href="{{ asset('/plugins/select2/select2.min.css') }}" />
+        <link async rel="stylesheet" href="{{ asset('/plugins/select2/select2.min.css') }}" >
         <!-- Pace CSS -->
-        <link rel="stylesheet" href="{{ asset('/plugins/pace/pace.css') }}">
+        <style>
+            .pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#ffc107;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}
+        </style>
         <!-- Toastr CSS -->
-        <link rel="stylesheet" href="{{ asset('/plugins/toastr/toastr.min.css') }}">
+        <link async rel="stylesheet" href="{{ asset('/plugins/toastr/toastr.min.css') }}" >
         <!-- Animate CSS -->
-        <link rel="stylesheet" href="{{ asset('/plugins/animate/animate.css') }}">
+        <link async rel="stylesheet" href="{{ asset('/plugins/animate/animate.min.css') }}" >
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{ asset('/css/custom.css') }}">
+        <link async rel="stylesheet" href="{{ asset('/css/custom.css') }}" >
         <!-- Responsive CSS -->
-        <link rel="stylesheet" href="{{ asset('/css/responsive.css') }}">
+        <link async rel="stylesheet" href="{{ asset('/css/responsive.css') }}" >
+        <!-- Article CSS -->
+        <link async rel="stylesheet" href="{{ asset('/css/article.css') }}" >
         @yield('css')
 
         <!-- Analytics -->
@@ -96,17 +100,17 @@
         <!-- jQuery JS -->
         <script src="{{ asset('/plugins/jquery/jquery-3.3.1.min.js') }}"></script>
         <!-- Popper JS -->
-        <script src="{{ asset('/plugins/popper/popper.min.js') }}"></script>
+        <script async src="{{ asset('/plugins/popper/popper.min.js') }}" ></script>
         <!-- Bootstrap JS  -->
-        <script src="{{ asset('/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+        <script async src="{{ asset('/plugins/bootstrap/js/bootstrap.min.js') }}" ></script>
         <!-- Select2 JS -->
-        <script src="{{ asset('/plugins/select2/select2.min.js') }}"></script>
+        <script async src="{{ asset('/plugins/select2/select2.min.js') }}" ></script>
         <!-- Pace JS -->
-        <script src="{{ asset('/plugins/pace/pace.min.js') }}"></script>
+        <script async src="{{ asset('/plugins/pace/pace.min.js') }}" ></script>
         <!-- Toastr JS -->
-        <script src="{{ asset('/plugins/toastr/toastr.min.js') }}"></script>
+        <script async src="{{ asset('/plugins/toastr/toastr.min.js') }}" ></script>
         <!-- Custom JS -->
-        <script src="{{ asset('/js/custom.js') }}"></script>
+        <script async src="{{ asset('/js/custom.js') }}" ></script>
 
         @yield('js')
     </body>

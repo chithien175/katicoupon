@@ -16,7 +16,8 @@
 					<div class="menu">
 						<ul>
 							<li><a rel="nofollow" href="{{ route('term') }}">Điều khoản sử dụng</a></li>
-							<li><a rel="nofollow" href="#">Quy định bảo mật</a></li>
+							<li><a rel="nofollow" href="{{ route('privacy-policy') }}">Chính sách bảo mật</a></li>
+							<li><a rel="nofollow" href="{{ route('responsibility') }}">Miễn trừ trách nhiệm</a></li>
 							<li><a rel="nofollow" href="#">Liên hệ</a></li>
 						</ul>
 					</div>

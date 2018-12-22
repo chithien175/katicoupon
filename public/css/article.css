@@ -1,0 +1,44 @@
+/* PAGE, POST, ARTICLE */
+.page-content{
+    padding: 15px;
+    background-color: #fff;
+}
+.page-content .title h1{
+    font-size: 28px;
+    color: #17a2b8;
+    font-weight: 600;
+    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,sans-serif', sans-serif;
+}
+.page-content .article h2{
+    font-size: 22px;
+    margin: 20px 0 10px 0;
+    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,sans-serif', sans-serif;
+}
+.page-content .article p{
+    font-size: 100%;
+    text-align: justify;
+    margin-bottom: .5rem;
+    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,sans-serif', sans-serif;
+}
+
+/* Small devices (mobile, 768px and down) */
+@media only screen and (max-width: 768px) {
+    /* PAGE, POST, ARTICLE */
+    .page-content .title h1{
+        font-size: 26px;
+        color: #17a2b8;
+        font-weight: 600;
+        font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,sans-serif', sans-serif;
+    }
+    .page-content .article h2{
+        font-size: 20px;
+        margin: 20px 0 10px 0;
+        font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,sans-serif', sans-serif;
+    }
+    .page-content .article p{
+        font-size: 14px;
+        text-align: justify;
+        margin-bottom: .5rem;
+        font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,sans-serif', sans-serif;
+    }
+}
