@@ -30,9 +30,11 @@ function getAllCampaigns(){
     // Read File
     $jsonString = file_get_contents(public_path('data/campaigns/campaigns.json'));
     $data = json_decode($jsonString, true);
-    return $data;
+    $campaigns = $data['data'];
+    return $campaigns;
 }
 
+// Phân trang từ mảng
 function paginationArray($array, $pagination){
     // Get current page form url e.x. &page=1
     $currentPage = LengthAwarePaginator::resolveCurrentPage();

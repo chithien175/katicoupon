@@ -26,4 +26,9 @@
 @endforeach
 
 <!-- Pagination -->
-{{ $promotions->links() }}
+<div class="row">
+    <div class="col-lg-6 mx-auto">
+        {{ $promotions->links() }}
+    </div>
+</div>
+

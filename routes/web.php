@@ -65,6 +65,12 @@ Route::get('/tinh-nang-va-phien-ban.html', function(){
 Route::post('/getCouponByPromotionId', 'AjaxController@getCouponByPromotionId')->name('getCouponByPromotionId');
 
 
-// Route::get('/get-random.html', function (){
-//     return view('customs.get-random');
-// });
+/*
+|--------------------------------------------------------------------------
+| Backend
+|--------------------------------------------------------------------------
+|
+| Route Sitemap Generator backend
+|
+*/
+Route::get('generate-sitemap', 'BackendController@generateSitemap');

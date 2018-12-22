@@ -8,7 +8,7 @@
             @endphp
             <select class="form-control" id="merchant-select" name="merchant-select">
                 <option value="false">Chọn nhà cung cấp</option>
-                @foreach($campaigns['data'] as $campaign)
+                @foreach($campaigns as $campaign)
                     <option {{ ($merchant==$campaign['merchant'])?'selected':'' }} value="{{ $campaign['merchant'] }}" data-merchant-link="{{ route('merchant-filter', $campaign['merchant']) }}">{{ $campaign['merchant'] }}</option>
                 @endforeach
             </select>

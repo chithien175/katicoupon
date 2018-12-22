@@ -296,6 +296,7 @@ body{
 #footer .copyright .menu ul {
     list-style: none;
     padding-left: 0;
+    padding-right: 0;
     margin: 0;
 }
 #footer .copyright .menu ul li a {

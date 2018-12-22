@@ -24,6 +24,7 @@
                 <li>Liệt kê danh sách khuyến mãi mới nhất.</li>
                 <li>Tìm kiếm khuyến mãi theo nhà cung cấp.</li>
                 <li>Giao diện thân thiện với thiết bị di dộng.</li>
+                <li>Thêm sitemap <a href="{{ url('/sitemap.xml') }}">{{ url('/sitemap.xml') }}</a>.</li>
             </ul>
         </div>
     </div>
