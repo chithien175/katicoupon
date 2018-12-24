@@ -1582,21 +1582,6 @@
             "start_time": "2018-12-15"
         },
         {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffptshop.com.vn%2Fdien-thoai%2Fsamsung-galaxy-note-9",
-            "banners": [],
-            "categories": [],
-            "content": "SAMSUNG NOTE 9 128GB: Giảm ngay 6,000,000đ ( 2,5 triệu qua Quà tặng Galaxy + 3,5 triệu từ FPTShop) + Trả góp 0%",
-            "coupons": [],
-            "domain": "fptshop.com.vn",
-            "end_time": "2018-12-23",
-            "id": "5019011950581111098",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fptshop/fptshop_17.12_3.png",
-            "link": "https://fptshop.com.vn/dien-thoai/samsung-galaxy-note-9",
-            "merchant": "fptshop",
-            "name": "SAMSUNG NOTE 9 128GB: Giảm ngay 6,000,000đ",
-            "start_time": "2018-12-17"
-        },
-        {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fshopee.vn%2Fm%2Furbancity1212",
             "banners": [],
             "categories": [],
@@ -1670,33 +1655,6 @@
             "merchant": "tikivn",
             "name": "VUI GIÁNG SINH - BÉ RINH QUÀ KHỦNG",
             "start_time": "2018-12-17"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.adayroi.com%2Fhuggies-lp1790%3Fitm_source%3DMega_HV_P4_STOLHTD%26itm_medium%3DPC%26itm_campaign%3D20181217_Huggies",
-            "banners": [],
-            "categories": [
-                {
-                    "category_name": "me-va-be",
-                    "category_name_show": "Mẹ và bé",
-                    "category_no": 108
-                }
-            ],
-            "content": "Nhập mã 10HG12 tặng 10% cho đơn hàng từ 500K( giảm tối đa 200K)",
-            "coupons": [
-                {
-                    "coupon_code": "10HG12 ",
-                    "coupon_desc": "Giảm thêm 10%",
-                    "coupon_save": "10%"
-                }
-            ],
-            "domain": "adayroi.com",
-            "end_time": "2018-12-23",
-            "id": "5019231560175145224",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/adayroi/adayroi_17.12.jpg",
-            "link": "https://www.adayroi.com/huggies-lp1790?itm_source=Mega_HV_P4_STOLHTD&itm_medium=PC&itm_campaign=20181217_Huggies",
-            "merchant": "adayroi",
-            "name": "Huggies: Sản bỉm sốc - Nhận hàng siêu tốc",
-            "start_time": "2018-12-13"
         },
         {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.fahasa.com%2Faz-viet-nam%3Fattempt%3D1",
@@ -2020,68 +1978,6 @@
             "link": "https://cellphones.com.vn/asus-rog-phone-128-gb-chinh-hang.html",
             "merchant": "cellphones",
             "name": "Đặt trước ROG PHONE - Tặng gamevice trị giá 1.890.000đ",
-            "start_time": "2018-12-18"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fcellphones.com.vn%2Fsamsung-galaxy-s9-plus-64gb-chinh-hang-vang-do.html",
-            "banners": [
-                {
-                    "height": 90,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/728x90/samsung-s9+-red-_hcm300x250.jpg",
-                    "width": 728
-                },
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/160x600/samsung-s9+-red-_hcm300x250.jpg",
-                    "width": 160
-                },
-                {
-                    "height": 250,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/300x250/samsung-s9+-red-_hcm300x250.jpg",
-                    "width": 300
-                }
-            ],
-            "categories": [],
-            "content": "Samsung Galaxy S9+ 64GB đỏ - Giá sốc cuối tuần chỉ 16.590.000đ tại HCM.\r\nThời gian từ 21/12- 23/12\r\n",
-            "coupons": [],
-            "domain": "cellphones.com.vn",
-            "end_time": "2018-12-23",
-            "id": "5019858146783041919",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/cellphones/samsung-s9+-red-_hcm300x250.jpg",
-            "link": "https://cellphones.com.vn/samsung-galaxy-s9-plus-64gb-chinh-hang-vang-do.html",
-            "merchant": "cellphones",
-            "name": "Samsung Galaxy S9+ 64GB đỏ - Giá sốc cuối tuần chỉ 16.590.000đ tại HCM",
-            "start_time": "2018-12-18"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fcellphones.com.vn%2Fsamsung-galaxy-s9-plus-64gb-chinh-hang-vang-do.html",
-            "banners": [
-                {
-                    "height": 90,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/728x90/samsung-s9+-red-300x250_hn.jpg",
-                    "width": 728
-                },
-                {
-                    "height": 250,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/300x250/samsung-s9+-red-300x250_hn.jpg",
-                    "width": 300
-                },
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/160x600/samsung-s9+-red-300x250_hn.jpg",
-                    "width": 160
-                }
-            ],
-            "categories": [],
-            "content": "Samsung Galaxy S9+ 64GB đỏ - Giá sốc cuối tuần chỉ 16.490.000đ tại Hà Nội.\r\nThời gian từ 21/12 - 23/12",
-            "coupons": [],
-            "domain": "cellphones.com.vn",
-            "end_time": "2018-12-23",
-            "id": "5019859222447596548",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/cellphones/samsung-s9+-red-300x250_hn.jpg",
-            "link": "https://cellphones.com.vn/samsung-galaxy-s9-plus-64gb-chinh-hang-vang-do.html",
-            "merchant": "cellphones",
-            "name": "Samsung Galaxy S9+ 64GB đỏ - Giá sốc cuối tuần chỉ 16.490.000đ tại Hà Nội",
             "start_time": "2018-12-18"
         },
         {
@@ -2469,21 +2365,6 @@
             "start_time": "2018-12-19"
         },
         {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fcellphones.com.vn%2Fmien-phi-nang-cap-note-9-512gb",
-            "banners": [],
-            "categories": [],
-            "content": "Miễn phí nâng cấp từ Note 9 128GB lên Note 9 512GB.\r\nThời gian cọc: 18-20/12.\r\nThời gian trả hàng: 21-23/12.\r\nChương trình có thể kết thúc trước hạn, KD sẽ thông báo.\r\nƯu đãi: mua Note 9 512GB với giá 19990k HN và 20090k HCM.\r\nMỗi khách hàng chỉ được tối đa 2 suất.\r\nChương trình không áp dụng chung với thu cũ đổi mới và giảm 2.5 triệu qua galaxy gift.",
-            "coupons": [],
-            "domain": "cellphones.com.vn",
-            "end_time": "2018-12-23",
-            "id": "5020517416545062033",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/cellphones/cellphones_19.12_2.png",
-            "link": "https://cellphones.com.vn/mien-phi-nang-cap-note-9-512gb",
-            "merchant": "cellphones",
-            "name": "SAMSUNG GALAXY NOTE 9 512GB - MIỄN PHÍ NÂNG CẤP",
-            "start_time": "2018-12-19"
-        },
-        {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ftiki.vn%2Fchuong-trinh%2Ftrao-qua-tang-gui-yeu-thuong",
             "banners": [],
             "categories": [
@@ -2589,105 +2470,6 @@
             "link": "https://www.adayroi.com/vinfast",
             "merchant": "adayroi",
             "name": " Giá ưu đãi xe máy điện Klara - Đừng bỏ lỡ",
-            "start_time": "2018-12-20"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.adayroi.com%2Fmktc-hot-deal-lp5302",
-            "banners": [
-                {
-                    "height": 90,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/adayroi/728x90/300x600_22.12.jpg",
-                    "width": 728
-                },
-                {
-                    "height": 250,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/adayroi/300x250/300x600_22.12.jpg",
-                    "width": 300
-                },
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/adayroi/160x600/300x600_22.12.jpg",
-                    "width": 160
-                },
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/adayroi/300x600/300x600_22.12.jpg",
-                    "width": 300
-                }
-            ],
-            "categories": [
-                {
-                    "category_name": "thiet-bi-gia-dung",
-                    "category_name_show": "Thiết bị gia dụng",
-                    "category_no": 104
-                },
-                {
-                    "category_name": "thoi-trang-my-pham",
-                    "category_name_show": "Thời trang - Mỹ phẩm",
-                    "category_no": 115
-                }
-            ],
-            "content": "22/12: Chuẩn bị tiệc Giáng Sinh chi trong 2H. Ưu đãi đến 50%",
-            "coupons": [],
-            "domain": "adayroi.com",
-            "end_time": "2018-12-22",
-            "id": "5021380931464134618",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/adayroi/300x250_22.12.jpg",
-            "link": "https://www.adayroi.com/mktc-hot-deal-lp5302",
-            "merchant": "adayroi",
-            "name": "Cơ hội cuối sắm quà Giáng sinh - Duy nhất ngày 22.12",
-            "start_time": "2018-12-20"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.adayroi.com%2Fmktc-hot-deal-lp5302",
-            "banners": [
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/adayroi/160x600/300x600_23.12.jpg",
-                    "width": 160
-                },
-                {
-                    "height": 90,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/adayroi/728x90/300x600_23.12.jpg",
-                    "width": 728
-                },
-                {
-                    "height": 250,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/adayroi/300x250/300x600_23.12.jpg",
-                    "width": 300
-                },
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/adayroi/300x600/300x600_23.12.jpg",
-                    "width": 300
-                }
-            ],
-            "categories": [
-                {
-                    "category_name": "thiet-bi-gia-dung",
-                    "category_name_show": "Thiết bị gia dụng",
-                    "category_no": 104
-                },
-                {
-                    "category_name": "dien-lanh",
-                    "category_name_show": "Điện lạnh",
-                    "category_no": 105
-                },
-                {
-                    "category_name": "may-anh-may-quay-phim",
-                    "category_name_show": "Máy ảnh - Máy quay phim",
-                    "category_no": 106
-                }
-            ],
-            "content": "23/12: Ưu đãi đến 50%. Giao Hàng Siêu Tốc",
-            "coupons": [],
-            "domain": "adayroi.com",
-            "end_time": "2018-12-23",
-            "id": "5021381978894751509",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/adayroi/300x250_23.12.jpg",
-            "link": "https://www.adayroi.com/mktc-hot-deal-lp5302",
-            "merchant": "adayroi",
-            "name": "Cơ hội cuối sắm quà Giáng sinh - Duy nhất ngày 23.12",
             "start_time": "2018-12-20"
         },
         {

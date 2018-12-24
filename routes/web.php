@@ -10,6 +10,23 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+/*
+|--------------------------------------------------------------------------
+| Backend
+|--------------------------------------------------------------------------
+|
+| Route dành cho backend
+|
+*/
+Route::group(['prefix' => 'backend-system'], function () {
+    Voyager::routes();
+});
+/*
+|
+| Route Sitemap Generator backend
+|
+*/
+Route::get('generate-sitemap', 'BackendController@generateSitemap');
 
 /*
 |--------------------------------------------------------------------------
@@ -24,13 +41,15 @@
 Route::get('/', 'FrontendController@home')->name('home');
 // Trang chi tiết nhà cung cấp
 Route::get('/ma-giam-gia-phieu-khuyen-mai-coupon-voucher-{merchant}.html', 'FrontendController@merchantFilter')->name('merchant-filter')->where(['merchant' => '[a-zA-Z-0-9].+']);
+// Trang chi tiết bài viết
+Route::get('/{slug}-{id}.html', 'FrontendController@postDetail')->name('post-detail')->where(['slug' => '[a-zA-Z-0-9]+', 'id' => '[0-9]*']);
 
 /*
 |--------------------------------------------------------------------------
-| Page - Frontend
+| Pages - Frontend
 |--------------------------------------------------------------------------
 |
-| Route các page frontend
+| Route các pages frontend
 |
 */
 // Trang điều khoản sử dụng
@@ -63,14 +82,3 @@ Route::get('/tinh-nang-va-phien-ban.html', function(){
 */
 // Ajax get coupon by promotionID
 Route::post('/getCouponByPromotionId', 'AjaxController@getCouponByPromotionId')->name('getCouponByPromotionId');
-
-
-/*
-|--------------------------------------------------------------------------
-| Backend
-|--------------------------------------------------------------------------
-|
-| Route Sitemap Generator backend
-|
-*/
-Route::get('generate-sitemap', 'BackendController@generateSitemap');
