@@ -24,7 +24,7 @@ body{
 /* NAVBAR */
 .navbar{
     padding: 0 10px;
-    background-color: #17a2b8f2 !important;
+    background: #17a2b8f2 url(/images/snowing.gif) repeat-x center !important;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
 }
 .navbar .navbar-brand{
@@ -48,7 +48,10 @@ body{
     border-bottom: 1px solid #17a2b8;
     text-transform: uppercase;
 }
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+.nav-tabs .nav-item h1{
+    font-size: 1rem;
+}
+.nav-tabs .nav-item .show .nav-link, .nav-tabs .nav-link.active {
     font-weight: 500;
     color: #ffffff;
     background-color: #17a2b8;
@@ -223,8 +226,38 @@ body{
 
 /* SIDEBAR */
 
-#top-merchant-tab i{
+#top-reviews-tab i{
     font-size: 25px;
+}
+#top-reviews{
+    background-color: #fff;
+}
+#top-reviews ul{
+    list-style: none;
+    padding: 0;
+}
+#top-reviews ul li{
+    padding: 15px;
+}
+#top-reviews ul li a{
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+}
+#top-reviews ul li a:hover{
+    text-decoration: none;
+}
+#top-reviews ul li img{
+    margin-right: 5px;
+    width: 100%;
+    height: auto;
+}
+#top-reviews ul li .thumb{
+    margin-bottom: 5px;
+}
+#top-reviews ul li .title{
+    text-align: justify;
+    line-height: 15px;
 }
 
 /* ADVANCED FILTER */
@@ -464,3 +497,24 @@ body{
     color: #17a2b8;
 }
 
+/* RETURN TO TOP */
+button.scroltop {
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+    border-color: #ffc107;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0;
+    bottom: 30px;
+    box-shadow: 3px 3px 12px -5px #000000;
+    color: #ffc107;
+    cursor: pointer;
+    display: none;
+    height: 40px;
+    line-height: 26px;
+    margin: 0;
+    position: fixed;
+    right: 30px;
+    text-align: center;
+    width: 40px;
+    z-index: 999;
+}

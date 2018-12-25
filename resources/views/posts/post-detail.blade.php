@@ -1,14 +1,14 @@
 @extends('layouts.master')
 
-@section('title', 'Trên tay Vsmart Active 1+: Thiết kế đẹp, cấu hình mạnh')
-@section('description', 'Sau nhiều ngày chờ đợi thì Vsmart đã chính thức được ra mắt, trong 4 sản phẩm được tập đoàn Vingroup giới thiệu thì Vsmart Active 1+ là sản phẩm cao cấp nhất.')
-@section('keywords', 'Vsmart Active 1+, cấu hình Vsmart Active 1+, giá bán Vsmart Active 1+, trên tay Vsmart Active 1+, vsmart')
+@section('title', $post->seo_title)
+@section('description', $post->meta_description)
+@section('keywords', $post->meta_keywords)
 
-@section('fb_url', route('home'))
-@section('fb_type', '')
-@section('fb_title', 'Trên tay Vsmart Active 1+: Thiết kế đẹp, cấu hình mạnh')
-@section('fb_des', 'Sau nhiều ngày chờ đợi thì Vsmart đã chính thức được ra mắt, trong 4 sản phẩm được tập đoàn Vingroup giới thiệu thì Vsmart Active 1+ là sản phẩm cao cấp nhất.')
-@section('fb_img', asset('icons/launcher-icon-4x.png'))
+@section('fb_url', route('post-detail', [$post->slug, $post->id]))
+@section('fb_type', 'article')
+@section('fb_title', $post->seo_title)
+@section('fb_des', $post->meta_description)
+@section('fb_img', Voyager::image($post->image))
 
 @section('css')
 
@@ -16,10 +16,12 @@
 
 @section('content')
 <div class="page-content col-lg-9 mb-4 animated fadeInLeft">
-    <div class="title"><h1>Trên tay Vsmart Active 1+: Thiết kế đẹp, cấu hình mạnh</h1></div>
+    <div class="title"><h1>{{ $post->title }}</h1></div>
+    <div class="created_at">{{ date('H:m d/m/Y', strtotime($post->created_at)) }}</div>
     <div class="article">
-    
+        {!! $post->body !!}
     </div>
+    <div class="author"><a href="{{ route('home') }}" alt="Ứng dụng tổng hợp MÃ GIẢM GIÁ | PHIẾU KHUYẾN MÃI | COUPONS | VOUCHERS miễn phí">KhoCoupon.Net</a></div>
 </div>
 @endsection
 
@@ -28,5 +30,10 @@
 @endsection
 
 @section('js')
-
+    <script>
+        
+        $( document ).ready(function() {
+            $('img').unwrap("p");
+        });
+    </script>
 @endsection

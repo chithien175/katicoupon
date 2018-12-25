@@ -5,7 +5,7 @@
 @section('keywords', '')
 
 @section('fb_url', route('term'))
-@section('fb_type', '')
+@section('fb_type', 'website')
 @section('fb_title', 'Điều Khoản Sử Dụng Tại khocoupon.net')
 @section('fb_des', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers.')
 @section('fb_img', asset('icons/launcher-icon-4x.png'))

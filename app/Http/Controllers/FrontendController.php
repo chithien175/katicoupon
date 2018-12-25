@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use TCG\Voyager\Models\Post;
 
 class FrontendController extends Controller
 {
@@ -15,6 +16,10 @@ class FrontendController extends Controller
     }
 
     public function postDetail($slug, $id){
-        return view('posts.post-detail');
+        $post = Post::where(["status" => "PUBLISHED", "slug" => $slug, "id" => $id])->first();
+        if($post){
+            return view('posts.post-detail')->withPost($post);
+        }
+        return \abort(404);
     }
 }

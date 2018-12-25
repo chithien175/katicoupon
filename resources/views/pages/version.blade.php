@@ -2,7 +2,7 @@
 
 @section('title', 'Tính Năng & Phiên Bản Ứng Dụng Tại khocoupon.net')
 @section('description', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers.')
-@section('keywords', '')
+@section('keywords', 'website')
 
 @section('fb_url', route('version'))
 @section('fb_type', '')
@@ -18,13 +18,19 @@
     <div class="page-content col-lg-9 mb-4 animated fadeInLeft">
         <div class="title"><h1>Tính Năng & Phiên Bản Ứng Dụng</h1></div>
         <div class="article">
+            
+            <h2>v1.1.alpha (25/12/2018)</h2>
+            <p>Thêm chức năng:</p>
+            <ul>
+                <li>- Chuyên mục review mua sắm.</li>
+            </ul>
             <h2>v1.0.alpha (20/12/2018) Phiên bản thử nghiệm</h2>
             <p>Chức năng:</p>
             <ul>
-                <li>Liệt kê danh sách khuyến mãi mới nhất.</li>
-                <li>Tìm kiếm khuyến mãi theo nhà cung cấp.</li>
-                <li>Giao diện thân thiện với thiết bị di dộng.</li>
-                <li>Thêm sitemap <a href="{{ url('/sitemap.xml') }}">{{ url('/sitemap.xml') }}</a>.</li>
+                <li>- Liệt kê danh sách khuyến mãi mới nhất.</li>
+                <li>- Tìm kiếm khuyến mãi theo nhà cung cấp.</li>
+                <li>- Giao diện thân thiện với thiết bị di dộng.</li>
+                <li>- Thêm trang <a href="{{ url('/sitemap.xml') }}">sitemap</a>.</li>
             </ul>
         </div>
     </div>

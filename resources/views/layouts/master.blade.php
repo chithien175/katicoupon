@@ -104,14 +104,16 @@
         <!-- Bootstrap JS  -->
         <script async src="{{ asset('/plugins/bootstrap/js/bootstrap.min.js') }}" ></script>
         <!-- Select2 JS -->
-        <script async src="{{ asset('/plugins/select2/select2.min.js') }}" ></script>
+        <script src="{{ asset('/plugins/select2/select2.min.js') }}" ></script>
         <!-- Pace JS -->
-        <script async src="{{ asset('/plugins/pace/pace.min.js') }}" ></script>
+        <script src="{{ asset('/plugins/pace/pace.min.js') }}" ></script>
         <!-- Toastr JS -->
         <script async src="{{ asset('/plugins/toastr/toastr.min.js') }}" ></script>
         <!-- Custom JS -->
         <script async src="{{ asset('/js/custom.js') }}" ></script>
-
         @yield('js')
+
+        <!-- scroll top button -->
+        <button class="scroltop fa fa-chevron-up" ></button>
     </body>
 </html>

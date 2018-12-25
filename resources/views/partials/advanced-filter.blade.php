@@ -12,7 +12,7 @@
                     <option {{ ($merchant==$campaign['merchant'])?'selected':'' }} value="{{ $campaign['merchant'] }}" data-merchant-link="{{ route('merchant-filter', $campaign['merchant']) }}">{{ $campaign['merchant'] }}</option>
                 @endforeach
             </select>
-            <button id="advanced-filter-submit" type="submit" class="btn btn-warning">Tìm kiếm</button>
+            <button id="advanced-filter-submit" type="submit" class="btn btn-warning">Tìm khuyến mãi</button>
         </form>
     </div>
 </div>
