@@ -22,7 +22,8 @@
             <h2>v1.1.alpha (25/12/2018)</h2>
             <p>Thêm chức năng:</p>
             <ul>
-                <li>- Chuyên mục review mua sắm.</li>
+                <li>- Chuyên mục đánh giá (reviews).</li>
+                <li>- Thích, chia sẽ, bình luận bài viết</li>
             </ul>
             <h2>v1.0.alpha (20/12/2018) Phiên bản thử nghiệm</h2>
             <p>Chức năng:</p>

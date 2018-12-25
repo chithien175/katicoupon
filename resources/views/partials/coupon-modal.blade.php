@@ -11,8 +11,10 @@
                 <div class="coupon-content">
                     <p class="coupon-title">COPY MÃ VÀ SỬ DỤNG Ở BƯỚC THANH TOÁN</p>
                     <div class="coupon-code">
-                        <input type="text" class="code-text" disabled value="">
-                        <button class="btn btn_primary btn-copy-coupon"> <i class="far fa-copy"></i> <span>Sao chép mã</span> </button>
+                        <form action="">
+                            <input type="text" class="code-text" disabled value="" contenteditable="true">
+                            <button class="btn btn_primary btn-copy-coupon"> <i class="far fa-copy"></i> <span>Sao chép mã</span> </button>
+                        </form>
                     </div>
                     <div class="coupon-des"></div>
                 </div>

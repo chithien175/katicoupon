@@ -26,7 +26,7 @@
         <link rel="shortcut icon" type="image/png" href="{{ asset('favicon.png') }}">
 
         <!-- FB Open Graph Tags -->
-        <meta property="fb:app_id"        content="xxxxxxxxxxxxxx" />
+        <meta property="fb:app_id"        content="2028919047203695" />
         <meta property="og:url"           content="@yield('fb_url')" />
         <meta property="og:type"          content="@yield('fb_type')" />
         <meta property="og:title"         content="@yield('fb_title')" />
@@ -57,6 +57,9 @@
         <link async rel="stylesheet" href="{{ asset('/css/article.css') }}" >
         @yield('css')
 
+        <!-- eClick Verify -->
+        <meta name="eclick_verify" content="dFVcUVMXLRcYGVlEaggEBgAEMBMDB00FIBc="/>
+
         <!-- Analytics -->
         @include('socials.analytics')
 
@@ -64,7 +67,8 @@
         @include('socials.adsense')
     </head>
     <body>
-        
+        <!-- Load Facebook SDK for JavaScript -->
+        @include('socials.facebook-sdk')
 
         <!-- Header -->
         @include('partials.header')
@@ -113,7 +117,7 @@
         <script async src="{{ asset('/js/custom.js') }}" ></script>
         @yield('js')
 
-        <!-- scroll top button -->
+        <!-- Scroll Top Button -->
         <button class="scroltop fa fa-chevron-up" ></button>
     </body>
 </html>

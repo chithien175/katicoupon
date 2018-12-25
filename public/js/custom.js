@@ -1,21 +1,22 @@
 $(document).ready(function() {
-		var scrollTop = jQuery("button.scroltop");
-		/* page scroll top on click function */	
-		scrollTop.on('click',function() {
-			jQuery("html, body").animate({
-				scrollTop: 0
-			}, 1000);
-			return false;
-		})
+    // SET: Return To Top
+    var scrollTop = jQuery("button.scroltop");
+    /* page scroll top on click function */	
+    scrollTop.on('click',function() {
+        jQuery("html, body").animate({
+            scrollTop: 0
+        }, 1000);
+        return false;
+    })
 
-		jQuery(window).bind("scroll", function() {
-			var scroll = jQuery(window).scrollTop();
-			if (scroll > 900) {
-				jQuery("button.scroltop").fadeIn(1000);
-			} else {
-				jQuery("button.scroltop").fadeOut(1000);
-			}
-		});
+    jQuery(window).bind("scroll", function() {
+        var scroll = jQuery(window).scrollTop();
+        if (scroll > 900) {
+            jQuery("button.scroltop").fadeIn(1000);
+        } else {
+            jQuery("button.scroltop").fadeOut(1000);
+        }
+    });
 
     // SET: Advanced Filter - Init Select2
     $("#merchant-select").select2({});
