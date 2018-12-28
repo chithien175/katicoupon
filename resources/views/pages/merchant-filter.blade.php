@@ -2,12 +2,12 @@
 
 @section('title', 'Tổng hợp khuyến mãi '.$merchant.' tháng'. date('m') . ' tại khocoupon.net')
 @section('description', 'Cập nhật mã giảm giá '.$merchant.', phiếu khuyến mãi '.$merchant.', coupons '.$merchant.', vouchers '.$merchant.'.')
-@section('keywords', '')
+@section('keywords', 'mã giảm giá, phiếu khuyến mãi, coupons, vouchers')
 
 @section('fb_url', route('merchant-filter', $merchant))
 @section('fb_type', 'website')
 @section('fb_title', 'Tổng hợp khuyến mãi '.$merchant.' tháng'. date('m') . ' tại khocoupon.net')
-@section('fb_des', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers.')
+@section('fb_des', 'Cập nhật mã giảm giá '.$merchant.', phiếu khuyến mãi '.$merchant.', coupons '.$merchant.', vouchers '.$merchant.'.')
 @section('fb_img', asset('icons/launcher-icon-4x.png'))
 
 @section('css')
@@ -34,6 +34,9 @@
         </div>
     </div>
 </div>
+<!-- Sidebar -->
+@include('partials.sidebar')
+
 @endsection
 
 @section('advanced-filter')
@@ -114,6 +117,31 @@
                 });
             }
         });
+    </script>
+
+    <script type="application/ld+json"> 
+    [{
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,				
+                "item": {
+                    "@id":"{{ route('home') }}",
+                    "name": "Trang chủ"
+                }			
+                }, 
+                {
+                "@type": "ListItem",
+                "position": 2,				
+                "item": {
+                    "@id":"{{ route('merchant-filter', $merchant) }}",
+                    "name": "Mã giảm giá ✅(Đã xác minh)"
+                }			
+            }
+        ]
+    }]
     </script>
     
 @endsection

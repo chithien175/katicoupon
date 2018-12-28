@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    // REMOVE: p tag wrap img tag in article
+    $('.article img').unwrap("p");
     // SET: Return To Top
     var scrollTop = jQuery("button.scroltop");
     /* page scroll top on click function */	

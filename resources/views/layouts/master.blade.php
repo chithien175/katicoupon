@@ -12,7 +12,7 @@
 
         <!-- Set for iOS -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"/>
-        <meta name="apple-mobile-web-app-title" content="KhoCoupon.net">
+        <meta name="apple-mobile-web-app-title" content="Mã giảm giá, phiếu khuyến mãi miễn phí tại khocoupon.net">
         <link rel="apple-touch-icon" href="{{ asset('icons/ios/touch-icon-iphone.png') }}">
         <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('icons/ios/touch-icon-ipad.png') }}">
         <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('icons/ios/touch-icon-iphone-retina.png') }}">
@@ -20,9 +20,9 @@
 
         <meta name="description" content="@yield('description')">
         <meta name="robots" content="index, follow" />
-        <meta name="keywords" content="mã giảm giá, phiếu khuyến mãi, coupons, vouchers, @yield('keywords')">
+        <meta name="keywords" content="@yield('keywords')">
         <meta name="author" content="Kho Coupon" />
-        <link rel="canonical" href="https://khocoupon.net/" />
+        <link rel="canonical" href="{{ url('/') }}" />
         <link rel="shortcut icon" type="image/png" href="{{ asset('favicon.png') }}">
 
         <!-- FB Open Graph Tags -->
@@ -32,33 +32,43 @@
         <meta property="og:title"         content="@yield('fb_title')" />
         <meta property="og:description"   content="@yield('fb_des')" />
         <meta property="og:image"         content="@yield('fb_img')" />
-
-        <link rel="manifest" href="{{ asset('/manifest.json') }}">
         
         <!-- Bootstrap CSS -->
-        <link async rel="stylesheet" href="{{ asset('/plugins/bootstrap/css/bootstrap.min.css') }}" >
+        <link defer rel="stylesheet" href="{{ asset('/plugins/bootstrap/css/bootstrap.min.css') }}" >
         <!-- Fontawesome CSS -->
-        <link async rel="stylesheet" href="{{ asset('/plugins/fontawesome/css/all.min.css') }}" >
+        <link defer rel="stylesheet" href="{{ asset('/plugins/fontawesome/css/all.min.css') }}" >
         <!-- Select2 CSS -->
-        <link async rel="stylesheet" href="{{ asset('/plugins/select2/select2.min.css') }}" >
+        <link defer rel="stylesheet" href="{{ asset('/plugins/select2/select2.min.css') }}" >
         <!-- Pace CSS -->
         <style>
             .pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#ffc107;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}
         </style>
         <!-- Toastr CSS -->
-        <link async rel="stylesheet" href="{{ asset('/plugins/toastr/toastr.min.css') }}" >
+        <link defer rel="stylesheet" href="{{ asset('/plugins/toastr/toastr.min.css') }}" >
         <!-- Animate CSS -->
-        <link async rel="stylesheet" href="{{ asset('/plugins/animate/animate.min.css') }}" >
+        <link defer rel="stylesheet" href="{{ asset('/plugins/animate/animate.min.css') }}" >
         <!-- Custom CSS -->
-        <link async rel="stylesheet" href="{{ asset('/css/custom.css') }}" >
+        <link defer rel="stylesheet" href="{{ asset('/css/custom.css') }}" >
         <!-- Responsive CSS -->
-        <link async rel="stylesheet" href="{{ asset('/css/responsive.css') }}" >
+        <link defer rel="stylesheet" href="{{ asset('/css/responsive.css') }}" >
         <!-- Article CSS -->
-        <link async rel="stylesheet" href="{{ asset('/css/article.css') }}" >
+        <link defer rel="stylesheet" href="{{ asset('/css/article.css') }}" >
         @yield('css')
 
         <!-- eClick Verify -->
         <meta name="eclick_verify" content="dFVcUVMXLRcYGVlEaggEBgAEMBMDB00FIBc="/>
+
+        <!-- Web Push Notification Onesignal -->
+        <link rel="manifest" href="/manifest.json" />
+        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+        <script>
+            var OneSignal = window.OneSignal || [];
+            OneSignal.push(function() {
+                OneSignal.init({
+                appId: "ba4923d0-5c96-4ac6-8e33-973b03d42a0a",
+                });
+            });
+        </script>
 
         <!-- Analytics -->
         @include('socials.analytics')
@@ -76,9 +86,6 @@
             <div class="row">
                 <!-- Content Page -->
                 @yield('content')
-
-                <!-- Sidebar -->
-                @include('partials.sidebar')
             </div>
         </div>
 
@@ -91,33 +98,57 @@
         <!-- Coupon Modal -->
         @yield('coupon-modal')
 
-        <!-- Service Worker JS -->
-        <script>
-            if ("serviceWorker" in navigator) {
-                window.addEventListener("load", function () {
-                    navigator.serviceWorker.register("/service-worker.js");
-                });
-            }
-        </script>
-
         <!-- Optional JavaScript -->
         <!-- jQuery JS -->
-        <script src="{{ asset('/plugins/jquery/jquery-3.3.1.min.js') }}"></script>
+        <script defer src="{{ asset('/plugins/jquery/jquery-3.3.1.min.js') }}"></script>
         <!-- Popper JS -->
-        <script async src="{{ asset('/plugins/popper/popper.min.js') }}" ></script>
+        <script defer src="{{ asset('/plugins/popper/popper.min.js') }}" ></script>
         <!-- Bootstrap JS  -->
-        <script async src="{{ asset('/plugins/bootstrap/js/bootstrap.min.js') }}" ></script>
+        <script defer src="{{ asset('/plugins/bootstrap/js/bootstrap.min.js') }}" ></script>
         <!-- Select2 JS -->
-        <script src="{{ asset('/plugins/select2/select2.min.js') }}" ></script>
+        <script defer src="{{ asset('/plugins/select2/select2.min.js') }}" ></script>
         <!-- Pace JS -->
-        <script src="{{ asset('/plugins/pace/pace.min.js') }}" ></script>
+        <script defer src="{{ asset('/plugins/pace/pace.min.js') }}" ></script>
         <!-- Toastr JS -->
-        <script async src="{{ asset('/plugins/toastr/toastr.min.js') }}" ></script>
+        <script defer src="{{ asset('/plugins/toastr/toastr.min.js') }}" ></script>
         <!-- Custom JS -->
-        <script async src="{{ asset('/js/custom.js') }}" ></script>
+        <script defer src="{{ asset('/js/custom.js') }}" ></script>
         @yield('js')
 
         <!-- Scroll Top Button -->
         <button class="scroltop fa fa-chevron-up" ></button>
+
+        <!-- Google Organization, WebSite, Persion -->
+        <script type="application/ld+json"> 
+        [
+            {
+                "@context"        : "http://schema.org",
+                "@type"           : "WebSite",
+                "name"            : "KhoCoupon",
+                "alternateName"   : "Mã giảm giá, phiếu khuyến mãi miễn phí tại khocoupon.net",
+                "url": "{{ url('/') }}",
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "{{ url('/') }}/tim-kiem#gsc.tab=0&gsc.q={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }
+            },
+            {
+                "@context": "http://schema.org",
+                "@type": "Organization",
+                "url": "{{ url('/') }}",
+                "logo": "{{ asset('icons/launcher-icon-4x.png') }}"
+            },
+            {
+                "@context": "http://schema.org",
+                "@type": "Person",
+                "name": "KCP",
+                "url": "{{ url('/') }}",
+                "sameAs": [
+                    "https://www.facebook.com/www.khocoupon.net/"
+                ]
+            }
+        ]
+        </script>
     </body>
 </html>

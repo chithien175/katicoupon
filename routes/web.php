@@ -40,7 +40,7 @@ Route::get('generate-sitemap', 'BackendController@generateSitemap');
 // Trang Chủ
 Route::get('/', 'FrontendController@home')->name('home');
 // Trang chi tiết nhà cung cấp
-Route::get('/ma-giam-gia-phieu-khuyen-mai-coupon-voucher-{merchant}.html', 'FrontendController@merchantFilter')->name('merchant-filter')->where(['merchant' => '[a-zA-Z-0-9].+']);
+Route::get('/ma-giam-gia-{merchant}.html', 'FrontendController@merchantFilter')->name('merchant-filter')->where(['merchant' => '[a-zA-Z-0-9].+']);
 // Trang chi tiết bài viết
 Route::get('/{slug}-{id}.html', 'FrontendController@postDetail')->name('post-detail')->where(['slug' => '[a-zA-Z-0-9]+', 'id' => '[0-9]*']);
 

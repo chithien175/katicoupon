@@ -1,13 +1,13 @@
 @extends('layouts.master')
 
 @section('title', 'Điều Khoản Sử Dụng Tại khocoupon.net')
-@section('description', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers.')
+@section('description', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers. Đánh giá sản phẩm chân thật.')
 @section('keywords', '')
 
 @section('fb_url', route('term'))
 @section('fb_type', 'website')
 @section('fb_title', 'Điều Khoản Sử Dụng Tại khocoupon.net')
-@section('fb_des', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers.')
+@section('fb_des', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers. Đánh giá sản phẩm chân thật.')
 @section('fb_img', asset('icons/launcher-icon-4x.png'))
 
 @section('css')
@@ -62,6 +62,9 @@
         <p>Trong bất cứ trường hợp nào, khocoupon.net sẽ không chịu trách nhiệm với bạn hoặc bất kỳ người nào khác / bên thứ ba nào khác cho mọi, hậu quả phát sinh bên ngoài hoặc liên quan đến những điều khoản sử dụng và / hoặc những dịch vụ của khocoupon.net</p>
     </div>
 </div>
+<!-- Sidebar -->
+@include('partials.sidebar')
+
 @endsection
 
 @section('advanced-filter')

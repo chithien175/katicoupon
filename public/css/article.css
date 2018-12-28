@@ -18,19 +18,24 @@
     color: #888;
     padding-left: 50px;
     margin-top: 15px;
+    margin-bottom: 10px;
 }
 .page-content .created_at .category{
     color: #e72f10;
     font-weight: 600;
+}
+.page-content .social-wrap{
+    background: #ffffff url(/images/arrowdown.jpg) no-repeat;
+    background-position: 75px 0px;
+    padding-top: 50px;
 }
 .page-content .fb-like{
     padding: 0 50px;
     margin-bottom: 15px;
     width: 100%
 }
-.page-content .fb-comments{
-    padding: 0 50px;
-    width: 100%
+.page-content .article{
+    padding-top: 10px;
 }
 .page-content .article h2{
     font-size: 22px;
@@ -97,8 +102,6 @@
     }
     .page-content .article ul{
         padding: 0 20px;
-    }
-    .page-content .fb-comments{
-        padding: 0 20px;
+        font-size: 14px;
     }
 }

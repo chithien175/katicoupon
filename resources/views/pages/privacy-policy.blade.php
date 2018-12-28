@@ -1,13 +1,13 @@
 @extends('layouts.master')
 
 @section('title', 'Chính Sách Bảo Mật Tại khocoupon.net')
-@section('description', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers.')
+@section('description', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers. Đánh giá sản phẩm chân thật.')
 @section('keywords', '')
 
 @section('fb_url', route('term'))
 @section('fb_type', 'website')
 @section('fb_title', 'Chính Sách Bảo Mật Tại khocoupon.net')
-@section('fb_des', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers.')
+@section('fb_des', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers. Đánh giá sản phẩm chân thật.')
 @section('fb_img', asset('icons/launcher-icon-4x.png'))
 
 @section('css')
@@ -43,6 +43,9 @@
         <p><strong>Lưu ‎ ý:</strong>&nbsp;Chính sách bảo mật thông tin này chỉ được áp dụng tại khocoupon.net. Khocoupon.net có thể thay đổi thông tin để phù hợp cho cộng đồng.</p>
     </div>
 </div>
+<!-- Sidebar -->
+@include('partials.sidebar')
+
 @endsection
 
 @section('advanced-filter')

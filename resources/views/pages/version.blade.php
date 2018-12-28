@@ -1,13 +1,13 @@
 @extends('layouts.master')
 
 @section('title', 'Tính Năng & Phiên Bản Ứng Dụng Tại khocoupon.net')
-@section('description', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers.')
+@section('description', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers. Đánh giá sản phẩm chân thật.')
 @section('keywords', 'website')
 
 @section('fb_url', route('version'))
 @section('fb_type', '')
 @section('fb_title', 'Tính Năng & Phiên Bản Ứng Dụng Tại khocoupon.net')
-@section('fb_des', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers.')
+@section('fb_des', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers. Đánh giá sản phẩm chân thật.')
 @section('fb_img', asset('icons/launcher-icon-4x.png'))
 
 @section('css')
@@ -35,6 +35,9 @@
             </ul>
         </div>
     </div>
+    <!-- Sidebar -->
+    @include('partials.sidebar')
+
 @endsection
 
 @section('advanced-filter')
