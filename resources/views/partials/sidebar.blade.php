@@ -9,7 +9,7 @@
     <div class="tab-content" id="topReviewsContent">
         <div class="tab-pane fade show active" id="top-reviews" role="tabpanel" aria-labelledby="top-reviews-tab">
             @php
-                $review_posts = getAllPosts('*', ['1','2','3'], 'created_at', 'desc', 3);
+                $review_posts = getAllPosts('*', 'created_at', 'desc', 3);
             @endphp
             <ul>
                 @foreach($review_posts as $review_post)

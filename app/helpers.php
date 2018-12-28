@@ -73,10 +73,9 @@ if(! function_exists('paginationArray')){
  * @paginate: number
  */
 if(! function_exists('getAllPosts')){
-    function getAllPosts($select='*', $cat_id=[], $order_col, $order_by='asc', $paginate = 3){
+    function getAllPosts($select='*', $order_col, $order_by='asc', $paginate = 3){
         $item = TCG\Voyager\Models\Post::select($select)
                     ->where("status", "PUBLISHED")
-                    ->whereIn('category_id', $cat_id)
                     ->orderBy($order_col, $order_by)
                     ->paginate($paginate);
         return $item;
