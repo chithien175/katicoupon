@@ -68,6 +68,9 @@ body{
 }
 
 /* HOMEPAGE */
+#promotion{
+    padding: 0 10px;
+}
 #promotion-tab i{
     font-size: 17px;
 }
