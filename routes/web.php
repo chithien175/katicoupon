@@ -22,11 +22,13 @@ Route::group(['prefix' => 'backend-system'], function () {
     Voyager::routes();
 });
 /*
-|
 | Route Sitemap Generator backend
-|
 */
 Route::get('generate-sitemap', 'BackendController@generateSitemap');
+/*
+| Route Minify CSS backend
+*/
+Route::get('minify-css', 'BackendController@minifyCss');
 
 /*
 |--------------------------------------------------------------------------
@@ -43,6 +45,8 @@ Route::get('/', 'FrontendController@home')->name('home');
 Route::get('/ma-giam-gia-{merchant}.html', 'FrontendController@merchantFilter')->name('merchant-filter')->where(['merchant' => '[a-zA-Z-0-9].+']);
 // Trang chi tiết bài viết
 Route::get('/{slug}-{id}.html', 'FrontendController@postDetail')->name('post-detail')->where(['slug' => '[a-zA-Z-0-9]+', 'id' => '[0-9]*']);
+// Trang danh sách bài viết theo danh mục
+Route::get('/danh-gia/{slug}.html', 'FrontendController@postByCate')->name('post-by-cate')->where(['slug' => '[a-zA-Z-0-9]+']);
 
 /*
 |--------------------------------------------------------------------------

@@ -18,13 +18,21 @@
     <div class="page-content col-lg-9 mb-4 animated fadeInLeft">
         <div class="title"><h1>Tính Năng & Phiên Bản Ứng Dụng</h1></div>
         <div class="article">
-            
+            <h2>v1.2.alpha (29/12/2018)</h2>
+            <p>Thêm chức năng:</p>
+            <ul>
+                <li>- Danh sách bài viết theo danh mục.</li>
+                <li>- Công cụ tìm kiếm dữ liệu website trên google.</li>
+                <li>- Tối ưu tốc độ tải trang.</li>
+            </ul>
+
             <h2>v1.1.alpha (25/12/2018)</h2>
             <p>Thêm chức năng:</p>
             <ul>
-                <li>- Chuyên mục đánh giá (reviews).</li>
+                <li>- Chuyên mục đánh giá sản phẩm.</li>
                 <li>- Thích, chia sẽ, bình luận bài viết</li>
             </ul>
+
             <h2>v1.0.alpha (20/12/2018) Phiên bản thử nghiệm</h2>
             <p>Chức năng:</p>
             <ul>

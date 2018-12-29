@@ -17,9 +17,9 @@
                 Đánh giá
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Điện thoại di động</a>
-                    <a class="dropdown-item" href="#">Máy tính - Laptop</a>
-                    <a class="dropdown-item" href="#">Du lịch - Giải trí</a>
+                    <a class="dropdown-item" href="{{ route('post-by-cate', 'dien-thoai-di-dong') }}">Điện thoại di động</a>
+                    <a class="dropdown-item" href="{{ route('post-by-cate', 'may-tinh-lap-top') }}">Máy tính - Laptop</a>
+                    <a class="dropdown-item" href="{{ route('post-by-cate', 'du-lich-giai-tri') }}">Du lịch - Giải trí</a>
                 </div>
             </li>
         </ul>
