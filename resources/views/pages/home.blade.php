@@ -26,7 +26,7 @@
     <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="promotion" role="tabpanel" aria-labelledby="promotion-tab">
             @php
-                $promotions = getAllPromotions(NULL, 15);
+                $promotions = getAllPromotions(NULL, 20);
             @endphp
 
             @include('partials.promotion-list')

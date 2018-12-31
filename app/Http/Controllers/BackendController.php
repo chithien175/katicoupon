@@ -26,9 +26,10 @@ class BackendController extends Controller
             $sitemap->add(route('merchant-filter', $campaign['merchant']));
         }
 
-        $review_posts = Post::select('slug', 'id')->where("status", "PUBLISHED")->get();
-        foreach($review_posts as $review_post){
-            $sitemap->add(route('post-detail', [$review_post->slug, $review_post->id]));
+        $posts = Post::select('slug', 'id')->where("status", "PUBLISHED")->get();
+        foreach($posts as $post){
+            $sitemap->add(route('post-detail', [$post->slug, $post->id]));
+            $sitemap->add(route('amp-post-detail', [$post->slug, $post->id]));
         }
 
         $categories = Category::select('slug')->get();
@@ -67,8 +68,9 @@ class BackendController extends Controller
             echo "Mở file không thành công";
         else {
             fwrite($file, $minified);
+            return redirect()->route('home');
         }
 
-        return redirect()->route('home');
+        
     }
 }

@@ -27,7 +27,7 @@
 
 <!-- Pagination -->
 <div class="row">
-    <div class="col-lg-6 mx-auto">
+    <div class="col-lg-12">
         {{ $promotions->links() }}
     </div>
 </div>

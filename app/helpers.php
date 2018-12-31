@@ -81,3 +81,26 @@ if(! function_exists('getAllPosts')){
         return $item;
     }
 }
+
+if(! function_exists('getAllCategories')){
+    function getAllCategories(){
+        $item = TCG\Voyager\Models\Category::select('*')->orderBy('order','asc')->get();
+        return $item;
+    }
+}
+
+function _domradio_util_ampify_img ($html) {
+    preg_match_all("#<img(.*?)\\/?>#", $html, $matches);
+    foreach ($matches[1] as $key => $m) {
+    preg_match_all('/(alt|src|width|height)=("[^"]*")/i', $m, $matches2);
+    $amp_tag = '<amp-img ';
+    foreach ($matches2[1] as $key2 => $val) {
+        $amp_tag .= $val .'='. $matches2[2][$key2] .' ';
+    }
+    $amp_tag .= 'layout="responsive"';
+    $amp_tag .= '>';
+    $amp_tag .= '</amp-img>';
+    $html = str_replace($matches[0][$key], $amp_tag, $html);
+    }
+    return $html;
+}

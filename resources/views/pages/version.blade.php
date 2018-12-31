@@ -29,7 +29,7 @@
             <h2>v1.1.alpha (25/12/2018)</h2>
             <p>Thêm chức năng:</p>
             <ul>
-                <li>- Chuyên mục đánh giá sản phẩm.</li>
+                <li>- Chuyên mục tin tức.</li>
                 <li>- Thích, chia sẽ, bình luận bài viết</li>
             </ul>
 

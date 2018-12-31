@@ -14,12 +14,15 @@
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">
-                Đánh giá
+                Tin tức
                 </a>
+                @php
+                    $categories = getAllCategories();
+                @endphp
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="{{ route('post-by-cate', 'dien-thoai-di-dong') }}">Điện thoại di động</a>
-                    <a class="dropdown-item" href="{{ route('post-by-cate', 'may-tinh-lap-top') }}">Máy tính - Laptop</a>
-                    <a class="dropdown-item" href="{{ route('post-by-cate', 'du-lich-giai-tri') }}">Du lịch - Giải trí</a>
+                    @foreach($categories as $category)
+                    <a class="dropdown-item" href="{{ route('post-by-cate', $category->slug) }}">{{ $category->name }}</a>
+                    @endforeach
                 </div>
             </li>
         </ul>

@@ -24,6 +24,14 @@ class FrontendController extends Controller
         return \abort(404);
     }
 
+    public function ampPostDetail($slug, $id){
+        $post = Post::where(["status" => "PUBLISHED", "slug" => $slug, "id" => $id])->first();
+        if($post){
+            return view('amp.post-detail')->withPost($post);
+        }
+        return \abort(404);
+    }
+
     public function postByCate($slug){
         $category = Category::where('slug', $slug)->first();
         if($category){

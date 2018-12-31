@@ -1,6 +1,15 @@
 $(document).ready(function() {
+    /*------------- preloader js --------------*/
+	$(window).on('load',function() { 
+        $('.preloader-wrap').fadeOut(); 
+        $('.longfazers').delay(150).fadeOut('slow');
+		$('.loader').delay(150).fadeOut('slow');
+        // $('body').delay(150).css({'overflow':'visible'})
+	});
+
     // REMOVE: p tag wrap img tag in article
     $('.article img').unwrap("p");
+
     // SET: Return To Top
     var scrollTop = jQuery("button.scroltop");
     /* page scroll top on click function */	
@@ -9,8 +18,7 @@ $(document).ready(function() {
             scrollTop: 0
         }, 1000);
         return false;
-    })
-
+    });
     jQuery(window).bind("scroll", function() {
         var scroll = jQuery(window).scrollTop();
         if (scroll > 900) {

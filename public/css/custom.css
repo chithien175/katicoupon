@@ -275,6 +275,7 @@ body{
 #top-reviews ul{
     list-style: none;
     padding: 0;
+    margin-bottom: 0px;
 }
 #top-reviews ul li{
     padding: 15px;
@@ -562,6 +563,8 @@ button.scroltop {
     padding-top: 15px;
     background-color: #fff;
     box-shadow: 0 0 50px 0 rgba(0,0,0,.15);
+    border-top: 2px solid #17a2b8;
+    border-radius: 5px;
 }
 .post-by-cate .cate-title h1 {
     font-size: 22px;
@@ -569,7 +572,7 @@ button.scroltop {
     font-weight: 600;
     font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,sans-serif', sans-serif;
     text-align: center;
-    padding: 10px;
+    padding-bottom: 20px;
 }
 
 .post-by-cate .featured article .thumb img{
@@ -613,8 +616,8 @@ button.scroltop {
     padding-top: 10px;
 }
 /********************************************************************/
-/*                          REPONSIVE                               */
-/*                          REPONSIVE                               */
+/*                          RESPONSIVE                               */
+/*                          RESPONSIVE                               */
 /********************************************************************/
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
@@ -668,6 +671,16 @@ button.scroltop {
     #sidebar{
         padding: 0;
     }
+    #top-reviews ul{
+        width: 49%;
+        display: -webkit-box;
+    }
+    #top-reviews ul.col-left li{
+        padding: 10px 5px 10px 10px;
+    }
+    #top-reviews ul.col-right li{
+        padding: 10px 10px 10px 5px;
+    }
 
     /* FOOTER */
     #footer{
@@ -709,6 +722,8 @@ button.scroltop {
     padding: 30px 0;
     background-color: #fff;
     box-shadow: 0 0 50px 0 rgba(0,0,0,.15);
+    border-radius: 5px;
+    border-top: 2px solid #17a2b8;
 }
 .page-content .title{
     padding: 0 50px;

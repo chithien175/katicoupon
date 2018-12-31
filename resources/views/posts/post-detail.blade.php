@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
+@section('amp-link', route('amp-post-detail', [$post->slug, $post->id]))
+
 @section('title', $post->seo_title)
 @section('description', $post->meta_description)
 @section('keywords', $post->meta_keywords)
@@ -73,7 +75,7 @@
             },
             "headline": "{{ $post->seo_title }}",
             "alternativeHeadline": "{{ $post->meta_description }}",
-            "image": "{{ Voyager::image($post->image) }}", 	
+            "image": "{{ Voyager::image($post->thumbnail('small')) }}", 	
             "author": {
                 "@type": "Person",
                 "name": "KhoCoupon"

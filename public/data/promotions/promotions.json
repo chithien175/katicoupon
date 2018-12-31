@@ -372,87 +372,6 @@
             "start_time": "2018-11-07"
         },
         {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fshop.vnexpress.net%2Fgia-dung%2Fthiet-bi-nha-bep%3F%26orderby%3Dprice_sell_desc",
-            "banners": [
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopvnexpress/160x600/VNE_300x600.jpg",
-                    "width": 160
-                },
-                {
-                    "height": 250,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopvnexpress/300x250/VNE_300x600.jpg",
-                    "width": 300
-                },
-                {
-                    "height": 90,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopvnexpress/728x90/VNE_300x600.jpg",
-                    "width": 728
-                },
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopvnexpress/300x600/VNE_300x600.jpg",
-                    "width": 300
-                }
-            ],
-            "categories": [],
-            "content": "Săn hàng gia dụng nhà bếp ưu đãi cuối năm 2018 với các ưu đãi độc quyền lên đến 50%",
-            "coupons": [],
-            "domain": "shop.vnexpress.net",
-            "end_time": "2018-12-30",
-            "id": "5005402077030889420",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/shopvnexpress/VNE_300x250.jpg",
-            "link": "https://shop.vnexpress.net/gia-dung/thiet-bi-nha-bep?&orderby=price_sell_desc",
-            "merchant": "shopvnexpress",
-            "name": "Săn deal gia dụng - Sale lớn cuối năm",
-            "start_time": "2018-11-28"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fshop.vnexpress.net%2Fevent%2Fbo-trang-diem-24-7-ho-ngoc-ha.html",
-            "banners": [],
-            "categories": [],
-            "content": "Tặng áo hoodie MOI thời trang khi mua bộ trang điểm MOI Hồ Ngọc Hà chỉ với 889.000Đ",
-            "coupons": [],
-            "domain": "shop.vnexpress.net",
-            "end_time": "2018-12-30",
-            "id": "5005410796328812616",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/shopvnexpress/moi_880x380.png",
-            "link": "https://shop.vnexpress.net/event/bo-trang-diem-24-7-ho-ngoc-ha.html",
-            "merchant": "shopvnexpress",
-            "name": "Bộ trang điểm M.O.I Hồ Ngọc Hà giá độc quyền kèm quà tặng",
-            "start_time": "2018-11-28"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fshop.vnexpress.net%2Fretail%2Ftoc-do-247%2Fcategory_100%3F%26orderby%3Dprice_sell_desc",
-            "banners": [],
-            "categories": [],
-            "content": "Ưu đãi 50% phụ kiện ô tô, chăm sóc xe từ thương hiệu hàng đầu: 3M, Michelin,...",
-            "coupons": [],
-            "domain": "shop.vnexpress.net",
-            "end_time": "2018-12-30",
-            "id": "5005412057787088961",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/shopvnexpress/5ac5de0922ff5-oto_578x200 (1).jpg",
-            "link": "https://shop.vnexpress.net/retail/toc-do-247/category_100?&orderby=price_sell_desc",
-            "merchant": "shopvnexpress",
-            "name": "Bộ phụ kiện ô tô 3M và Michelin chính hãng giảm 50%",
-            "start_time": "2018-11-28"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.yes24.vn%2Fdien-gia-dung-mishio-km710000.html",
-            "banners": [],
-            "categories": [],
-            "content": "Gia Dụng Hàn Quốc - Giảm 50%",
-            "coupons": [],
-            "domain": "yes24.vn",
-            "end_time": "2018-12-30",
-            "id": "5006699406363014593",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/yes24vn/yes24.30.11_3.jpg",
-            "link": "https://www.yes24.vn/dien-gia-dung-mishio-km710000.html",
-            "merchant": "yes24vn",
-            "name": "Gia Dụng Hàn Quốc - Giảm 50%",
-            "start_time": "2018-11-30"
-        },
-        {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fvuabia.com%2Fbudweiser-lon-500ml-thung-12-lon-250.html",
             "banners": [],
             "categories": [],
@@ -1017,21 +936,6 @@
             "start_time": "2018-12-07"
         },
         {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.yes24.vn%2Feveron-km589240.html",
-            "banners": [],
-            "categories": [],
-            "content": "Hóa đơn trên 1tr tặng gối tựa Everon\r\nHóa đơn trên 4tr tặng tấm trải chống trượt\r\nHóa đơn trên 10tr tặng 1 đệm đa năng \"",
-            "coupons": [],
-            "domain": "yes24.vn",
-            "end_time": "2018-12-30",
-            "id": "5012000770046883196",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/yes24vn/yes24_07.12_1.jpg",
-            "link": "https://www.yes24.vn/everon-km589240.html",
-            "merchant": "yes24vn",
-            "name": "Everon Khuyến mãi đặc biệt cuối năm",
-            "start_time": "2018-12-07"
-        },
-        {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.yes24.vn%2Fgiay-paperplanes-snrd-han-quoc-khuyen-mai-lon-km466050.html",
             "banners": [],
             "categories": [],
@@ -1551,37 +1455,6 @@
             "merchant": "cellphones",
             "name": "Đặt trước Samsung Galaxy Watch - Nhận quà cực sốc",
             "start_time": "2018-12-18"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fcellphones.com.vn%2Fsamsung-galaxy-note-9-chinh-hang.html",
-            "banners": [
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/160x600/note9-v9-728x90_hn.jpg",
-                    "width": 160
-                },
-                {
-                    "height": 280,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/336x280/note9-v9-728x90_hn.jpg",
-                    "width": 336
-                },
-                {
-                    "height": 90,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/cellphones/728x90/note9-v9-728x90_hn.jpg",
-                    "width": 728
-                }
-            ],
-            "categories": [],
-            "content": "Từ ngày 28/12-30/12\r\nHN : Note 9 128GB : 17.390.000đ / Note 9 512 GB : 22.390.000đ\r\nChương trình không được áp dụng với các chương trình khác như thu cũ đổi mới , galaxy Gift\r\n",
-            "coupons": [],
-            "domain": "cellphones.com.vn",
-            "end_time": "2018-12-30",
-            "id": "5019862064374107092",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/cellphones/note9-v9-336x280_hn.jpg",
-            "link": "https://cellphones.com.vn/samsung-galaxy-note-9-chinh-hang.html",
-            "merchant": "cellphones",
-            "name": "Hotsales Note 9 giảm ngay 3 triệu",
-            "start_time": "2018-12-28"
         },
         {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fcellphones.com.vn%2Fsamsung-galaxy-note-9-chinh-hang.html",
@@ -2252,21 +2125,6 @@
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffptshop.com.vn%2Fsamsung",
             "banners": [],
             "categories": [],
-            "content": "SAMSUNG NOTE 8: Giảm ngay 5,000,000đ",
-            "coupons": [],
-            "domain": "fptshop.com.vn",
-            "end_time": "2018-12-29",
-            "id": "5024806014360677214",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/fptshop/fptshop_25.12_3_.png",
-            "link": "https://fptshop.com.vn/samsung",
-            "merchant": "fptshop",
-            "name": "SAMSUNG NOTE 8: Giảm ngay 5,000,000đ",
-            "start_time": "2018-12-23"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Ffptshop.com.vn%2Fsamsung",
-            "banners": [],
-            "categories": [],
             "content": "- Giảm ngay 2,500,000đ.\r\n- Số lượng 50 suất/ ngày, có thể kết thúc sớm khi hết suất.\r\n- Khung giờ Vàng 12h - 15h và 18h-22h đến ngày 31/12.\r\n- Không áp dụng cho sản phẩm S9 Plus Đỏ.\r\n",
             "coupons": [],
             "domain": "fptshop.com.vn",
@@ -2653,42 +2511,6 @@
             "merchant": "vuabia",
             "name": "Stella Artois thùng 24 chai 330ml - Tặng hộp quà Best of Belgium trị giá 350.000VNĐ",
             "start_time": "2019-01-01"
-        },
-        {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fshopee.vn%2Fm%2Fasus-day",
-            "banners": [
-                {
-                    "height": 250,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopee/300x250/P2_300x600.jpg",
-                    "width": 300
-                },
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopee/160x600/P2_300x600.jpg",
-                    "width": 160
-                },
-                {
-                    "height": 90,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopee/728x90/P2_300x600.jpg",
-                    "width": 728
-                },
-                {
-                    "height": 600,
-                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/shopee/300x600/P2_300x600.jpg",
-                    "width": 300
-                }
-            ],
-            "categories": [],
-            "content": "Giá độc quyền Asus Zenfone Max Pro M2 tại Shopee 4,990,000 VND phiên bản 3GB/32GB.\r\nThời gian diễn ra: 28/12 - 29/12/2018",
-            "coupons": [],
-            "domain": "shopee.vn",
-            "end_time": "2018-12-29",
-            "id": "5026972646480452251",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/shopee/P2_300x250.jpg",
-            "link": "https://shopee.vn/m/asus-day",
-            "merchant": "shopee",
-            "name": "Giá độc quyền Asus Zenfone Max Pro M2 giá chỉ còn 4,990,000 VND",
-            "start_time": "2018-12-28"
         },
         {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.adayroi.com%2Fvinfast",
