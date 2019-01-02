@@ -70,14 +70,15 @@ if(! function_exists('paginationArray')){
  * @cat_id: number
  * @order_col: string
  * @order_by: asc/desc
- * @paginate: number
+ * @limit: number
  */
 if(! function_exists('getAllPosts')){
-    function getAllPosts($select='*', $order_col, $order_by='asc', $paginate = 3){
+    function getAllPosts($select='*', $order_col, $order_by='asc', $limit = 3){
         $item = TCG\Voyager\Models\Post::select($select)
                     ->where("status", "PUBLISHED")
                     ->orderBy($order_col, $order_by)
-                    ->paginate($paginate);
+                    ->limit($limit)
+                    ->get();
         return $item;
     }
 }

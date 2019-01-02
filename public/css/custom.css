@@ -645,6 +645,9 @@ button.scroltop {
 
 /* Small devices (mobile, 992px and down) */
 @media only screen and (max-width: 992px) {
+    body{
+        overflow-x: hidden;
+    }
     /* NAVBAR */
     .navbar .navbar-brand img{
         width: 150px;
@@ -673,7 +676,12 @@ button.scroltop {
     }
     #top-reviews ul{
         width: 49%;
-        display: -webkit-box;
+    }
+    #top-reviews ul.col-left{
+        float: left;
+    }
+    #top-reviews ul.col-right{
+        float: right;
     }
     #top-reviews ul.col-left li{
         padding: 10px 5px 10px 10px;
@@ -748,7 +756,7 @@ button.scroltop {
 .page-content .social-wrap{
     background: #ffffff url(/images/arrowdown.jpg) no-repeat;
     background-position: 75px 0px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 .page-content .fb-like{
     padding: 0 50px;
@@ -779,8 +787,8 @@ button.scroltop {
 }
 
 .page-content .article ul{
-    list-style: none;
-    padding: 0 50px;
+    /* list-style: none; */
+    padding: 0 50px 0 70px;
 }
 
 .page-content .author{
@@ -815,6 +823,9 @@ button.scroltop {
     .page-content .title{
         padding: 0 20px;
     }
+    .page-content .author{
+        padding: 0 20px;
+    }
     .page-content .created_at{
         padding-left: 20px;
     }
@@ -822,7 +833,7 @@ button.scroltop {
         padding-left: 20px;
     }
     .page-content .article ul{
-        padding: 0 20px;
+        padding: 0 20px 0 40px;
         font-size: 14px;
     }
 }
