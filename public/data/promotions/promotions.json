@@ -214,27 +214,6 @@
             "start_time": "2018-12-24"
         },
         {
-            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fshopee.vn%2Fm%2Fsmartbooks-super-brand-day",
-            "banners": [],
-            "categories": [
-                {
-                    "category_name": "sach-vpp-qua-tang",
-                    "category_name_show": "Sách - VPP - Quà tặng",
-                    "category_no": 111
-                }
-            ],
-            "content": "- Sách sale sốc đến 50%, giảm thêm 20% khi áp dụng Mã Giảm Giá của Shopee.\r\n- Sách hot mỗi ngày + Bộ quà siêu khủng( Bọc sách miễn phí, Bộ kit siêu đỉnh: bookmark, bút Shopee kute, sổ bí kíp võ công (thần chưởng), Giao hàng miễn phí toàn quốc mà còn siêu nhanh (4H nội tỉnh))\r\n- Vòng quay may mắn - Quà siêu nhiều (Bao lì xì, Túi Vải - Độc quyền Shopee), Voucher siêu chất\r\n- Thời gian: từ 27/12/2018 đến 02/01/2019",
-            "coupons": [],
-            "domain": "shopee.vn",
-            "end_time": "2019-01-02",
-            "id": "5025750589773816208",
-            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/shopee/shopee_26.12.jpg",
-            "link": "https://shopee.vn/m/smartbooks-super-brand-day",
-            "merchant": "shopee",
-            "name": "Đại hội siêu sách + Bộ quà khủng",
-            "start_time": "2018-12-26"
-        },
-        {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.adayroi.com%2Fvinfast",
             "banners": [],
             "categories": [],
@@ -342,7 +321,13 @@
         {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fvuabia.com%2Fhoegaarden-rosee-chai-1-hop-qua-bob.html",
             "banners": [],
-            "categories": [],
+            "categories": [
+                {
+                    "category_name": "thuc-pham-do-uong",
+                    "category_name_show": "Thực phẩm, đồ uống",
+                    "category_no": 116
+                }
+            ],
             "content": "Hoegaarden Rosée thùng 24 chai 250ml - Tặng 1 hộp quà Best of Belgium trị giá 350.000VNĐ/hộp ",
             "coupons": [],
             "domain": "vuabia.com",
@@ -387,7 +372,13 @@
         {
             "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fvuabia.com%2Fstella-artois-chai-1-hop-qua-bob.html",
             "banners": [],
-            "categories": [],
+            "categories": [
+                {
+                    "category_name": "thuc-pham-do-uong",
+                    "category_name_show": "Thực phẩm, đồ uống",
+                    "category_no": 116
+                }
+            ],
             "content": "Stella Artois thùng 24 chai 330ml - Tặng hộp quà Best of Belgium trị giá 350.000VNĐ",
             "coupons": [],
             "domain": "vuabia.com",
@@ -494,6 +485,157 @@
             "merchant": "yes24vn",
             "name": "Hàng nhập new arrivals - giá từ 99K",
             "start_time": "2018-12-28"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.yes24.vn%2Fevent-2018%2Fty-sale-nhu-mo",
+            "banners": [
+                {
+                    "height": 600,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/yes24vn/160x600/FB_1200x628_yes24.jpg",
+                    "width": 160
+                },
+                {
+                    "height": 600,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/yes24vn/300x600/FB_1200x628_yes24.jpg",
+                    "width": 300
+                },
+                {
+                    "height": 628,
+                    "link": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/banner/yes24vn/1200x628/FB_1200x628_yes24.jpg",
+                    "width": 1200
+                }
+            ],
+            "categories": [],
+            "content": "EVENT Ngày 03.1.2019: \r\n+ Nhập Mã HELLO8 giảm 8% tất cả đơn hàng \r\n+ Nhập Mã HELLO10 giảm 10% cho đơn hàng từ 500K\r\n+ Nhập mã HELLO12 Flash Deals mã giảm 12% cho đơn hàng từ 800K (Số lượng: 100 mã)\r\nEVENT Ngày 4/01/2019: \r\n+ List Brand giảm 12%\r\n+ List SP đồng giá 99K/ 199K/ 299K\r\nEVENT Ngày 7,8,9,10/01/2019:\r\n+ List SP giá tốt nhất được trợ mã 10% (15 SP)\r\n+ List SP giảm 10% (SP giá dưới 300K)\r\nEVENT Ngày 11.1.2019: \r\n+ Mã 8% tất cả đơn hàng \r\n+ Mã 10% cho đơn hàng từ 500K\r\n+ Mã 12% cho đơn hàng từ 800K\r\nEVENT Ngày 5,6,12,13.01.2019:\r\n+ Hỗ trợ phí vận chuyển 50% tất cả đơn hàng\r\n",
+            "coupons": [],
+            "domain": "yes24.vn",
+            "end_time": "2019-01-13",
+            "id": "5031337133469650483",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/yes24vn/FB_1200x628_yes24.jpg",
+            "link": "https://www.yes24.vn/event-2018/ty-sale-nhu-mo",
+            "merchant": "yes24vn",
+            "name": "TỶ SALE NHƯ MƠ",
+            "start_time": "2019-01-03"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.yes24.vn%2Flaneige-khuyen-mai-tang-qua-km480090.html",
+            "banners": [],
+            "categories": [],
+            "content": "Top SP bán chạy nhất của Laneige giảm 50%",
+            "coupons": [],
+            "domain": "yes24.vn",
+            "end_time": "2019-01-06",
+            "id": "5031338200247078067",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/yes24vn/yes24_03.01.jpg",
+            "link": "https://www.yes24.vn/laneige-khuyen-mai-tang-qua-km480090.html",
+            "merchant": "yes24vn",
+            "name": "Top SP bán chạy nhất của Laneige giảm 50%",
+            "start_time": "2019-01-03"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.yes24.vn%2Ftriumph-dong-gia-km673320.html",
+            "banners": [],
+            "categories": [],
+            "content": "Triumph khuyến mãi giá từ 42K + tặng 1 quần Triumph cotton ngẫu nhiên choên đơn hàng đầu tiên từ 500K\"",
+            "coupons": [],
+            "domain": "yes24.vn",
+            "end_time": "2019-01-15",
+            "id": "5031338707476013932",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/yes24vn/yes24_03.01_2.jpg",
+            "link": "https://www.yes24.vn/triumph-dong-gia-km673320.html",
+            "merchant": "yes24vn",
+            "name": "Triumph khuyến mãi hấp dẫn",
+            "start_time": "2019-01-03"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.yes24.vn%2Fmmoutfit--thoi-trang-thiet-ke-km518720.html",
+            "banners": [],
+            "categories": [],
+            "content": "Thời trang thiết kế MMOUTFIT- Đồng giá 199K",
+            "coupons": [],
+            "domain": "yes24.vn",
+            "end_time": "2019-01-15",
+            "id": "5031339156601054836",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/yes24vn/yes24_03.01_3.jpg",
+            "link": "https://www.yes24.vn/mmoutfit--thoi-trang-thiet-ke-km518720.html",
+            "merchant": "yes24vn",
+            "name": "Thời trang thiết kế MMOUTFIT- Đồng giá 199K",
+            "start_time": "2019-01-03"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.yes24.vn%2Fdien-may-chi-tu-59k-km635100.html",
+            "banners": [],
+            "categories": [],
+            "content": "Giá từ 59K + quà tặng lịch để bàn 2019",
+            "coupons": [],
+            "domain": "yes24.vn",
+            "end_time": "2019-01-30",
+            "id": "5031339831191046975",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/yes24vn/yes24_03.01_4.jpg",
+            "link": "https://www.yes24.vn/dien-may-chi-tu-59k-km635100.html",
+            "merchant": "yes24vn",
+            "name": "Điện máy siêu rẻ chỉ từ 59K",
+            "start_time": "2019-01-03"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Fwww.yes24.vn%2Fgiay-the-thao-puma-km478650.html",
+            "banners": [],
+            "categories": [],
+            "content": "Puma sale 30%",
+            "coupons": [],
+            "domain": "yes24.vn",
+            "end_time": "2019-01-20",
+            "id": "5031340128578443868",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/yes24vn/yes24_03.01_5.jpg",
+            "link": "https://www.yes24.vn/giay-the-thao-puma-km478650.html",
+            "merchant": "yes24vn",
+            "name": "Puma sale 30%",
+            "start_time": "2019-01-03"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Faeoneshop.com%2Fcollections%2Fhitachi-a-better-life%3Fview%3Dhn",
+            "banners": [],
+            "categories": [],
+            "content": "Điện máy Hitachi - Cho cuộc sống tốt đẹp hơn",
+            "coupons": [],
+            "domain": "aeoneshop.com",
+            "end_time": "2019-01-06",
+            "id": "5031367863970464456",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/aeon.myharavan.com/brand-hitachi- web.jpg",
+            "link": "https://aeoneshop.com/collections/hitachi-a-better-life?view=hn",
+            "merchant": "aeon.myharavan.com",
+            "name": "Điện máy Hitachi - Cho cuộc sống tốt đẹp hơn",
+            "start_time": "2019-01-03"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Faeoneshop.com%2Fpages%2Fhamper-tet-trao-qua-yeu-thuong-cung-aeoneshop",
+            "banners": [],
+            "categories": [],
+            "content": "Hamper Tết - Trao Hamper, Trao Tết tình thân ",
+            "coupons": [],
+            "domain": "aeoneshop.com",
+            "end_time": "2019-02-04",
+            "id": "5031369442099821764",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/aeon.myharavan.com/720x480px- hamper tet.jpg",
+            "link": "https://aeoneshop.com/pages/hamper-tet-trao-qua-yeu-thuong-cung-aeoneshop",
+            "merchant": "aeon.myharavan.com",
+            "name": "Hamper Tết - Trao Hamper, Trao Tết tình thân ",
+            "start_time": "2019-01-03"
+        },
+        {
+            "aff_link": "https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url=https%3A%2F%2Faeoneshop.com%2Fpages%2Fmung-sinh-nhat-aeoneshop-2-tuoi",
+            "banners": [],
+            "categories": [],
+            "content": "Mừng sinh nhật tròn 2 tuổi của AeonEshop ",
+            "coupons": [],
+            "domain": "aeoneshop.com",
+            "end_time": "2019-01-06",
+            "id": "5031372081448258978",
+            "image": "https://static.accesstrade.vn/publisher/www/files/img_promo/offer/img/aeon.myharavan.com/720x480px- birthday.jpg",
+            "link": "https://aeoneshop.com/pages/mung-sinh-nhat-aeoneshop-2-tuoi",
+            "merchant": "aeon.myharavan.com",
+            "name": "Mừng sinh nhật tròn 2 tuổi của AeonEshop ",
+            "start_time": "2019-01-01"
         }
     ]
 }
