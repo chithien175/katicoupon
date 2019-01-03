@@ -50,14 +50,8 @@ Route::get('/amp/{slug}-{id}.html', 'FrontendController@ampPostDetail')->name('a
 // Trang danh sách bài viết theo danh mục
 Route::get('/danh-gia/{slug}.html', 'FrontendController@postByCate')->name('post-by-cate')->where(['slug' => '[a-zA-Z-0-9]+']);
 
-/*
-|--------------------------------------------------------------------------
-| Pages - Frontend
-|--------------------------------------------------------------------------
-|
-| Route các pages frontend
-|
-*/
+
+// Route các pages frontend
 // Trang điều khoản sử dụng
 Route::get('/dieu-khoan-su-dung.html', function(){
     return view('pages.term');
