@@ -1,12 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Tổng hợp khuyến mãi '.$merchant.' tháng'. date('m') . ' tại khocoupon.net')
+@section('title', 'Tổng hợp khuyến mãi '.$merchant.' tháng '. date('m') . ' tại khocoupon.net')
 @section('description', 'Cập nhật mã giảm giá '.$merchant.', phiếu khuyến mãi '.$merchant.', coupons '.$merchant.', vouchers '.$merchant.'.')
 @section('keywords', 'mã giảm giá, phiếu khuyến mãi, coupons, vouchers')
 
 @section('fb_url', route('merchant-filter', $merchant))
 @section('fb_type', 'website')
-@section('fb_title', 'Tổng hợp khuyến mãi '.$merchant.' tháng'. date('m') . ' tại khocoupon.net')
+@section('fb_title', 'Tổng hợp khuyến mãi '.$merchant.' tháng '. date('m') . ' tại khocoupon.net')
 @section('fb_des', 'Cập nhật mã giảm giá '.$merchant.', phiếu khuyến mãi '.$merchant.', coupons '.$merchant.', vouchers '.$merchant.'.')
 @section('fb_img', asset('icons/launcher-icon-4x.png'))
 
