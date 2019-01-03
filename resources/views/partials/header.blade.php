@@ -25,6 +25,14 @@
                     @endforeach
                 </div>
             </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">
+                Công cụ
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://page.khocoupon.net" target="_blank">Tạo Landing Page</a>
+                </div>
+            </li>
         </ul>
         <form class="form-inline my-2 my-lg-0" method="get" id="search_form_top" action="https://www.google.com.vn/search" target="_blank" onsubmit="jQuery('#q').val('site:khocoupon.net ' + jQuery('#q_tmp').val())">
             <input class="form-control mr-sm-2" type="text" placeholder="Bạn cần tìm gì?" value="" onkeypress="" autocomplete="off" id="q_tmp">
