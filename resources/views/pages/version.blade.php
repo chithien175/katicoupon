@@ -21,31 +21,31 @@
             <h2>v1.3.alpha (03/01/2019)</h2>
             <p>Thêm chức năng:</p>
             <ul>
-                <li>- Trình tạo <a href="https://page.khocoupon.net" target="_blank" title="Tạo landing page online - landing page miễn phí">Landing Page Online</a> Miễn Phí.</li>
+                <li>Trình tạo <a href="https://page.khocoupon.net" target="_blank" title="Tạo landing page online - landing page miễn phí">Landing Page Online</a> Miễn Phí.</li>
             </ul>
 
             <h2>v1.2.alpha (29/12/2018)</h2>
             <p>Thêm chức năng:</p>
             <ul>
-                <li>- Danh sách bài viết theo danh mục.</li>
-                <li>- Công cụ tìm kiếm dữ liệu website trên google.</li>
-                <li>- Tối ưu tốc độ tải trang.</li>
+                <li>Danh sách bài viết theo danh mục.</li>
+                <li>Công cụ tìm kiếm dữ liệu website trên google.</li>
+                <li>Tối ưu tốc độ tải trang.</li>
             </ul>
 
             <h2>v1.1.alpha (25/12/2018)</h2>
             <p>Thêm chức năng:</p>
             <ul>
-                <li>- Chuyên mục tin tức.</li>
-                <li>- Thích, chia sẽ, bình luận bài viết</li>
+                <li>Chuyên mục tin tức.</li>
+                <li>Thích, chia sẽ, bình luận bài viết</li>
             </ul>
 
             <h2>v1.0.alpha (20/12/2018) Phiên bản thử nghiệm</h2>
             <p>Chức năng:</p>
             <ul>
-                <li>- Liệt kê danh sách khuyến mãi mới nhất.</li>
-                <li>- Tìm kiếm khuyến mãi theo nhà cung cấp.</li>
-                <li>- Giao diện thân thiện với thiết bị di dộng.</li>
-                <li>- Thêm trang <a href="{{ url('/sitemap.xml') }}">sơ đồ website</a>.</li>
+                <li>Liệt kê danh sách khuyến mãi mới nhất.</li>
+                <li>Tìm kiếm khuyến mãi theo nhà cung cấp.</li>
+                <li>Giao diện thân thiện với thiết bị di dộng.</li>
+                <li>Thêm trang <a href="{{ url('/sitemap.xml') }}">sơ đồ website</a>.</li>
             </ul>
         </div>
     </div>

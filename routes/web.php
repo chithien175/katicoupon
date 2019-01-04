@@ -28,11 +28,14 @@ Route::get('generate-sitemap', 'BackendController@generateSitemap');
 // Route Minify CSS backend
 Route::get('minify-css', 'BackendController@minifyCss');
 
-// Route Promotions Refresh backend
+// Lấy danh sách khuyến mãi từ accesstrade.vn
 Route::get('promotions-refresh', 'BackendController@promotionsRefresh');
 
-// Route Campaigns Refresh backend
+// Lấy danh sách chiến dịch từ accesstrade.vn
 Route::get('campaigns-refresh', 'BackendController@campaignsRefresh');
+
+// Lấy danh sách khóa học từ unica.vn
+Route::get('courses-refresh', 'BackendController@coursesRefresh');
 
 /*
 |--------------------------------------------------------------------------
@@ -52,7 +55,7 @@ Route::get('/{slug}-{id}.html', 'FrontendController@postDetail')->name('post-det
 // Trang chi tiết bài viết sử dụng AMP
 Route::get('/amp/{slug}-{id}.html', 'FrontendController@ampPostDetail')->name('amp-post-detail')->where(['slug' => '[a-zA-Z-0-9]+', 'id' => '[0-9]*']);
 // Trang danh sách bài viết theo danh mục
-Route::get('/danh-gia/{slug}.html', 'FrontendController@postByCate')->name('post-by-cate')->where(['slug' => '[a-zA-Z-0-9]+']);
+Route::get('/tin-tuc/{slug}.html', 'FrontendController@postByCate')->name('post-by-cate')->where(['slug' => '[a-zA-Z-0-9]+']);
 
 
 // Route các pages frontend

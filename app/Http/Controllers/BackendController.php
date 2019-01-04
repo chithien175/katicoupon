@@ -9,6 +9,7 @@ use Spatie\Sitemap\Tags\Url;
 use Carbon\Carbon;
 use TCG\Voyager\Models\Post;
 use TCG\Voyager\Models\Category;
+use App\Course;
 
 class BackendController extends Controller
 {
@@ -154,6 +155,52 @@ class BackendController extends Controller
                 fwrite($file, $response);
                 return redirect()->route('home');
             }
+        }
+    }
+
+    public function coursesRefresh(){
+        $curl = curl_init();
+
+        curl_setopt_array($curl, array(
+        CURLOPT_URL => "https://unica.vn/api/getCourseList",
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => "",
+        CURLOPT_MAXREDIRS => 10,
+        CURLOPT_TIMEOUT => 30,
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_CUSTOMREQUEST => "GET",
+        CURLOPT_POSTFIELDS => "",
+        CURLOPT_HTTPHEADER => array(
+            "Postman-Token: d07efa7b-fa20-4c1b-a8c6-051fb0e85dcf",
+            "cache-control: no-cache"
+        ),
+        ));
+
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+
+        curl_close($curl);
+
+        if ($err) {
+            echo "cURL Error #:" . $err;
+        } else {
+            // echo $response;
+
+            $response = json_decode($response, true);
+            
+            foreach($response['data'] as $key => $value){
+                
+                if(!Course::where('id', $key)->first()){
+                    $course = new Course;
+                    $course->id = $key;
+                    $course->course_name = $value;
+                    $course->save();
+                }
+            }
+            echo "done";
+
+            // return redirect()->route('home');
+            
         }
     }
 }
