@@ -7,7 +7,7 @@
 					<p>Kết nối với chúng tôi</p>			
 					<ul class="social">
 						<li>
-							<a target="_blank" rel="nofollow" href="#"><i class="fab fa-facebook-f"></i></a>
+							<a target="_blank" rel="nofollow" href="https://www.facebook.com/khocoupon.magiamgia/"><i class="fab fa-facebook-f"></i></a>
 						</li>
 					</ul>			
 					<p class="email-support"><i class="li-envelope"></i>Email hỗ trợ: <strong>khocoupon@gmail.com</strong></p>
