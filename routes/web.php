@@ -21,14 +21,18 @@
 Route::group(['prefix' => 'backend-system'], function () {
     Voyager::routes();
 });
-/*
-| Route Sitemap Generator backend
-*/
+
+// Route Generate Sitemap backend
 Route::get('generate-sitemap', 'BackendController@generateSitemap');
-/*
-| Route Minify CSS backend
-*/
+
+// Route Minify CSS backend
 Route::get('minify-css', 'BackendController@minifyCss');
+
+// Route Promotions Refresh backend
+Route::get('promotions-refresh', 'BackendController@promotionsRefresh');
+
+// Route Campaigns Refresh backend
+Route::get('campaigns-refresh', 'BackendController@campaignsRefresh');
 
 /*
 |--------------------------------------------------------------------------
