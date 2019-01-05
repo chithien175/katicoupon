@@ -1,12 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Phân tích đánh giá '.$category->name.' tại khocoupon.net')
+@section('title', 'Tin tức đánh giá '.$category->name.' tại khocoupon.net')
 @section('description', 'Chuyên trang phân tích đánh giá sản phẩm '.$category->name.' chân thật')
 @section('keywords', $category->name.','.$category->slug.',đánh giá '.$category->name.',review '.$category->name)
 
 @section('fb_url', route('post-by-cate', $category->slug))
 @section('fb_type', 'website')
-@section('fb_title', 'Phân tích đánh giá '.$category->name.' tại khocoupon.net')
+@section('fb_title', 'Tin tức đánh giá '.$category->name.' tại khocoupon.net')
 @section('fb_des', 'Chuyên trang phân tích đánh giá sản phẩm '.$category->name.' chân thật')
 @section('fb_img', asset('icons/launcher-icon-4x.png'))
 

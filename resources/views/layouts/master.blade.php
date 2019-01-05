@@ -49,7 +49,8 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" type="text/css" href="{{ asset('/plugins/bootstrap/css/bootstrap.min.css') }}" >
         <!-- Custom CSS -->
-        <link rel="stylesheet" type="text/css" href="{{ asset('/css/custom.min.css') }}" >
+        <!-- <link rel="stylesheet" type="text/css" href="{{ asset('/css/custom.min.css') }}" > -->
+        <link rel="stylesheet" type="text/css" href="{{ asset('/css/custom.css') }}" >
         <!-- Pace CSS -->
         <style>
             .pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#ffc107;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}

@@ -56,6 +56,8 @@ Route::get('/{slug}-{id}.html', 'FrontendController@postDetail')->name('post-det
 Route::get('/amp/{slug}-{id}.html', 'FrontendController@ampPostDetail')->name('amp-post-detail')->where(['slug' => '[a-zA-Z-0-9]+', 'id' => '[0-9]*']);
 // Trang danh sách bài viết theo danh mục
 Route::get('/tin-tuc/{slug}.html', 'FrontendController@postByCate')->name('post-by-cate')->where(['slug' => '[a-zA-Z-0-9]+']);
+// Trang hot deal, sản phẩm giảm giá đặt biệt
+Route::get('/deal-hot.html', 'FrontendController@dealHot')->name('deal-hot');
 
 
 // Route các pages frontend

@@ -837,3 +837,117 @@ button.scroltop {
         font-size: 14px;
     }
 }
+
+/********************************************************************/
+/*                          PRODUCTS                                 */
+/*                          PRODUCTS                                 */
+/********************************************************************/
+#deal-hot-section{
+    padding-top: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 50px 0 rgba(0,0,0,.15);
+    border-top: 2px solid #17a2b8;
+    border-radius: 5px;
+}
+#deal-hot-section .title h1{
+    font-size: 22px;
+    color: #17a2b8;
+    font-weight: 600;
+    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,sans-serif', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#deal-hot-section .items{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+#deal-hot-section .items a.deal-item{
+    width: 25%;
+    color: #242424;
+    display: inline-block;
+    width: 25%;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+}
+#deal-hot-section a.deal-item .thumb img{
+    width: 100%;
+    height: auto;
+}
+#deal-hot-section a.deal-item .title{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.54;
+    color: #242424;
+    overflow: hidden;
+    height: 40px;
+}
+#deal-hot-section a.deal-item:hover{
+    text-decoration: none;
+}
+#deal-hot-section a.deal-item .price{
+    font-size: 15px;
+    color: #242424;
+    font-weight: 600;
+    padding: 0;
+    text-align: left;
+}
+#deal-hot-section a.deal-item .price .price-regular{
+    font-size: 11px;
+    color: #a2a2a2;
+    text-decoration: line-through;
+    text-align: left;
+    font-weight: 300;
+    margin-left: 8px;
+}
+#deal-hot-section a.deal-item .deal-status{
+    color: #000;
+    margin-top: 11px;
+    font-weight: 300;
+    min-height: 22px;
+}
+#deal-hot-section a.deal-item .deal-status .process-bar {
+    height: 22px;
+    display: block;
+    width: 100%;
+    background: #d3d2d3;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    position: relative;
+}
+#deal-hot-section a.deal-item .deal-status .process-bar div {
+    background: #ff424e;
+    height: 100%;
+}
+#deal-hot-section a.deal-item .deal-status .process-bar .text {
+    font-size: 12px;
+    position: absolute;
+    color: #fff;
+    top: 2px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+#deal-hot-section a.deal-item .deal-status .started {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+#deal-hot-section a.deal-item .deal-item .deal-status .time {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
+    
+/* Small devices (mobile, 768px and down) */
+@media only screen and (max-width: 768px) {
+    /* PRODUCT */
+    #deal-hot-section .items a.deal-item{
+        width: 50%;
+    }
+}
