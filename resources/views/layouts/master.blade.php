@@ -8,7 +8,7 @@
         <meta name="_token" content="{{csrf_token()}}" />
 
         <!-- Google SEO -->
-        <title>@yield('title')</title>
+        <title>🌟@yield('title')🌟</title>
 
         <!-- Set for iOS -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"/>
@@ -22,7 +22,7 @@
         
         <link rel="amphtml" href="@yield('amp-link')">
 
-        <meta name="description" content="@yield('description')">
+        <meta name="description" content="✅@yield('description')">
         <meta name="robots" content="index, follow" />
         <meta name="keywords" content="@yield('keywords')">
         <meta name="author" content="Kho Coupon" />
@@ -33,8 +33,8 @@
         <meta property="fb:app_id"        content="2028919047203695" />
         <meta property="og:url"           content="@yield('fb_url')" />
         <meta property="og:type"          content="@yield('fb_type')" />
-        <meta property="og:title"         content="@yield('fb_title')" />
-        <meta property="og:description"   content="@yield('fb_des')" />
+        <meta property="og:title"         content="🌟@yield('fb_title')🌟" />
+        <meta property="og:description"   content="✅@yield('fb_des')" />
         <meta property="og:image"         content="@yield('fb_img')" />
         
         <noscript>

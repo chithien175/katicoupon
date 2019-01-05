@@ -13,6 +13,7 @@ use App\Course;
 
 class BackendController extends Controller
 {
+    // Tạo sitemap
     public function generateSitemap(){
         $sitemap = Sitemap::create();
 
@@ -47,6 +48,7 @@ class BackendController extends Controller
         return redirect('sitemap.xml');
     }
 
+    // Nén Css
     public function minifyCss(){
         // setup the URL and read the CSS from a file
         $url = 'https://cssminifier.com/raw';
@@ -77,6 +79,7 @@ class BackendController extends Controller
         }
     }
 
+    // Get Khuyến Mãi Từ Accesstrade.vn
     public function promotionsRefresh(){
         $curl = curl_init();
 
@@ -118,6 +121,7 @@ class BackendController extends Controller
         }
     }
 
+    // Get Chiến Dịch Từ Accesstrade.vn
     public function campaignsRefresh(){
         $curl = curl_init();
 
@@ -158,6 +162,7 @@ class BackendController extends Controller
         }
     }
 
+    // Get Khóa Học Từ Unica.vn
     public function coursesRefresh(){
         $curl = curl_init();
 
@@ -197,9 +202,9 @@ class BackendController extends Controller
                     $course->save();
                 }
             }
-            echo "done";
 
-            // return redirect()->route('home');
+            // echo 'done';
+            return redirect()->route('home');
             
         }
     }

@@ -1,13 +1,13 @@
 @extends('layouts.master')
 
 @section('title', 'Miễn Trừ Trách Nhiệm Tại khocoupon.net')
-@section('description', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers. Đánh giá sản phẩm chân thật.')
+@section('description', 'Ứng dụng không thể thiếu cho những người mua sắm trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers. Đánh giá sản phẩm chân thật.')
 @section('keywords', '')
 
 @section('fb_url', route('term'))
 @section('fb_type', 'website')
 @section('fb_title', 'Miễn Trừ Trách Nhiệm Tại khocoupon.net')
-@section('fb_des', 'Ứng dụng không thể thiếu cho những người mua hàng trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers. Đánh giá sản phẩm chân thật.')
+@section('fb_des', 'Ứng dụng không thể thiếu cho những người mua sắm trực tuyến. Cập nhật mã giảm giá, phiếu khuyến mãi, coupons, vouchers. Đánh giá sản phẩm chân thật.')
 @section('fb_img', asset('icons/launcher-icon-4x.png'))
 
 @section('css')
