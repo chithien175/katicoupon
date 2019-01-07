@@ -1,11 +1,4 @@
 $(document).ready(function() {
-    /*------------- preloader js --------------*/
-	$(window).on('load',function() { 
-        $('.preloader-wrap').fadeOut(); 
-        $('.longfazers').delay(150).fadeOut('slow');
-		$('.loader').delay(150).fadeOut('slow');
-        // $('body').delay(150).css({'overflow':'visible'})
-	});
 
     // REMOVE: p tag wrap img tag in article
     $('.article img').unwrap("p");
@@ -67,6 +60,13 @@ $(document).ready(function() {
         event.preventDefault();
         var affLink = $(this).find("a").data("aff-link");
         window.open(affLink, '_blank');
+    });
+
+    // CHECK: On Click Aff Product
+    $(".click-aff-product").on("click", function(event){
+        event.preventDefault();
+        var affProduct = $(this).data("aff-product");
+        window.open(affProduct, '_blank');
     });
 
     // CHECK: On Click Get Coupon

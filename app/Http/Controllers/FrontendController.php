@@ -47,7 +47,9 @@ class FrontendController extends Controller
     }
 
     // Trang ds sản phẩm hot deal theo Tikivn
-    public function dealHot(){
-        return view('products.deal-hot');
+    public function dealHot(Request $request){
+        $page = ( isset($request->page) ) ? $request->page : 1;
+        $products = getAllProducts($page);
+        return view('products.deal-hot')->withProducts($products)->withPage($page);
     }
 }

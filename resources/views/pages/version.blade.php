@@ -18,6 +18,12 @@
     <div class="page-content col-lg-9 mb-4 animated fadeInLeft">
         <div class="title"><h1>Tính Năng & Phiên Bản Ứng Dụng</h1></div>
         <div class="article">
+            <h2>v1.4.alpha (07/01/2019)</h2>
+            <p>Thêm chức năng:</p>
+            <ul>
+                <li>Trang <a href="https://page.khocoupon.net" target="_blank" title="Deal HOT liệt kê sản phẩm giảm giá mạnh">Deal HOT</a> liệt kê sản phẩm giảm giá mạnh.</li>
+            </ul>
+
             <h2>v1.3.alpha (03/01/2019)</h2>
             <p>Thêm chức năng:</p>
             <ul>

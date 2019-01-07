@@ -9,6 +9,12 @@
 
         <!-- Google SEO -->
         <title>🌟@yield('title')🌟</title>
+        <meta name="description" content="✅@yield('description')">
+        <meta name="robots" content="index, follow" />
+        <meta name="keywords" content="@yield('keywords')">
+        <meta name="author" content="Kho Coupon" />
+        <link rel="canonical" href="{{ url('/') }}" />
+        <link rel="shortcut icon" type="image/png" href="{{ asset('favicon.png') }}">
 
         <!-- Set for iOS -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"/>
@@ -19,16 +25,8 @@
         <link rel="apple-touch-icon" sizes="167x167" href="{{ asset('icons/ios/touch-icon-ipad-retina.png') }}">
 
         <!-- Link to AMP page -->
-        
         <link rel="amphtml" href="@yield('amp-link')">
-
-        <meta name="description" content="✅@yield('description')">
-        <meta name="robots" content="index, follow" />
-        <meta name="keywords" content="@yield('keywords')">
-        <meta name="author" content="Kho Coupon" />
-        <link rel="canonical" href="{{ url('/') }}" />
-        <link rel="shortcut icon" type="image/png" href="{{ asset('favicon.png') }}">
-
+        
         <!-- FB Open Graph Tags -->
         <meta property="fb:app_id"        content="2028919047203695" />
         <meta property="og:url"           content="@yield('fb_url')" />
@@ -54,8 +52,6 @@
         <!-- Pace CSS -->
         <style>
             .pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#ffc107;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}
-            
-            @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);.loader,.preloader-wrap .title{left:45%;position:absolute;z-index:999}.preloader-wrap .title{font-family:'Open Sans';font-weight:600;font-size:12px;text-transform:uppercase;top:58%;margin-left:-20px;color:#17a2b8}.loader{top:50%;margin-left:-50px;animation:speeder .4s linear infinite}.loader>span{height:5px;width:35px;background:#ffc107;position:absolute;top:-19px;left:60px;border-radius:2px 10px 1px 0}.base span:after,.base span:before{position:absolute;top:-16px;content:""}.base span{position:absolute;width:0;height:0;border-top:6px solid transparent;border-right:100px solid #ffc107;border-bottom:6px solid transparent}.base span:before{height:22px;width:22px;border-radius:50%;background:#ffc107;right:-110px}.base span:after{width:0;height:0;border-top:0 solid transparent;border-right:55px solid #ffc107;border-bottom:16px solid transparent;right:-98px}.face,.face:after{height:12px;position:absolute;background:#ffc107}.face{width:20px;border-radius:20px 20px 0 0;transform:rotate(-40deg);right:-125px;top:-15px}.face:after{content:"";width:12px;right:4px;top:7px;transform:rotate(40deg);transform-origin:50% 50%;border-radius:0 0 0 2px}.loader>span>span:nth-child(1),.loader>span>span:nth-child(2),.loader>span>span:nth-child(3),.loader>span>span:nth-child(4){width:30px;height:1px;background:#ffc107;position:absolute;animation:fazer1 .2s linear infinite}.loader>span>span:nth-child(2){top:3px;animation:fazer2 .4s linear infinite}.loader>span>span:nth-child(3){top:1px;animation:fazer3 .4s linear infinite;animation-delay:-1s}.loader>span>span:nth-child(4){top:4px;animation:fazer4 1s linear infinite;animation-delay:-1s}@keyframes fazer1{0%{left:0}100%{left:-80px;opacity:0}}@keyframes fazer2{0%{left:0}100%{left:-100px;opacity:0}}@keyframes fazer3{0%{left:0}100%{left:-50px;opacity:0}}@keyframes fazer4{0%{left:0}100%{left:-150px;opacity:0}}@keyframes speeder{0%,90%{transform:translate(2px,1px) rotate(0)}10%{transform:translate(-1px,-3px) rotate(-1deg)}20%{transform:translate(-2px,0) rotate(1deg)}30%{transform:translate(1px,2px) rotate(0)}40%{transform:translate(1px,-1px) rotate(1deg)}50%{transform:translate(-1px,3px) rotate(-1deg)}60%{transform:translate(-1px,1px) rotate(0)}70%{transform:translate(3px,1px) rotate(-1deg)}80%{transform:translate(-2px,-1px) rotate(1deg)}100%{transform:translate(1px,-2px) rotate(-1deg)}}.longfazers{position:absolute;width:100%;height:100%;z-index:999}.longfazers span{position:absolute;height:2px;width:20%;background:#17a2b8}.longfazers span:nth-child(1){top:20%;animation:lf .6s linear infinite;animation-delay:-5s}.longfazers span:nth-child(2){top:40%;animation:lf2 .8s linear infinite;animation-delay:-1s}.longfazers span:nth-child(3){top:60%;animation:lf3 .6s linear infinite}.longfazers span:nth-child(4){top:80%;animation:lf4 .5s linear infinite;animation-delay:-3s}@keyframes lf{0%{left:200%}100%{left:-200%;opacity:0}}@keyframes lf2{0%{left:200%}100%{left:-200%;opacity:0}}@keyframes lf3{0%{left:200%}100%{left:-100%;opacity:0}}@keyframes lf4{0%{left:200%}100%{left:-100%;opacity:0}}
         </style>
 
         
@@ -83,30 +79,6 @@
         @include('socials.adsense')
     </head>
     <body>
-        <!-- preloder-wrap -->
-        <div id="cssLoader3" class="preloader-wrap">
-            <div class='loader'>
-                <span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </span>
-                <div class='base'>
-                    <span></span>
-                    <div class='face'></div>
-                </div>
-            </div>
-            <div class='longfazers'>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="title">Đang tải...</div>
-        </div>
-        <!-- preloder-wrap -->
-        
         <!-- Load Facebook SDK for JavaScript -->
         @include('socials.facebook-sdk')
 
