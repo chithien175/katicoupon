@@ -15,17 +15,21 @@
 @endsection
 
 @section('content')
-<div id="deal-hot-homepage" class="col-lg-12 mb-4 animated fadeInLeft deal-hot-section">
+<div id="deal-hot-homepage" class="col-lg-12 mb-3 animated fadeInLeft deal-hot-section">
     <div class="title">
         <h1>Deal HOT: Cập nhật các deal đang giảm giá mạnh</h1>
     </div>
     @include('products.product-list')
-    <div class="view-more text-center mb-4">
-        <a href="{{ route('deal-hot') }}" class="btn btn-warning">Xem thêm</a>
+    <div class="view-more text-center mb-3">
+        <a href="{{ route('deal-hot') }}" class="btn btn-warning">Xem tất cả</a>
     </div>
 </div>
-<div id="homepage" class="col-lg-9 mb-4 p-0 animated fadeInLeft">
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+<div id="homepage" class="col-lg-9 mb-3 p-0 animated fadeInLeft">
+    <!-- Ads -->
+    @include('ads.azdigi')
+    
+    <ul class="nav nav-tabs mt-3" id="myTab" role="tablist">
         <li class="nav-item">
             <h1>
                 <a class="nav-link active" id="promotion-tab" data-toggle="tab" href="#promotion" role="tab" aria-controls="promotion" aria-selected="true"><i class="fas fa-gift mr-2 bell"></i> <span class="color-warning">MÃ GIẢM GIÁ</span> HOT</a>

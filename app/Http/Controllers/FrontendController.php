@@ -23,7 +23,11 @@ class FrontendController extends Controller
     public function postDetail($slug, $id){
         $post = Post::where(["status" => "PUBLISHED", "slug" => $slug, "id" => $id])->first();
         if($post){
-            return view('posts.post-detail')->withPost($post);
+            // Lấy tin liên quan
+            $related_posts = Post::select('id','title','slug')->where(["status" => "PUBLISHED", "category_id" => $post->category_id])
+                ->where("id", "!=", $post->id)
+                ->limit(3)->get();
+            return view('posts.post-detail')->withPost($post)->withRelatedPosts($related_posts);
         }
         return \abort(404);
     }

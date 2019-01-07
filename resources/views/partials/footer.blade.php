@@ -31,7 +31,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8">
-					<p class="version">© 2019 <strong>Kho Coupon</strong> | <a href="{{ route('version') }}">v1.4.alpha - Phiên bản thử nghiệm</a> </p>
+					<p class="version">© 2018 - 2019 <strong>Kho Coupon</strong> | <a href="{{ route('version') }}">v1.4.alpha - Phiên bản thử nghiệm</a> </p>
 				</div>
 				<div class="col-lg-4">
 					<p class="make-with">Made with <i class="fa fa-heart heart" style="color:red"></i> in Nha Trang</p>

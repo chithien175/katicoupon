@@ -22,6 +22,7 @@
             <p>Thêm chức năng:</p>
             <ul>
                 <li>Trang <a href="https://page.khocoupon.net" target="_blank" title="Deal HOT liệt kê sản phẩm giảm giá mạnh">Deal HOT</a> liệt kê sản phẩm giảm giá mạnh.</li>
+                <li>Tin tức liên quan trong chi tiết bài viết</li>
             </ul>
 
             <h2>v1.3.alpha (03/01/2019)</h2>

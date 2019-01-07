@@ -17,7 +17,7 @@
 @endsection
 
 @section('content')
-<div class="page-content col-lg-9 mb-4 animated fadeInLeft">
+<div class="page-content col-lg-9 mb-3 animated fadeInLeft">
     <div class="title"><h1>{{ $post->title }}</h1></div>
     <div class="created_at">
         <span class="category">{{ $post->category->name }}</span> | {{ date('d/m/Y H:m:A', strtotime($post->created_at)) }}
@@ -31,7 +31,15 @@
         <div class="fb-like" data-href="{{ route('post-detail', [$post->slug, $post->id]) }}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
     </div>
     <div class="fb-comments" data-href="{{ route('post-detail', [$post->slug, $post->id]) }}" data-numposts="5" data-order-by="reverse_time" data-width="100%"></div>
+    
+    @if($relatedPosts->count() > 0)
+        @include('posts.related-posts')
+    @endif
+
+    <!-- Ads -->
+    @include('ads.azdigi')
 </div>
+
 <!-- Sidebar -->
 @include('partials.sidebar')
 
