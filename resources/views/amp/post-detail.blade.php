@@ -67,21 +67,8 @@
 	</head>
 	<body>
 		<header>
-			KhoCoupon.Net
+			<a href="{{ route('home') }}" target="_blank">KhoCoupon.Net</a>
 		</header>
-		<amp-ad
-		width="300"
-		height="250"
-		type="doubleclick"
-		data-slot="/35096353/amptesting/geo/uk">
-		</amp-ad>
-
-		<amp-ad
-		width="300"
-		height="250"
-		type="doubleclick"
-		data-slot="/35096353/amptesting/geo/us">
-		</amp-ad>
 		<article>
 			<h1>{{ $post->title }}</h1>
 			{!! _domradio_util_ampify_img($post->body) !!}

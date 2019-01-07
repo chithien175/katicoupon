@@ -33,11 +33,11 @@
         </ul>
         <h2>3. Chia sẻ thông tin</h2>
         <p>Khocoupon.net biết rằng thông tin về tài khoản cá nhân là một phần rất quan trọng trong việc xây dựng cộng đồng, chúng tôi cam kết sẽ không được bán, trao đổi cho một bên thứ ba nào khác. Chúng tôi sẽ không chia sẻ thông tin khách hàng trừ những trường hợp cụ thể sau đây:</p>
-        <ol>
+        <ul>
             <li>Để bảo vệ khocoupon.net và các bên thứ ba khác: Chúng tôi chỉ đưa ra thông tin tài khoản và những thông tin cá nhân khác khi tin chắc rằng việc đưa những thông tin đó là phù hợp với luật pháp, bảo vệ quyền lợi, tài sản của bạn, của khocoupon.net và các bên thứ ba khác.</li>
             <li>Theo yêu cầu pháp l‎ý từ một cơ quan chính phủ hoặc khi chúng tôi tin rằng việc làm đó là cần thiết và phù hợp nhằm tuân theo các yêu cầu pháp l‎ý</li>
             <li>Trong những trường hợp còn lại, chúng tôi sẽ có thông báo cụ thể cho bạn khi phải tiết lộ thông tin cho một bên thứ ba và thông tin này chỉ được cung cấp khi được sự phản hồi đồng ‎ý‎ từ phía bạn.</li>
-        </ol>
+        </ul>
         <h2>4. Bảo mật thông tin</h2>
         <p>Khocoupon.net nhấn mạnh rằng chúng tôi rất quan tâm đến quyền lợi của bạn trong việc bảo vệ thông tin cá nhân nên trong trường hợp bạn có góp ‎ý, thắc mắc liên quan đến chính sách bảo mật của chúng tôi, vui lòng liên hệ khocoupon@gmail.com</p>
         <p><strong>Lưu ‎ ý:</strong>&nbsp;Chính sách bảo mật thông tin này chỉ được áp dụng tại khocoupon.net. Khocoupon.net có thể thay đổi thông tin để phù hợp cho cộng đồng.</p>

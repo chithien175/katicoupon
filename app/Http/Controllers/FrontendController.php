@@ -10,7 +10,8 @@ class FrontendController extends Controller
 {
     // Trang chủ
     public function home(){
-        return view('pages.home');
+        $products = getAllProducts(1, 14);
+        return view('pages.home')->withProducts($products);
     }
 
     // Trang nhà cung cấp
@@ -49,7 +50,7 @@ class FrontendController extends Controller
     // Trang ds sản phẩm hot deal theo Tikivn
     public function dealHot(Request $request){
         $page = ( isset($request->page) ) ? $request->page : 1;
-        $products = getAllProducts($page);
+        $products = getAllProducts($page, 20);
         return view('products.deal-hot')->withProducts($products)->withPage($page);
     }
 }

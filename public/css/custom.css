@@ -842,14 +842,14 @@ button.scroltop {
 /*                          PRODUCTS                                 */
 /*                          PRODUCTS                                 */
 /********************************************************************/
-#deal-hot-section{
+.deal-hot-section{
     padding-top: 15px;
     background-color: #fff;
     box-shadow: 0 0 50px 0 rgba(0,0,0,.15);
     border-top: 2px solid #17a2b8;
     border-radius: 5px;
 }
-#deal-hot-section .title h1{
+.deal-hot-section .title h1{
     font-size: 22px;
     color: #17a2b8;
     font-weight: 600;
@@ -857,25 +857,24 @@ button.scroltop {
     text-align: center;
     padding-bottom: 0px;
 }
-#deal-hot-section .items{
+.deal-hot-section .items{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
-#deal-hot-section .items a.deal-item{
+.deal-hot-section .items a.deal-item{
     color: #242424;
     display: inline-block;
-    width: 20%;
     padding: 16px 20px;
     margin-bottom: 20px;
 }
-#deal-hot-section a.deal-item .thumb img{
+.deal-hot-section a.deal-item .thumb img{
     width: 100%;
     height: auto;
 }
-#deal-hot-section a.deal-item .title{
+.deal-hot-section a.deal-item .title{
     margin-top: 10px;
     font-size: 13px;
     font-weight: 300;
@@ -884,10 +883,10 @@ button.scroltop {
     overflow: hidden;
     height: 40px;
 }
-#deal-hot-section a.deal-item:hover{
+.deal-hot-section a.deal-item:hover{
     text-decoration: none;
 }
-#deal-hot-section a.deal-item .price{
+.deal-hot-section a.deal-item .price{
     font-size: 15px;
     color: #242424;
     font-weight: 600;
@@ -895,27 +894,27 @@ button.scroltop {
     text-align: left;
     line-height: 15px
 }
-#deal-hot-section a.deal-item .price .price-regular{
+.deal-hot-section a.deal-item .price .price-regular{
     font-size: 11px;
     color: #a2a2a2;
     text-decoration: line-through;
     text-align: left;
     font-weight: 300;
 }
-#deal-hot-section a.deal-item .price .discount{
+.deal-hot-section a.deal-item .price .discount{
     color: #eff0f5;
     background: #d3232a;
     padding: 2px 3px;
     border-radius: 2px;
     font-size: 11px;
 }
-#deal-hot-section a.deal-item .deal-status{
+.deal-hot-section a.deal-item .deal-status{
     color: #000;
     margin-top: 5px;
     font-weight: 300;
     min-height: 22px;
 }
-#deal-hot-section a.deal-item .deal-status .process-bar {
+.deal-hot-section a.deal-item .deal-status .process-bar {
     height: 16px;
     display: block;
     width: 100%;
@@ -925,11 +924,11 @@ button.scroltop {
     position: relative;
     margin: 0 auto;
 }
-#deal-hot-section a.deal-item .deal-status .process-bar div {
+.deal-hot-section a.deal-item .deal-status .process-bar div {
     background: #ff424e;
     height: 100%;
 }
-#deal-hot-section a.deal-item .deal-status .process-bar .text {
+.deal-hot-section a.deal-item .deal-status .process-bar .text {
     font-size: 12px;
     position: absolute;
     color: #fff;
@@ -939,27 +938,45 @@ button.scroltop {
     right: 0;
     text-align: center;
 }
-#deal-hot-section a.deal-item .deal-status .started {
+.deal-hot-section a.deal-item .deal-status .started {
     font-size: 12px;
     font-weight: 400;
 }
-#deal-hot-section a.deal-item .deal-item .deal-status .time {
+.deal-hot-section a.deal-item .deal-item .deal-status .time {
     font-weight: 300;
     font-size: 11px;
     line-height: 18px;
+}
+
+#deal-hot-page .items a.deal-item{
+    width: 20%;
+}
+#deal-hot-homepage .items a.deal-item{
+    width: 14.2%;
+}
+
+#deal-hot-homepage .view-more a{
+    font-size: 14px;
 }
     
 /* Small devices (table, 768px and down) */
 @media only screen and (min-width: 544px) and (max-width: 992px) {
     /* PRODUCT */
-    #deal-hot-section .items a.deal-item{
+    #deal-hot-page .items a.deal-item{
+        width: 33%;
+    }
+    #deal-hot-homepage .items a.deal-item{
         width: 33%;
     }
 }
 /* Small devices (mobile, 544px and down) */
 @media only screen and (max-width: 544px) {
     /* PRODUCT */
-    #deal-hot-section .items a.deal-item{
+    #deal-hot-page .items a.deal-item{
+        width: 50%;
+    }
+    #deal-hot-homepage .items a.deal-item{
         width: 50%;
     }
 }
+

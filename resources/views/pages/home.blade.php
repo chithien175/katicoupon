@@ -15,6 +15,15 @@
 @endsection
 
 @section('content')
+<div id="deal-hot-homepage" class="col-lg-12 mb-4 animated fadeInLeft deal-hot-section">
+    <div class="title">
+        <h1>Deal HOT: Cập nhật các deal đang giảm giá mạnh</h1>
+    </div>
+    @include('products.product-list')
+    <div class="view-more text-center mb-4">
+        <a href="{{ route('deal-hot') }}" class="btn btn-warning">Xem thêm</a>
+    </div>
+</div>
 <div id="homepage" class="col-lg-9 mb-4 p-0 animated fadeInLeft">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item">
@@ -43,6 +52,19 @@
 @endsection
 
 @section('js')
+<!-- Countdown JS -->
+<script src="{{ asset('/plugins/jquery.countdown-2.2.0/jquery.countdown.min.js') }}"></script>
+<script>
+    $(document).ready(function() {
+        $('[data-countdown]').each(function() {
+            var $this = $(this), finalDate = $(this).data('countdown');
+            $this.countdown(finalDate, function(event) {
+                $this.html(event.strftime('%D ngày %H:%M:%S'));
+            });
+        });
+    });
+</script>
+
  <!-- Google BreadcrumbList -->
 <script type="application/ld+json">
 [

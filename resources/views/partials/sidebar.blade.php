@@ -1,4 +1,4 @@
-<div id="sidebar" class="col-lg-3 animated fadeInRight">
+<div id="sidebar" class="col-lg-3 pr-0 animated fadeInRight">
     <ul class="nav nav-tabs" id="topReviews" role="tablist">
         <li class="nav-item">
             <h2>

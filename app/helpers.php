@@ -108,11 +108,11 @@ function _domradio_util_ampify_img ($html) {
 
 // Get All Products
 if(! function_exists('getAllProducts')){
-    function getAllProducts($page = 1){
+    function getAllProducts($page = 1, $per_page = 20){
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://tiki.vn/api/v2/events/deals/?type=now&page=".$page,
+        CURLOPT_URL => "https://tiki.vn/api/v2/events/deals/?type=now&page=".$page."&per_page=".$per_page,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => "",
         CURLOPT_MAXREDIRS => 10,

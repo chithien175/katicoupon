@@ -43,6 +43,12 @@ class BackendController extends Controller
             $sitemap->add(route('post-by-cate', $category->slug));
         }
 
+        // trang deal HOT
+        $sitemap->add(route('deal-hot'));
+
+        // trang landing page builder
+        $sitemap->add('http://page.khocoupon.net');
+
         $sitemap->writeToFile('sitemap.xml');
      
         return redirect('sitemap.xml');

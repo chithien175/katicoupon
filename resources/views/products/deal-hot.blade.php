@@ -15,51 +15,14 @@
 @endsection
 
 @section('content')
-<div id="deal-hot-section" class="col-lg-9 mb-4 animated fadeInLeft">
+<div id="deal-hot-page" class="deal-hot-section col-lg-9 mb-4 animated fadeInLeft">
     <div class="title">
         <h1>Deal HOT: Cập nhật các deal đang giảm giá mạnh</h1>
     </div>
     <div class="social-wrap text-center mb-4">
         <div class="fb-like" data-href="{{ route('deal-hot') }}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
     </div>
-    <div class="items">
-        @foreach($products as $key => $product)
-            @php
-                $product_url = urlencode('https://tiki.vn/' . $product->product->url_path);
-            @endphp
-            <a href="javascript:void(0)" data-aff-product="https://fast.accesstrade.com.vn/deep_link/4442469589028652896?url={{ $product_url }}" class="deal-item click-aff-product">
-                <div class="thumb">
-                    <img src="{{ $product->product->thumbnail_url }}" alt="{{ $product->product->name }}">
-                </div>
-                <div class="title">
-                    {{ $product->product->name }}
-                </div>
-                <div class="price">
-                    {{ number_format($product->product->price,0,",",".") }}₫<br>
-                    <span class="price-regular">{{ number_format($product->product->list_price,0,",",".") }}₫</span>
-                    @php
-                        $discount = $product->product->price/$product->product->list_price;
-                    @endphp
-                    <span class="discount">-{{ round((1 - $discount)*100, 0) }}%</span>
-                </div>
-                <div class="deal-status">
-                    <div class="started">
-                        <div class="deal-count-down">
-                            <span class="time" data-countdown="{{ date('Y/m/d', $product->special_to_date) }}"></span>
-                        </div>
-                    </div>
-                    <div class="process-bar">
-                        <div style="width: {{ 100 - $product->progress->percent }}%;"></div>
-                        @if($product->progress->percent < 15)
-                            <span class="text">Sắp bán hết</span>
-                        @else
-                            <span class="text">Đã bán {{ $product->progress->qty_ordered }}</span>
-                        @endif
-                    </div>
-                </div>
-            </a>
-        @endforeach
-    </div>
+    @include('products.product-list')
     <nav aria-label="...">
         <ul class="pagination">
             @if($page == 1)
@@ -71,7 +34,7 @@
                     <a class="page-link" href="{{ route('deal-hot') }}?page={{ $page-1 }}"><</a>
                 </li>
             @endif
-            @for($i=1;$i<=10;$i++)
+            @for($i=1;$i<=9;$i++)
             <li class="page-item {{ ($page==$i)?'active':'' }}">
                 <a class="page-link" href="{{ route('deal-hot') }}?page={{ $i }}">{{ $i }}</a>
                 @if($page==$i)
@@ -79,7 +42,7 @@
                 @endif
             </li>
             @endfor
-            @if($page == 10)
+            @if($page == 9)
                 <li class="page-item disabled">
                     <span class="page-link">></span>
                 </li>
@@ -102,6 +65,7 @@
 @endsection
 
 @section('js')
+    <!-- Countdown JS -->
     <script src="{{ asset('/plugins/jquery.countdown-2.2.0/jquery.countdown.min.js') }}"></script>
     <script>
         $(document).ready(function() {
