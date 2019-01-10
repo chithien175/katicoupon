@@ -15,7 +15,7 @@
 @endsection
 
 @section('content')
-    <div class="page-content col-lg-9 mb-4 animated fadeInLeft">
+    <div class="page-content col-lg-9 mb-4 aos-item" data-aos="fade-right">
         <div class="title"><h1>Tính Năng & Phiên Bản Ứng Dụng</h1></div>
         <div class="article">
             <h2>v1.4.alpha (07/01/2019)</h2>

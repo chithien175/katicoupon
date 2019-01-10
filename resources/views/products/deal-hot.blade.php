@@ -15,7 +15,7 @@
 @endsection
 
 @section('content')
-<div id="deal-hot-page" class="deal-hot-section col-lg-9 mb-4 animated fadeInLeft">
+<div id="deal-hot-page" class="deal-hot-section col-lg-9 mb-4 aos-item" data-aos="fade-right">
     <div class="title">
         <h1>Deal HOT: Cập nhật các deal đang giảm giá mạnh</h1>
     </div>

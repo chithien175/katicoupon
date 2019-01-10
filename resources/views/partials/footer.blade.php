@@ -1,4 +1,4 @@
-<footer id="footer">
+<footer id="footer" class="aos-item" data-aos="fade-in">
 	<div class="copyright">
 		<div class="container">
 			<div class="row">	

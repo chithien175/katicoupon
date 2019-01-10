@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top animated fadeInDown">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top aos-item" data-aos="fade-down">
     <img class="mai-vang" src="{{ asset('/images/mai.png') }}" alt="khocoupon.net">
     <a class="navbar-brand" href="{{ route('home') }}">
         <img src="{{ asset('logox200.png') }}" alt="khocoupon.net">
@@ -31,6 +31,7 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="https://page.khocoupon.net" target="_blank">Tạo Landing Page</a>
+                    <a class="dropdown-item" href="https://video.khocoupon.net" target="_blank">Tải Xuống Video</a>
                 </div>
             </li>
         </ul>

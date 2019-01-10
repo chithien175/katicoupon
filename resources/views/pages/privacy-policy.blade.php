@@ -15,7 +15,7 @@
 @endsection
 
 @section('content')
-<div class="page-content col-lg-9 mb-4 animated fadeInLeft">
+<div class="page-content col-lg-9 mb-4 aos-item" data-aos="fade-right">
     <div class="title"><h1>Chính sách bảo mật </h1></div>
     <div class="article">
         <p>Khocoupon.net rất trân trọng sự tin tưởng&nbsp; và cam kết rằng những thông tin tài khoản của bạn sẽ được chúng tôi nỗ lực tối đa để bảo mật. Khocoupon.net đảm bảo sẽ sử dụng thông tin của bạn một cách hợp lý, có cân nhắc để mang lại trải nghiệm và những thông tin mã giảm giá, phiếu khuyến mãi, coupons, vouchers hữu ích chất lượng tới cho cộng đồng.</p>

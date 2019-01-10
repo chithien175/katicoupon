@@ -41,7 +41,8 @@
         <!-- Toastr CSS -->
         <link rel="stylesheet" type="text/css" href="{{ asset('/plugins/toastr/toastr.min.css') }}" >
         <!-- Animate CSS -->
-        <link rel="stylesheet" type="text/css" href="{{ asset('/plugins/animate/animate.min.css') }}" >
+        <!-- <link rel="stylesheet" type="text/css" href="{{ asset('/plugins/animate/animate.min.css') }}" > -->
+        <link rel="stylesheet" type="text/css" href="{{ asset('/plugins/aos/aos.css') }}" >
         </noscript>
         
         <!-- Bootstrap CSS -->
@@ -109,10 +110,10 @@
 
         <!-- Trì hoãn load css -->
         <script type="text/javascript">
-            /* Animate CSS */
+            /* AOS CSS */
             var giftofspeed5 = document.createElement('link');
             giftofspeed5.rel = 'stylesheet';
-            giftofspeed5.href = '{{ asset("/plugins/animate/animate.min.css") }}';
+            giftofspeed5.href = '{{ asset("/plugins/aos/aos.css") }}';
             giftofspeed5.type = 'text/css';
             var godefer5 = document.getElementsByTagName('link')[0];
             godefer5.parentNode.insertBefore(giftofspeed5, godefer5);   
@@ -150,6 +151,16 @@
         <script defer src="{{ asset('/js/custom.js') }}" ></script>
         <!-- Fontawesome JS -->
         <script defer src="{{ asset('/plugins/fontawesome/js/all.min.js') }}" ></script>
+        <!-- AOS -->
+        <script defer src="{{ asset('/plugins/aos/aos.js') }}" ></script>
+        <script>
+            $(document).ready(function() {
+                AOS.init({
+                    easing: 'ease-in-out-sine'
+                });
+            });
+            
+        </script>
         @yield('js')
 
         <!-- Google Organization, WebSite, Persion -->

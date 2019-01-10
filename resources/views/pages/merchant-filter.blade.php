@@ -15,7 +15,7 @@
 @endsection
 
 @section('content')
-<div id="merchant" class="col-lg-9 mb-4 p-0 animated fadeInLeft">
+<div id="merchant" class="col-lg-9 mb-4 p-0 aos-item" data-aos="fade-right">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item">
             <h1>

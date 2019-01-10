@@ -47,7 +47,9 @@ class BackendController extends Controller
         $sitemap->add(route('deal-hot'));
 
         // trang landing page builder
-        $sitemap->add('http://page.khocoupon.net');
+        $sitemap->add('https://page.khocoupon.net');
+        // trang video download
+        $sitemap->add('https://video.khocoupon.net');
 
         $sitemap->writeToFile('sitemap.xml');
      

@@ -15,7 +15,7 @@
 @endsection
 
 @section('content')
-<div id="deal-hot-homepage" class="col-lg-12 mb-3 animated fadeInLeft deal-hot-section">
+<div id="deal-hot-homepage" class="col-lg-12 mb-3 aos-item deal-hot-section" data-aos="fade-in">
     <div class="title">
         <h1>Deal HOT: Cập nhật các deal đang giảm giá mạnh</h1>
     </div>
@@ -25,18 +25,18 @@
     </div>
 </div>
 
-<div id="homepage" class="col-lg-9 mb-3 p-0 animated fadeInLeft">
+<div id="homepage" class="col-lg-9 mb-3 p-0">
     <!-- Ads -->
     @include('ads.azdigi')
     
-    <ul class="nav nav-tabs mt-3" id="myTab" role="tablist">
+    <ul class="nav nav-tabs mt-3 aos-item" data-aos="fade-right" id="myTab" role="tablist">
         <li class="nav-item">
             <h1>
                 <a class="nav-link active" id="promotion-tab" data-toggle="tab" href="#promotion" role="tab" aria-controls="promotion" aria-selected="true"><i class="fas fa-gift mr-2 bell"></i> <span class="color-warning">MÃ GIẢM GIÁ</span> HOT</a>
             </h1>
         </li>
     </ul>
-    <div class="tab-content" id="myTabContent">
+    <div class="tab-content aos-item" data-aos="fade-right" id="myTabContent">
         <div class="tab-pane fade show active" id="promotion" role="tabpanel" aria-labelledby="promotion-tab">
             @php
                 $promotions = getAllPromotions(NULL, 20);

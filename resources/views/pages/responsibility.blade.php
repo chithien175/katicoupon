@@ -15,7 +15,7 @@
 @endsection
 
 @section('content')
-<div class="page-content col-lg-9 mb-4 animated fadeInLeft">
+<div class="page-content col-lg-9 mb-4 ios-item" data-aos="fade-right">
     <div class="title"><h1>Miễn trừ trách nhiệm</h1></div>
     <div class="article">
         <p>

@@ -15,7 +15,7 @@
 @endsection
 
 @section('content')
-<div class="post-by-cate col-lg-9 mb-4 animated fadeInLeft">
+<div class="post-by-cate col-lg-9 mb-4 aos-item" data-aos="fade-right">
     <div class="cate-title">
         <h1>{{ $category->name }}</h1>
     </div>
