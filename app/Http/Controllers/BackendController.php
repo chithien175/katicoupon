@@ -89,44 +89,63 @@ class BackendController extends Controller
 
     // Get Khuyến Mãi Từ Accesstrade.vn
     public function promotionsRefresh(){
-        $curl = curl_init();
+        $promotions_list = [];
 
-        curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://api.accesstrade.vn/v1/offers_informations",
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_ENCODING => "",
-        CURLOPT_MAXREDIRS => 10,
-        CURLOPT_TIMEOUT => 30,
-        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-        CURLOPT_CUSTOMREQUEST => "GET",
-        CURLOPT_POSTFIELDS => "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"status\"\r\n\r\n1\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--",
-        CURLOPT_HTTPHEADER => array(
-            "Authorization: Token B2kFlVPlAlpqW66Z6nO8Ostbyesyku5Z",
-            "Content-Type: application/json",
-            "Postman-Token: 3320af3b-65ee-44ac-9b14-4caabc372742",
-            "cache-control: no-cache",
-            "content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW"
-        ),
-        ));
-
-        $response = curl_exec($curl);
-        $err = curl_error($curl);
-
-        curl_close($curl);
-
-        if ($err) {
-            echo "cURL Error #:" . $err;
-        } else {
-            // echo $response;
-
-            $file = @fopen(public_path('data/promotions/promotions.json'), 'w+');
-            if (!$file)
-                echo "Mở file không thành công";
-            else {
-                fwrite($file, $response);
-                return redirect()->route('home');
-            }
+        // BEGIN Accesstrade.vn
+        $response_accesstrade = $this->getPromotionsByDomain('accesstrade');
+        $response_accesstrade = json_decode($response_accesstrade)->data;
+        foreach($response_accesstrade as $value){
+            $promotions_list[] = [
+                'id'       => $value->id,
+                'aff_link' => $value->aff_link,
+                'merchant' => $value->merchant,
+                'name'     => $value->name,
+                'content'  => $value->content,
+                'coupons'  => $value->coupons,
+                'end_time' => $value->end_time
+            ];
         }
+        // END Accesstrade.vn
+
+        // dd($promotions_list);
+        $promotions_list = json_encode($promotions_list);
+
+        $file = @fopen(public_path('data/promotions/promotions.json'), 'w+');
+        if (!$file)
+            echo "Mở file không thành công";
+        else {
+
+            fwrite($file, $promotions_list);
+            return redirect()->route('home');
+        }
+    }
+
+    protected function getPromotionsByDomain($domain){
+        $response = '';
+        if($domain == 'accesstrade'){
+            $curl = curl_init();
+            curl_setopt_array($curl, array(
+            CURLOPT_URL => "https://api.accesstrade.vn/v1/offers_informations",
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "GET",
+            CURLOPT_POSTFIELDS => "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"status\"\r\n\r\n1\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--",
+            CURLOPT_HTTPHEADER => array(
+                "Authorization: Token B2kFlVPlAlpqW66Z6nO8Ostbyesyku5Z",
+                "Content-Type: application/json",
+                "Postman-Token: 3320af3b-65ee-44ac-9b14-4caabc372742",
+                "cache-control: no-cache",
+                "content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW"
+            ),
+            ));
+            $response = curl_exec($curl);
+            // $err = curl_error($curl);
+            curl_close($curl);
+        }
+        return $response; 
     }
 
     // Get Chiến Dịch Từ Accesstrade.vn

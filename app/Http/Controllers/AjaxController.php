@@ -10,7 +10,7 @@ class AjaxController extends Controller
         // Read File
         $jsonString = file_get_contents(public_path('data/promotions/promotions.json'));
         $data = json_decode($jsonString, true);
-        $promotion_list = $data['data'];
+        $promotion_list = $data;
 
         foreach($promotion_list as $key => $value){
             if($value['id'] == $request['promotion_id']){

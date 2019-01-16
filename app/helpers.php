@@ -8,7 +8,7 @@ if(! function_exists('getAllPromotions')){
         $jsonString = file_get_contents(public_path('data/promotions/promotions.json'));
         $data = json_decode($jsonString, true);
     
-        $promotions = $data['data'];
+        $promotions = $data;
     
         // Nếu merchant == NULL thì return all promotions
         // Nếu merchant != NULL thì return promotions theo merchant
