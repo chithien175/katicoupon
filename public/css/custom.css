@@ -553,7 +553,7 @@ button.scroltop {
     line-height: 26px;
     margin: 0;
     position: fixed;
-    right: 30px;
+    left: 5px;
     text-align: center;
     width: 40px;
     z-index: 999;
@@ -995,3 +995,7 @@ button.scroltop {
     }
 }
 
+/* FB CHAT */
+.fb_dialog{
+    right: 5px !important;
+}

@@ -15,9 +15,15 @@
 @endsection
 
 @section('content')
-    <div class="page-content col-lg-9 mb-4 aos-item" data-aos="fade-right">
+    <div class="page-content col-lg-9 mb-4">
         <div class="title"><h1>Tính Năng & Phiên Bản Ứng Dụng</h1></div>
         <div class="article">
+            <h2>v1.5.beta (10/01/2019)</h2>
+            <p>Thêm chức năng:</p>
+            <ul>
+                <li>Trình <a href="https://video.khocoupon.net" target="_blank" title="Trình tải video miễn phí từ nhiều nguồn">Tải Video</a> Miễn Phí từ nhiều nguồn.</li>
+            </ul>
+
             <h2>v1.4.alpha (07/01/2019)</h2>
             <p>Thêm chức năng:</p>
             <ul>

@@ -40,9 +40,6 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('/plugins/select2/select2.min.css') }}" >
         <!-- Toastr CSS -->
         <link rel="stylesheet" type="text/css" href="{{ asset('/plugins/toastr/toastr.min.css') }}" >
-        <!-- Animate CSS -->
-        <!-- <link rel="stylesheet" type="text/css" href="{{ asset('/plugins/animate/animate.min.css') }}" > -->
-        <link rel="stylesheet" type="text/css" href="{{ asset('/plugins/aos/aos.css') }}" >
         </noscript>
         
         <!-- Bootstrap CSS -->
@@ -83,6 +80,15 @@
         <!-- Load Facebook SDK for JavaScript -->
         @include('socials.facebook-sdk')
 
+        <!-- Your customer chat code -->
+        <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="558368917694562"
+        theme_color="#17a2b8"
+        logged_in_greeting="Hãy giữ liên lạc với chúng tôi!"
+        logged_out_greeting="Hãy giữ liên lạc với chúng tôi!">
+        </div>
+
         <!-- Header -->
         @include('partials.header')
 
@@ -110,13 +116,6 @@
 
         <!-- Trì hoãn load css -->
         <script type="text/javascript">
-            /* AOS CSS */
-            var giftofspeed5 = document.createElement('link');
-            giftofspeed5.rel = 'stylesheet';
-            giftofspeed5.href = '{{ asset("/plugins/aos/aos.css") }}';
-            giftofspeed5.type = 'text/css';
-            var godefer5 = document.getElementsByTagName('link')[0];
-            godefer5.parentNode.insertBefore(giftofspeed5, godefer5);   
             /* Toastr CSS */
             var giftofspeed4 = document.createElement('link');
             giftofspeed4.rel = 'stylesheet';
@@ -151,16 +150,6 @@
         <script defer src="{{ asset('/js/custom.js') }}" ></script>
         <!-- Fontawesome JS -->
         <script defer src="{{ asset('/plugins/fontawesome/js/all.min.js') }}" ></script>
-        <!-- AOS -->
-        <script defer src="{{ asset('/plugins/aos/aos.js') }}" ></script>
-        <script>
-            $(document).ready(function() {
-                AOS.init({
-                    easing: 'ease-in-out-sine'
-                });
-            });
-            
-        </script>
         @yield('js')
 
         <!-- Google Organization, WebSite, Persion -->

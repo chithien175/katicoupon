@@ -17,7 +17,7 @@
 @endsection
 
 @section('content')
-<div class="page-content col-lg-9 mb-3 aos-item" data-aos="fade-right">
+<div class="page-content col-lg-9 mb-3">
     <div class="title"><h1>{{ $post->title }}</h1></div>
     <div class="created_at">
         <span class="category">{{ $post->category->name }}</span> | {{ date('d/m/Y H:m:A', strtotime($post->created_at)) }}

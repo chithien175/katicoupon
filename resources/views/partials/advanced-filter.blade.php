@@ -1,4 +1,4 @@
-<div id="advanced-filter" class="aos-item" data-aos="fade-up">
+<div id="advanced-filter">
     <div class="content-filter">
         <form id="advanced-filter-form">
             @csrf()
