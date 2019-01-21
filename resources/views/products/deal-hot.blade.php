@@ -54,6 +54,7 @@
             
         </ul>
     </nav>
+    <div class="fb-comments" data-href="{{ route('deal-hot') }}" data-numposts="5" data-order-by="reverse_time" data-width="100%"></div>
 </div>
 <!-- Sidebar -->
 @include('partials.sidebar')

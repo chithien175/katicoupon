@@ -33,6 +33,7 @@
             @include('partials.promotion-list')
         </div>
     </div>
+    <div class="fb-comments" data-href="{{ route('merchant-filter', $merchant) }}" data-numposts="5" data-order-by="reverse_time" data-width="100%"></div>
 </div>
 <!-- Sidebar -->
 @include('partials.sidebar')
