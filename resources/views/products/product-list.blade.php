@@ -14,7 +14,11 @@
                 {{ number_format($product->product->price,0,",",".") }}₫<br>
                 <span class="price-regular">{{ number_format($product->product->list_price,0,",",".") }}₫</span>
                 @php
-                    $discount = $product->product->price/$product->product->list_price;
+                    if($product->product->list_price != 0){
+                        $discount = $product->product->price/$product->product->list_price;
+                    }else{
+                        $discount = 0;
+                    }
                 @endphp
                 <span class="discount">-{{ round((1 - $discount)*100, 0) }}%</span>
             </div>

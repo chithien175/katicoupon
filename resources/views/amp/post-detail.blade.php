@@ -63,9 +63,10 @@
 				color: #17a2b8;
 			}
 		</style>
-		<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+		<script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
 	</head>
 	<body>
+	<amp-auto-ads type="adsense" data-ad-client="ca-pub-5363851464655859"></amp-auto-ads>
 		<header>
 			<a href="{{ route('home') }}" target="_blank">KhoCoupon.Net</a>
 		</header>

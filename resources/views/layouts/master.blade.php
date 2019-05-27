@@ -55,9 +55,6 @@
         
         @yield('css')
 
-        <!-- eClick Verify -->
-        <meta name="eclick_verify" content="dFVcUVMXLRcYGVlEaggEBgAEMBMDB00FIBc="/>
-
         <!-- Web Push Notification Onesignal -->
         <link rel="manifest" href="/manifest.json" />
         <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
@@ -82,7 +79,8 @@
 
         <!-- Your customer chat code -->
         <div class="fb-customerchat"
-        attribution=setup_tool
+        minimized="true"
+        attribution="setup_tool"
         page_id="558368917694562"
         theme_color="#17a2b8"
         logged_in_greeting="Hãy giữ liên lạc với chúng tôi!"

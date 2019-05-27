@@ -81,6 +81,11 @@ Route::get('/tinh-nang-va-phien-ban.html', function(){
     return view('pages.version');
 })->name('version');
 
+// Trang kiểm tra responsive all devices
+Route::get('/responsive-all-devices.html', function(){
+    return view('pages.responsive-all-devices');
+})->name('responsive-all-devices');
+
 /*
 |--------------------------------------------------------------------------
 | Ajax - Frontend
